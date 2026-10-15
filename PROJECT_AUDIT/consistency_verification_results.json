@@ -1,0 +1,40 @@
+[
+  {
+    "sample_index": 0,
+    "id": "MM_00000001",
+    "mae_text": 1.2367963790893555e-06,
+    "cos_text": 1.0000001192092896,
+    "mae_clip": 0.0,
+    "cos_clip": 0.9999999403953552,
+    "mae_vlm": 0.0,
+    "cos_vlm": 1.0,
+    "mae_sentiment": 1.4528632164001465e-07,
+    "cos_sentiment": 1.0,
+    "mae_emotion": 5.21540641784668e-08,
+    "cos_emotion": 1.0,
+    "mae_full": 1.2367963790893555e-06,
+    "cos_full": 1.0,
+    "pred_label_pre": "sarcastic",
+    "pred_label_live": "sarcastic",
+    "prob_diff": 0.0
+  },
+  {
+    "sample_index": 1,
+    "id": "MM_00000002",
+    "mae_text": 3.814697265625e-06,
+    "cos_text": 0.9999999403953552,
+    "mae_clip": 0.0,
+    "cos_clip": 1.0,
+    "mae_vlm": 0.0,
+    "cos_vlm": 1.0,
+    "mae_sentiment": 1.7881393432617188e-07,
+    "cos_sentiment": 1.0,
+    "mae_emotion": 2.9802322387695312e-08,
+    "cos_emotion": 0.9999998807907104,
+    "mae_full": 3.814697265625e-06,
+    "cos_full": 0.9999999403953552,
+    "pred_label_pre": "sarcastic",
+    "pred_label_live": "sarcastic",
+    "prob_diff": 0.0
+  }
+]

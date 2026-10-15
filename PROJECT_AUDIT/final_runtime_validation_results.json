@@ -1,0 +1,109 @@
+{
+  "test1_ollama_runtime": {
+    "ollama_path": "C:\\Users\\Viknesh G\\AppData\\Local\\Programs\\Ollama\\ollama.EXE",
+    "ollama_exe_exists": true,
+    "service_responding": true,
+    "inventory": [
+      "qwen2.5:1.5b",
+      "llama3.2:1b",
+      "llama3.2:latest"
+    ],
+    "has_llama32_1b": true,
+    "ping_latency_s": 3.21,
+    "ping_response": "PONG",
+    "status": "PASS"
+  },
+  "test2_llama_inference": {
+    "prompt": "Explain in one sentence why someone might say 'Oh great, another meeting' when they are frustrated.",
+    "response": "Someone might say \"Oh great, another meeting\" when they're frustrated because it's a phrase often used to express annoyance or exasperation, implying that the meeting is unnecessary or a waste of time.",
+    "latency_s": 1.89,
+    "vram_before_mb": 0.0,
+    "vram_after_mb": 0.0,
+    "vram_delta_mb": 0.0,
+    "ram_used_mb": 14451.23,
+    "status": "PASS"
+  },
+  "test3_explanation_service": {
+    "live_reasoner": "Ollama llama3.2:1b",
+    "live_latency_s": 9.19,
+    "live_passed": true,
+    "fallback_reasoner": "Deterministic Cognitive Reasoner (Local Grounded)",
+    "fallback_latency_ms": 0.61,
+    "fallback_passed": true,
+    "status": "PASS"
+  },
+  "test4_internvl_vqa": {
+    "image_source": "840006160660983809.jpg",
+    "description": "The image shows a television screen with pixelated content, possibly a sports game, and a scoreboard displaying \"59th\" and \"8:40 .\"",
+    "latency_s": 4.62,
+    "vram_before_mb": 5414.03,
+    "vram_after_mb": 5423.15,
+    "vram_delta_mb": 9.12,
+    "factual_relevance_verified": true,
+    "status": "PASS"
+  },
+  "test5_multimodal_explanation_invariance": {
+    "req1_latency_s": 28.63,
+    "req1_label": "sarcastic",
+    "req1_probabilities": {
+      "non_sarcastic": 0.138166,
+      "sarcastic": 0.861834
+    },
+    "req2_latency_s": 40.92,
+    "req2_label": "sarcastic",
+    "req2_probabilities": {
+      "non_sarcastic": 0.138166,
+      "sarcastic": 0.861834
+    },
+    "req2_reasoner": "Ollama llama3.2:1b",
+    "req3_latency_s": 10.92,
+    "req3_reasoner": "Ollama llama3.2:1b",
+    "labels_identical": true,
+    "max_probability_delta": 0.0,
+    "status": "PASS"
+  },
+  "test6_resource_profiling": {
+    "gpu_device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "gpu_total_mb": 6140.5,
+    "gpu_allocated_mb": 5432.28,
+    "gpu_reserved_mb": 6754.0,
+    "ram_total_mb": 24207.96,
+    "ram_used_mb": 18569.43,
+    "ram_available_mb": 5638.52,
+    "status": "PASS"
+  },
+  "test7_regression_endpoints": {
+    "endpoints": {
+      "health": {
+        "status_code": 200,
+        "body": {
+          "status": "ok",
+          "version": "1.0.0",
+          "model_loaded": true,
+          "multimodal_ready": true,
+          "explanation_ready": true
+        }
+      },
+      "status": {
+        "status_code": 200,
+        "loaded": true,
+        "multimodal_ready": true,
+        "explanation_ready": true
+      },
+      "predict_text": {
+        "status_code": 200,
+        "label": "Sarcastic",
+        "confidence": 0.9868
+      },
+      "predict_multimodal": {
+        "status_code": 200,
+        "label": "sarcastic"
+      },
+      "predict_explain": {
+        "status_code": 200,
+        "summary": "The system classifies this instance as sarcastic with 91.0% confidence. The prediction is supported by affective dissonance between surface lexical cues and underlying annoyance emotional polarity."
+      }
+    },
+    "status": "PASS"
+  }
+}

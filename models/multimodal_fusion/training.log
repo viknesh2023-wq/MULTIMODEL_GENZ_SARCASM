@@ -1,0 +1,40 @@
+2026-10-10 22:00:44,875 [INFO] ===========================================================================
+2026-10-10 22:00:44,875 [INFO]    MILESTONE 4: MULTIMODAL FUSION TRAINING & 8-WAY ABLATIONS
+2026-10-10 22:00:44,875 [INFO] ===========================================================================
+2026-10-10 22:00:44,878 [INFO] Execution Device: cuda:0 (NVIDIA GeForce RTX 4050 Laptop GPU)
+2026-10-10 22:00:44,878 [INFO] Loading assembled matrices from: D:\NLP_PROJECT\FINAL_DATASETS\MULTIMODAL_SARCASM\FUSION_DATA...
+2026-10-10 22:00:45,188 [INFO] Loaded X_train: (25384, 2847), X_val: (3891, 2847), X_test: (3802, 2847)
+2026-10-10 22:00:45,190 [INFO] --- Running Experiment: XLM-R Contextual Text Only (768-D) (768-D) ---
+2026-10-10 22:01:39,739 [INFO] [TEXT_ONLY] Val Macro F1: 0.6289 | Test Acc: 0.6281 | Test Macro F1: 0.6198 | Peak VRAM: 43.9 MB
+2026-10-10 22:01:39,752 [INFO] --- Running Experiment: Text + Sentiment Valence (771-D) (771-D) ---
+2026-10-10 22:02:26,894 [INFO] [TEXT_SENTIMENT] Val Macro F1: 0.6754 | Test Acc: 0.6578 | Test Macro F1: 0.6445 | Peak VRAM: 45.7 MB
+2026-10-10 22:02:26,908 [INFO] --- Running Experiment: Text + Affective Emotion (796-D) (796-D) ---
+2026-10-10 22:03:21,547 [INFO] [TEXT_EMOTION] Val Macro F1: 0.6614 | Test Acc: 0.6602 | Test Macro F1: 0.6469 | Peak VRAM: 45.9 MB
+2026-10-10 22:03:21,561 [INFO] --- Running Experiment: Text + Sentiment + Emotion (799-D) (799-D) ---
+2026-10-10 22:04:17,302 [INFO] [TEXT_SENTIMENT_EMOTION] Val Macro F1: 0.6753 | Test Acc: 0.6746 | Test Macro F1: 0.6582 | Peak VRAM: 45.9 MB
+2026-10-10 22:04:17,314 [INFO] --- Running Experiment: Text + CLIP ViT-B/32 (1,280-D) (1280-D) ---
+2026-10-10 22:05:00,418 [INFO] Early stopping at epoch 13 (Best epoch: 6, Val Macro F1: 0.826748)
+2026-10-10 22:05:00,501 [INFO] [TEXT_CLIP] Val Macro F1: 0.8267 | Test Acc: 0.7898 | Test Macro F1: 0.7793 | Peak VRAM: 55.0 MB
+2026-10-10 22:05:00,515 [INFO] --- Running Experiment: Text + InternVL3-2B Semantic (2,304-D) (2304-D) ---
+2026-10-10 22:05:39,002 [INFO] Early stopping at epoch 9 (Best epoch: 2, Val Macro F1: 0.810562)
+2026-10-10 22:05:39,159 [INFO] [TEXT_VLM] Val Macro F1: 0.8106 | Test Acc: 0.7609 | Test Macro F1: 0.7486 | Peak VRAM: 75.5 MB
+2026-10-10 22:05:39,187 [INFO] --- Running Experiment: Text + CLIP + InternVL (2,816-D) (2816-D) ---
+2026-10-10 22:06:52,244 [INFO] Early stopping at epoch 16 (Best epoch: 9, Val Macro F1: 0.835521)
+2026-10-10 22:06:52,669 [INFO] [TEXT_CLIP_VLM] Val Macro F1: 0.8355 | Test Acc: 0.7922 | Test Macro F1: 0.7806 | Peak VRAM: 88.7 MB
+2026-10-10 22:06:52,689 [INFO] --- Running Experiment: Full Five-Source Multimodal Fusion (2,847-D) (2847-D) ---
+2026-10-10 22:07:49,940 [INFO] Early stopping at epoch 12 (Best epoch: 5, Val Macro F1: 0.839880)
+2026-10-10 22:07:50,362 [INFO] [FULL_FUSION] Val Macro F1: 0.8399 | Test Acc: 0.7962 | Test Macro F1: 0.7864 | Peak VRAM: 89.0 MB
+2026-10-10 22:07:50,516 [INFO] Saved ablation summary to D:\NLP_PROJECT\models\multimodal_fusion\ablation_benchmark_summary.csv
+2026-10-10 22:07:50,516 [INFO] ===========================================================================
+2026-10-10 22:07:50,519 [INFO]    ABLATION BENCHMARK SUMMARY:
+2026-10-10 22:07:50,519 [INFO] ===========================================================================
+2026-10-10 22:07:50,520 [INFO]    XLM-R Contextual Text Only (768-D)            | Val F1: 0.6289 | Test Acc: 0.6281 | Test F1: 0.6198
+2026-10-10 22:07:50,520 [INFO]    Text + Sentiment Valence (771-D)              | Val F1: 0.6754 | Test Acc: 0.6578 | Test F1: 0.6445
+2026-10-10 22:07:50,520 [INFO]    Text + Affective Emotion (796-D)              | Val F1: 0.6614 | Test Acc: 0.6602 | Test F1: 0.6469
+2026-10-10 22:07:50,520 [INFO]    Text + Sentiment + Emotion (799-D)            | Val F1: 0.6753 | Test Acc: 0.6746 | Test F1: 0.6582
+2026-10-10 22:07:50,520 [INFO]    Text + CLIP ViT-B/32 (1,280-D)                | Val F1: 0.8267 | Test Acc: 0.7898 | Test F1: 0.7793
+2026-10-10 22:07:50,520 [INFO]    Text + InternVL3-2B Semantic (2,304-D)        | Val F1: 0.8106 | Test Acc: 0.7609 | Test F1: 0.7486
+2026-10-10 22:07:50,521 [INFO]    Text + CLIP + InternVL (2,816-D)              | Val F1: 0.8355 | Test Acc: 0.7922 | Test F1: 0.7806
+2026-10-10 22:07:50,521 [INFO]    Full Five-Source Multimodal Fusion (2,847-D)  | Val F1: 0.8399 | Test Acc: 0.7962 | Test F1: 0.7864
+2026-10-10 22:07:50,521 [INFO] ===========================================================================
+2026-10-10 22:07:50,521 [INFO] Milestone 4 Fusion Training & Ablations completed successfully!

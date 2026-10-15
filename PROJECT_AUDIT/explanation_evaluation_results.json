@@ -1,0 +1,150 @@
+[
+  {
+    "case_id": "CASE_01_OVERT_SARCASM",
+    "text": "Oh absolutely wonderful, another five-hour flight delay right before the long weekend!",
+    "prediction": "sarcastic",
+    "confidence": 0.861834,
+    "reasoner_model": "Deterministic Cognitive Reasoner (Local Grounded)",
+    "latency_ms": 12701.14,
+    "vram_delta_mb": 0.0,
+    "checks": {
+      "schema_complete": true,
+      "types_valid": true,
+      "label_preserved": true,
+      "probs_preserved": true,
+      "text_grounded": true,
+      "affect_grounded": true,
+      "modesty_acknowledged": true,
+      "zero_vram_leak": true
+    },
+    "all_passed": true,
+    "explanation": {
+      "summary": "The system classifies this instance as sarcastic with 86.2% confidence. The prediction is supported by affective dissonance between surface lexical cues and underlying admiration emotional polarity.",
+      "text_evidence": [
+        "Lexical incongruity: Surface-positive wording ('wonderful') is juxtaposed with negative contextual cues ('delay').",
+        "Typographical markers: Detected exclamation emphasis ('!')."
+      ],
+      "visual_evidence": [
+        "Observed visual scene: The image shows a television screen with pixelated content, possibly a sports game, and a scoreboard displaying \"59th\" and \"8:40 .\""
+      ],
+      "supporting_signals": [
+        "Sentiment polarity distribution: Positive dominant (Negative: 0.4%, Neutral: 1.9%, Positive: 97.7%).",
+        "Primary detected GoEmotions: Admiration (88.6%), Approval (6.4%), Joy (5.9%)."
+      ],
+      "limitations": [
+        "Statistical feature correlation does not establish subjective communicative intent.",
+        "Visual-textual interpretation may vary across cultural idioms, slang evolution, and offline context."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE_02_LITERAL_POSITIVE",
+    "text": "Good morning everyone, wishing all of you a truly peaceful and productive day ahead.",
+    "prediction": "non-sarcastic",
+    "confidence": 0.862967,
+    "reasoner_model": "Ollama llama3.2:1b",
+    "latency_ms": 10123.23,
+    "vram_delta_mb": 0.0,
+    "checks": {
+      "schema_complete": true,
+      "types_valid": true,
+      "label_preserved": true,
+      "probs_preserved": true,
+      "text_grounded": true,
+      "affect_grounded": true,
+      "modesty_acknowledged": true,
+      "zero_vram_leak": true
+    },
+    "all_passed": true,
+    "explanation": {
+      "summary": "The multimodal classification of the given text is based on linguistic cues such as the use of a solid green background with no visible text, objects, or patterns, which may indicate a lack of emphasis or irony.",
+      "text_evidence": [
+        "The absence of visual elements in the image suggests that the text is intended to convey a more abstract or metaphorical meaning."
+      ],
+      "visual_evidence": [
+        "The solid green background may be intended to convey a sense of calmness or serenity, which is consistent with the optimistic sentiment signal."
+      ],
+      "supporting_signals": [
+        "The top emotion signal of optimism is supported by the fact that the sentiment signal is 99.3% positive, indicating that the model is highly confident in its prediction.",
+        "The neutral sentiment signal of 0.6% is also supported by the fact that the model's confidence in the prediction is 86.3%, indicating that the prediction is not overly confident or overly confident."
+      ],
+      "limitations": [
+        "While the model's confidence in the prediction is high, correlation does not guarantee intent or noting ambiguities."
+      ]
+    }
+  },
+  {
+    "case_id": "CASE_03_CONTRAST_MEME",
+    "text": "Totally love spending my entire Sunday fixing merge conflicts in broken legacy code.",
+    "prediction": "sarcastic",
+    "confidence": 0.691191,
+    "reasoner_model": "Ollama llama3.2:1b",
+    "latency_ms": 10194.72,
+    "vram_delta_mb": 0.0,
+    "checks": {
+      "schema_complete": true,
+      "types_valid": true,
+      "label_preserved": true,
+      "probs_preserved": true,
+      "text_grounded": true,
+      "affect_grounded": true,
+      "modesty_acknowledged": true,
+      "zero_vram_leak": true
+    },
+    "all_passed": true,
+    "explanation": {
+      "summary": "The user's statement exhibits linguistic cues that suggest a negative sentiment, including the phrase 'Totally love spending my entire Sunday fixing merge conflicts in broken legacy code', which is a common expression of frustration and annoyance.",
+      "text_evidence": [
+        "The phrase 'Totally love spending my entire Sunday fixing merge conflicts in broken legacy code' is a common expression of frustration and annoyance.",
+        "The user's tone and language suggest a negative sentiment, which is consistent with the predicted sarcastic tone of the model"
+      ],
+      "visual_evidence": [
+        "The image is a solid coral-colored background with no visible text, objects, or patterns.",
+        "The absence of any visual cues or contextual information suggests that the user is expressing a sentiment that is not grounded in any specific visual context"
+      ],
+      "supporting_signals": [
+        "The user's statement is consistent with the predicted sentiment and emotion probability distributions of the model, which indicate a high confidence in the predicted sarcastic tone"
+      ],
+      "limitations": [
+        "The correlation between the user's statement and the model's predictions does not guarantee the user's true intent or the accuracy of the model's sentiment and emotion probability distributions in all cases"
+      ]
+    }
+  },
+  {
+    "case_id": "CASE_04_NEUTRAL_FACTUAL",
+    "text": "The quarterly financial report was published today by the auditing committee.",
+    "prediction": "non-sarcastic",
+    "confidence": 0.585114,
+    "reasoner_model": "Ollama llama3.2:1b",
+    "latency_ms": 8415.53,
+    "vram_delta_mb": 0.0,
+    "checks": {
+      "schema_complete": true,
+      "types_valid": true,
+      "label_preserved": true,
+      "probs_preserved": true,
+      "text_grounded": true,
+      "affect_grounded": true,
+      "modesty_acknowledged": true,
+      "zero_vram_leak": true
+    },
+    "all_passed": true,
+    "explanation": {
+      "summary": "The text appears to be a factual statement about a quarterly financial report, with no apparent emotional or sarcastic tone.",
+      "text_evidence": [
+        "The use of a formal tone and lack of emotive language suggest a non-sarcastic intent.",
+        "The absence of any emotive language or phrases that could indicate sarcasm or irony is consistent with a non-sarcastic tone."
+      ],
+      "visual_evidence": [
+        "The solid blue background and lack of visual elements suggest a straightforward, factual presentation of the information."
+      ],
+      "supporting_signals": [
+        "The model's confidence in the prediction is high, indicating a strong likelihood of the text being non-sarcastic.",
+        "The neutral sentiment signal suggests that the model is not leaning towards a positive or negative interpretation of the text."
+      ],
+      "limitations": [
+        "The model's performance on this specific text is not representative of its overall capabilities, and correlation does not guarantee intent or noting ambiguities."
+      ]
+    }
+  }
+]

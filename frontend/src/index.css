@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-black text-zinc-100 font-sans antialiased;
+    background-color: #000000;
+    min-height: 100vh;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #09090b;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #27272a;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #3f3f46;
+  }
+}
+
+@layer components {
+  /* Clean dark panel */
+  .glass {
+    @apply bg-zinc-900/90 border border-zinc-800 rounded-xl;
+  }
+
+  .glass-sm {
+    @apply bg-zinc-900/80 border border-zinc-800 rounded-lg;
+  }
+
+  /* Clean solid header text */
+  .gradient-text {
+    @apply text-white font-bold;
+  }
+
+  .gradient-text-blue {
+    @apply text-blue-400 font-bold;
+  }
+
+  /* Status indicator dot */
+  .status-dot {
+    @apply w-2 h-2 rounded-full inline-block;
+  }
+  .status-dot.ready {
+    @apply bg-emerald-500;
+  }
+  .status-dot.dev {
+    @apply bg-amber-500;
+  }
+  .status-dot.soon {
+    @apply bg-zinc-400;
+  }
+  .status-dot.error {
+    @apply bg-rose-500;
+  }
+
+  /* Card hover */
+  .card-hover {
+    @apply transition-all duration-200 hover:border-zinc-700 hover:bg-zinc-900;
+  }
+
+  /* Pipeline node */
+  .pipeline-node {
+    @apply glass px-4 py-3 text-center cursor-default select-none;
+  }
+}

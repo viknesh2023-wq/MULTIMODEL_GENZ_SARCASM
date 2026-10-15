@@ -1,0 +1,1001 @@
+id,text,label,style,topic,slang_used,abbreviations_used,emoji_used
+1,"smh yeah, nothing like sitting in traffic for an hour to go two miles what a time to be alive 😐",1,situational sarcasm,traffic,none,smh,😐
+2,The whole group actually showed up on time for once ngl 😊,0,genuine reaction,friends,none,ngl,none
+3,ngl tbh that caption actually made me laugh out loud highkey,0,genuine reaction,instagram,highkey,tbh; ngl,none
+4,"smh yeah, love a caption that's just three unrelated hashtags and a crying emoji literally 💀",1,meme-style sarcasm,instagram,none,smh,💀
+5,fr the new teacher actually explains things really clearly 👍,0,genuine praise,school,none,fr,👍
+6,ngl the video actually got to the point in the first thirty seconds highkey,0,genuine reaction,youtube,highkey,ngl,none
+7,fr lowkey love waiting two hours for a text back 💀,1,opposite-polarity sarcasm,relationships,lowkey,fr,💀
+8,"Not gonna lie, our squad actually synced up and won three matches in a row no cap",0,genuine excitement,gaming,no cap,none,none
+9,imo the video actually got to the point in the first thirty seconds deadass,0,genuine reaction,youtube,deadass,imo,none
+10,tbh budgeting got a lot easier after that raise actually kicked in ngl ✨,0,genuine relief,money,none,tbh; ngl,✨
+11,"ngl not gonna lie, this app update actually made everything easier to find ngl it's fire 🔥",0,genuine reaction,apps,none,ngl,🔥
+12,"Oh great, queued for ten minutes just to get put against a full premade squad, fair matchmaking love that for me 🙏",1,deadpan sarcasm,gaming,none,none,🙏
+13,"smh ngl this update is amazing, it deleted all my files ngl mid 😭",1,opposite-polarity sarcasm,technology,mid,ngl; smh,😭
+14,"ngl yeah, yeah starting the essay at midnight the night it's due always works out great literally 💀",1,self-deprecating sarcasm,procrastination,none,ngl,💀
+15,"wow five dollars for three fries, what a deal",1,exaggeration,food,none,none,none
+16,"ngl wow, phone update bricked half my apps, thanks for the upgrade so worth it",1,technology sarcasm,smartphones,none,ngl,none
+17,Lowkey my mentor at the internship has been super helpful all summer ngl it's fire 😂,0,genuine reaction,internships,lowkey,ngl,😂
+18,fr love that they texted back in like two minutes ngl,0,genuine reflection,relationships,none,ngl; fr,none
+19,"ngl ngl this update is amazing, it deleted all my files so worth it 💀",1,opposite-polarity sarcasm,technology,none,ngl,💀
+20,"ngl yeah, love being on hold for three hours just to get hung up on what a time to be alive 💀",1,ironic complaint,customer service,none,ngl,💀
+21,"smh sure, matched on the app just to get ghosted after one message, thrilling truly 😐",1,mock enthusiasm,dating,none,smh,😐
+22,"Amazing, spent four hours on the app and learned absolutely nothing useful, productive day so mid 😭",1,gen-z ironic humor,tiktok,mid,none,😭
+23,lowkey thanks for actually giving me a heads up about the plans ngl it's fire ❤️,0,genuine reaction,family,lowkey,ngl,❤️
+24,"smh lowkey forecast said sunny, i'm currently getting rained on, thanks honestly 🙃",1,situational sarcasm,weather,lowkey,smh,🙃
+25,"fr yeah, group project grade got docked for one member's slide, love shared responsibility truly",1,rhetorical sarcasm,school,none,fr,none
+26,"Yeah, ngl this update is amazing, it deleted all my files honestly",1,opposite-polarity sarcasm,technology,none,ngl,none
+27,lowkey love a caption that's just three unrelated hashtags and a crying emoji truly 🫠,1,meme-style sarcasm,instagram,lowkey,none,🫠
+28,fr honestly the show's finale wrapped up every storyline really satisfyingly tbh 😂,0,genuine reaction,streaming,none,tbh; fr,😂
+29,"lowkey asked to help move again, my back is definitely not tired of this deadass",1,contextual sarcasm,family,lowkey; deadass,none,none
+30,"oh great, the discourse this week is exactly as productive as last week's couldn't be happier 🙏",1,gen-z ironic humor,internet culture,none,none,🙏
+31,"cool, wow five dollars for three fries, what a deal couldn't be happier",1,exaggeration,food,none,none,none
+32,"smh fifteen minute video, three minutes of actual content, riveting love that for me 🙃",1,meme-style sarcasm,youtube,none,smh,🙃
+33,ik ngl actually got to the gym before work today and feel great tbh ❤️,0,genuine reaction,daily life,none,ik; tbh; ngl,❤️
+34,"oh great, love when my phone dies at eight percent for no reason truly 🙏",1,technology sarcasm,smartphones,none,none,🙏
+35,"tbh not gonna lie, the ai actually caught the bug in like two seconds",0,genuine reaction,ai,none,tbh,none
+36,"wow, waited forty minutes for cold fries, incredible service truly 🙏",1,exaggeration,food,none,none,🙏
+37,Ngl my mentor at the internship has been super helpful all summer genuinely,0,genuine reaction,internships,none,ngl,none
+38,"not gonna lie, starting the essay early actually worked out great this time 👍",0,genuine reaction,procrastination,none,none,👍
+39,"sure, spilled coffee on the shirt i just ironed, love mornings highkey rough",1,situational sarcasm,daily life,highkey,none,none
+40,"istg wow, bro really cooked with that presentation so worth it",1,ironic praise,college,bro; cooked,istg,none
+41,"fr cool, yeah starting the essay at midnight the night it's due always works out great 💀",1,self-deprecating sarcasm,procrastination,none,fr,💀
+42,"Oh great, asked for feedback and got a thumbs up emoji three weeks later ngl mid",1,exaggeration,work,mid,ngl,none
+43,ngl tbh starting the essay early actually worked out great this time no cap 😊,0,genuine reaction,procrastination,no cap,tbh; ngl,none
+44,honestly started the assignment early and it made the whole week less stressful deadass ❤️,0,genuine reaction,procrastination,deadass,none,❤️
+45,"tbh lowkey spent four hours on the app and learned absolutely nothing useful, productive day so mid",1,gen-z ironic humor,tiktok,lowkey; mid,tbh,none
+46,"istg sure, perfect day for a picnic, said no one during this monsoon so worth it 😭",1,situational sarcasm,weather,none,istg,😭
+47,"fr not gonna lie, the whole group actually pulled their weight on this one for once tbh ❤️",0,genuine reaction,group projects,none,tbh; fr,❤️
+48,"istg cool, phone update bricked half my apps, thanks for the upgrade highkey rough 😭",1,technology sarcasm,smartphones,highkey,istg,😭
+49,"istg spilled coffee on the shirt i just ironed, love mornings lowkey unhinged 😭",1,situational sarcasm,daily life,lowkey; unhinged,istg,😭
+50,honestly that movie's ending actually surprised me in a good way genuinely 👍,0,genuine reaction,movies,none,none,👍
+51,"imo tbh support fixed my issue in under ten minutes, really impressed lowkey ❤️",0,genuine praise,customer service,lowkey,imo; tbh,❤️
+52,tbh honestly ngl this update is actually really good lowkey 😂,0,genuine reaction,technology,lowkey,tbh; ngl,😂
+53,"smh great pass right into the other team's hands, incredible strategy deadass 💀",1,deadpan sarcasm,sports,deadass,smh,💀
+54,"tbh sure, planned this hangout for a month and half the group cancelled same day truly 🫠",1,mock enthusiasm,friends,none,tbh,🫠
+55,"oh great, flight delayed three hours and then boarded early, make it make sense ngl mid 🙃",1,situational sarcasm,travel,mid,ngl,🙃
+56,"Yeah, what a genius move, deleting the whole project folder highkey rough 🫠",1,opposite-polarity sarcasm,technology,highkey,none,🫠
+57,"istg amazing, budgeting is easy when rent goes up right after you get a raise so worth it 🙃",1,situational sarcasm,money,none,istg,🙃
+58,"Oh great, perfect day for a picnic, said no one during this monsoon incredible 🙃",1,situational sarcasm,weather,none,none,🙃
+59,"fr posted once and the algorithm buried it, but the ad reached everyone instantly what a time to be alive 😭",1,internet-culture sarcasm,social media,none,fr,😭
+60,"ik highkey eight hours of sleep before the final, feeling actually refreshed deadass",0,genuine reaction,sleep,highkey; deadass,ik,none
+61,the whole group actually showed up on time for once ❤️,0,genuine reaction,friends,none,none,❤️
+62,"Amazing, referee missed the foul that happened directly in front of him, great call what a time to be alive",1,deadpan sarcasm,sports,none,none,none
+63,"ngl first date went really well, we already have plans for next week highkey 👍",0,genuine excitement,dating,highkey,ngl,👍
+64,fr my post actually reached people outside my usual followers today genuinely ✨,0,genuine reaction,social media,none,fr,✨
+65,tbh honestly the new bus route actually cuts my commute in half no cap 🔥,0,genuine reaction,public transport,no cap,tbh,🔥
+66,tbh ngl fr bro that was the best game we've played all season deadass,0,genuine excitement,gaming,bro; deadass,tbh; ngl; fr,none
+67,"train doors closed right as i reached them, perfect timing as always 🙃",1,situational sarcasm,public transport,none,none,🙃
+68,ngl bro really cooked with that presentation what a time to be alive 😐,1,ironic praise,college,bro; cooked,ngl,😐
+69,"stayed up till four am for no reason, definitely going to regret that at eight am highkey rough",1,understatement,sleep,highkey,none,none
+70,highkey my post actually reached people outside my usual followers today genuinely 🔥,0,genuine reaction,social media,highkey,none,🔥
+71,"tbh wow, the servers crash right as i'm one kill from a win, classic truly 💀",1,deadpan sarcasm,gaming,none,tbh,💀
+72,ik lowkey thanks for actually giving me a heads up about the plans honestly ✨,0,genuine reaction,family,lowkey,ik,✨
+73,"fr tracking says out for delivery for the fifth day straight, very out ngl mid 💀",1,situational sarcasm,online shopping,mid,ngl; fr,💀
+74,"ik wow five dollars for a full meal, what a deal no cap ❤️",0,genuine reaction,food,no cap,ik,❤️
+75,"tbh not gonna lie, our team actually pulled off a comeback in the last quarter",0,genuine reaction,sports,none,tbh,none
+76,"ngl yeah, asked the ai for a summary and it just made up three facts, very reliable so mid 💀",1,technology sarcasm,ai,mid; facts,ngl,💀
+77,"smh fr bro, nothing says teamwork like carrying the whole match solo literally 😐",1,deadpan sarcasm,gaming,bro,fr; smh,😐
+78,"tbh highkey first date went really well, we already have plans for next week no cap ❤️",0,genuine excitement,dating,highkey; no cap,tbh,❤️
+79,"amazing, love how the algorithm shows me the same three videos for a week straight so worth it 💀",1,internet-culture sarcasm,social media,none,none,💀
+80,"ngl lowkey cool, they just renewed my show for another three seasons deadass 😂",0,genuine reaction,streaming,lowkey; deadass,ngl,😂
+81,"imo highkey order showed up a day early, wasn't expecting that for real 👍",0,genuine reaction,online shopping,highkey,imo,👍
+82,"sure, the professor moved the exam up a week, so thoughtful of them literally",1,rhetorical sarcasm,school,none,none,none
+83,"smh cool, checkout added a convenience fee for the convenience of paying more lowkey unhinged",1,situational sarcasm,shopping,lowkey; unhinged,smh,none
+84,"ngl not gonna lie, bus actually showed up exactly on schedule for once honestly ❤️",0,genuine reaction,public transport,none,ngl,❤️
+85,"imo honestly wow five dollars for a full meal, what a deal actually ❤️",0,genuine reaction,food,none,imo,❤️
+86,"tbh not gonna lie, love how the algorithm actually found me content i'm into ngl it's fire ✨",0,genuine reaction,social media,none,tbh; ngl,✨
+87,"spent four hours on the app and learned absolutely nothing useful, productive day so mid 😐",1,gen-z ironic humor,tiktok,mid,none,😐
+88,"Oh great, wdym the deadline was yesterday",1,rhetorical sarcasm,school,none,wdym,none
+89,ik ngl starting the essay early actually worked out great this time deadass ✨,0,genuine reaction,procrastination,deadass,ik; ngl,✨
+90,"fr fifteen minute video, three minutes of actual content, riveting highkey rough 💀",1,meme-style sarcasm,youtube,highkey,fr,💀
+91,"ngl cool, love waiting two hours for a text back",1,opposite-polarity sarcasm,relationships,none,ngl,none
+92,"ngl amazing, this app update moved every button i use daily, so convenient highkey rough 🫠",1,technology sarcasm,apps,highkey,ngl,🫠
+93,"istg yeah, perfect day for a picnic, said no one during this monsoon ngl mid 😭",1,situational sarcasm,weather,mid,ngl; istg,😭
+94,"istg sure, wdym the deadline was yesterday ngl mid 💀",1,rhetorical sarcasm,school,mid,ngl; wdym; istg,💀
+95,"ngl lowkey eight hours of sleep before the final, feeling actually refreshed genuinely 👍",0,genuine reaction,sleep,lowkey,ngl,👍
+96,"istg yeah, finally found the perfect jacket and of course it's out of stock in my size love that for me 🫠",1,situational sarcasm,shopping,none,istg,🫠
+97,"sure, the discourse this week is exactly as productive as last week's so worth it",1,gen-z ironic humor,internet culture,none,none,none
+98,tbh love that they actually solved my issue in five minutes genuinely 👍,0,genuine praise,customer service,none,tbh,👍
+99,"fr cool, great pass right into the other team's hands, incredible strategy ngl mid",1,deadpan sarcasm,sports,mid,ngl; fr,none
+100,"ngl not gonna lie, that movie's ending actually surprised me in a good way for real 👍",0,genuine reaction,movies,none,ngl,👍
+101,fr highkey love that they actually solved my issue in five minutes no cap 🔥,0,genuine praise,customer service,highkey; no cap,fr,🔥
+102,"imo highkey great pass, that assist was actually incredible ngl 😂",0,genuine reaction,sports,highkey,imo; ngl,😂
+103,ik honestly my post actually reached people outside my usual followers today ❤️,0,genuine reaction,social media,none,ik,❤️
+104,imo lowkey love that my phone battery actually lasted the whole day ngl it's fire 👍,0,genuine reaction,smartphones,lowkey,imo; ngl,👍
+105,"sure, nothing like sitting in traffic for an hour to go two miles lowkey unhinged 🫠",1,situational sarcasm,traffic,lowkey; unhinged,none,🫠
+106,"not gonna lie, finally paid off my credit card balance this month honestly 👍",0,genuine relief,money,none,none,👍
+107,lowkey team actually hit the quarterly goal a week early 😊,0,genuine praise,work,lowkey,none,none
+108,"Oh great, flight delayed three hours and then boarded early, make it make sense couldn't be happier 💀",1,situational sarcasm,travel,none,none,💀
+109,"not gonna lie, team actually hit the quarterly goal a week early honestly",0,genuine praise,work,none,none,none
+110,Wow the ai gave me a perfectly confident wrong answer again 🫠,1,technology sarcasm,ai,none,none,🫠
+111,app crashes every single time i try to actually use the main feature so mid 🙏,1,technology sarcasm,apps,mid,none,🙏
+112,"istg cool, my show got cancelled after one season, love that for me so worth it 😐",1,deadpan sarcasm,streaming,none,istg,😐
+113,"istg wow, asked to help move again, my back is definitely not tired of this deadass 💀",1,contextual sarcasm,family,deadass,istg,💀
+114,imo highkey that channel's new video essay was genuinely well researched deadass 🔥,0,genuine reaction,youtube,highkey; deadass,imo,🔥
+115,"smh spent three hours debugging just to find a missing semicolon, genius work by me couldn't be happier 😐",1,opposite-polarity sarcasm,technology,none,smh,😐
+116,ik highkey love how the algorithm actually found me content i'm into tbh,0,genuine reaction,social media,highkey,ik; tbh,none
+117,ik honestly he actually texted first thing in the morning like he said ngl it's fire 😂,0,genuine excitement,dating,none,ik; ngl,😂
+118,"what a genius move, deleting the whole project folder couldn't be happier 🙃",1,opposite-polarity sarcasm,technology,none,none,🙃
+119,"ik highkey this album has been on repeat all week, it's really solid for real ❤️",0,genuine reaction,music,highkey,ik,❤️
+120,"Yeah, posted once and the algorithm buried it, but the ad reached everyone instantly honestly",1,internet-culture sarcasm,social media,none,none,none
+121,ngl tbh thanks for actually giving me a heads up about the plans no cap 👍,0,genuine reaction,family,no cap,tbh; ngl,👍
+122,"tbh perfect weather for a picnic today, actually not a cloud in sight lowkey 😊",0,genuine reaction,weather,lowkey,tbh,none
+123,"smh amazing, tracking says out for delivery for the fifth day straight, very out a real treat 😭",1,situational sarcasm,online shopping,none,smh,😭
+124,"tbh got the whole week's tasks done by wednesday, feeling productive ngl it's fire 😊",0,genuine praise,work,none,tbh; ngl,none
+125,"fr amazing, studied the wrong chapter for six hours, feeling so prepared lowkey unhinged",1,rhetorical sarcasm,exams,lowkey; unhinged,fr,none
+126,fr lowkey that was honestly one of the best games i've watched this season ngl,0,genuine reaction,sports,lowkey,ngl; fr,none
+127,tbh ngl he actually texted first thing in the morning like he said no cap,0,genuine excitement,dating,no cap,tbh; ngl,none
+128,"fr tbh first date went really well, we already have plans for next week genuinely ✨",0,genuine excitement,dating,none,tbh; fr,✨
+129,that new ramen place downtown was genuinely so good highkey,0,genuine reaction,food,highkey,none,none
+130,"Yeah, the algorithm really said here's a video you watched six times already honestly 😭",1,gen-z ironic humor,tiktok,none,none,😭
+131,ik honestly got an offer from the company i really wanted to work for lowkey 👍,0,genuine reaction,jobs,lowkey,ik,👍
+132,"Six rounds of interviews for a job that pays entry level, worth it ngl mid",1,workplace sarcasm,jobs,mid,ngl,none
+133,"sure, left an hour early and still somehow late, love this commute truly",1,situational sarcasm,traffic,none,none,none
+134,honestly the new bus route actually cuts my commute in half tbh 😂,0,genuine reaction,public transport,none,tbh,😂
+135,"istg amazing, nothing says teamwork like doing the entire project yourself while everyone else sends a thumbs up two minutes before submission honestly 🙃",1,situational sarcasm,group projects,none,istg,🙃
+136,"yeah, alarm didn't go off on the one day i actually needed to wake up early what a time to be alive",1,situational sarcasm,daily life,none,none,none
+137,"fr sure, forty five seconds of unskippable ads before a two minute video, love that highkey rough 💀",1,meme-style sarcasm,youtube,highkey,fr,💀
+138,"oh great, spent four hours on the app and learned absolutely nothing useful, productive day lowkey unhinged 💀",1,gen-z ironic humor,tiktok,lowkey; unhinged,none,💀
+139,tbh that was genuinely a genius move honestly deadass,0,genuine reaction,technology,deadass,tbh,none
+140,ngl fr bro that was the best game we've played all season genuinely 😂,0,genuine excitement,gaming,bro,ngl; fr,😂
+141,"ngl amazing, flight delayed three hours and then boarded early, make it make sense literally",1,situational sarcasm,travel,none,ngl,none
+142,"ngl eight hours of sleep before the final, feeling actually refreshed actually",0,genuine reaction,sleep,none,ngl,none
+143,"yeah, group chat goes silent the second someone actually needs help with the assignment 😐",1,ironic praise,college,none,none,😐
+144,fr honestly the fyp actually served me something new and genuinely funny ngl it's fire 😂,0,genuine reaction,tiktok,none,ngl; fr,😂
+145,tbh lowkey can't wait for the sequel to ruin everything the original set up 🙏,1,opposite-polarity sarcasm,movies,lowkey,tbh,🙏
+146,ngl lowkey we actually had a really honest conversation last night ngl it's fire ❤️,0,genuine reflection,relationships,lowkey,ngl,❤️
+147,Tbh that was genuinely a genius move honestly ❤️,0,genuine reaction,technology,none,tbh,❤️
+148,the new bus route actually cuts my commute in half tbh 😂,0,genuine reaction,public transport,none,tbh,😂
+149,ik tbh started the assignment early and it made the whole week less stressful genuinely,0,genuine reaction,procrastination,none,ik; tbh,none
+150,"tbh ngl got the whole week's tasks done by wednesday, feeling productive for real 😂",0,genuine praise,work,none,tbh; ngl,😂
+151,"ngl not gonna lie, battery life on this phone has honestly held up really well",0,genuine reaction,smartphones,none,ngl,none
+152,ik honestly the whole group actually pulled their weight on this one for once no cap 👍,0,genuine reaction,group projects,no cap,ik,👍
+153,ngl the video actually got to the point in the first thirty seconds 👍,0,genuine reaction,youtube,none,ngl,👍
+154,"great, the one size that fits me is sold out everywhere, exactly what i needed 🙏",1,situational sarcasm,shopping,none,none,🙏
+155,fr honestly this app update actually made everything easier to find no cap,0,genuine reaction,apps,no cap,fr,none
+156,Highkey battery life on this phone has honestly held up really well honestly 👍,0,genuine reaction,smartphones,highkey,none,👍
+157,istg wrote the entire essay the morning it's due and somehow it's worse than the draft honestly 🫠,1,self-deprecating sarcasm,procrastination,none,istg,🫠
+158,ik my parents surprised me with a visit this weekend and it was really nice for real,0,genuine reaction,family,none,ik,none
+159,imo tbh the fyp actually served me something new and genuinely funny 😊,0,genuine reaction,tiktok,none,imo; tbh,none
+160,"yeah, checkout added a convenience fee for the convenience of paying more so mid 🫠",1,situational sarcasm,shopping,mid,none,🫠
+161,highkey my mentor at the internship has been super helpful all summer actually 👍,0,genuine reaction,internships,highkey,none,👍
+162,tbh lowkey love that they texted back in like two minutes honestly,0,genuine reflection,relationships,lowkey,tbh,none
+163,"not gonna lie, he actually texted first thing in the morning like he said highkey 🔥",0,genuine excitement,dating,highkey,none,🔥
+164,honestly my manager actually listened to my feedback in the meeting today deadass,0,genuine praise,work,deadass,none,none
+165,"fr wow, queued for ten minutes just to get put against a full premade squad, fair matchmaking love that for me 🙃",1,deadpan sarcasm,gaming,none,fr,🙃
+166,"Tbh eight hours of sleep before the final, feeling actually refreshed honestly ✨",0,genuine reaction,sleep,none,tbh,✨
+167,"istg sure, referee missed the foul that happened directly in front of him, great call lowkey unhinged 🙃",1,deadpan sarcasm,sports,lowkey; unhinged,istg,🙃
+168,"ngl wow, love a caption that's just three unrelated hashtags and a crying emoji literally 😐",1,meme-style sarcasm,instagram,none,ngl,😐
+169,"cool, buffering right at the climax of the episode, perfect timing as always so mid",1,deadpan sarcasm,streaming,mid,none,none
+170,"ngl not gonna lie, my study group actually stayed focused the whole session today no cap 👍",0,genuine reaction,college,no cap,ngl,👍
+171,"ik tbh got the whole week's tasks done by wednesday, feeling productive honestly 😊",0,genuine praise,work,none,ik; tbh,none
+172,"ngl cool, matched with four afk teammates, love ranked mode ngl mid 😐",1,deadpan sarcasm,gaming,mid,ngl; afk,😐
+173,"fr cancelled after one perfect season, love the timing lowkey unhinged",1,opposite-polarity sarcasm,tv,lowkey; unhinged,fr,none
+174,imo honestly actually finished all my homework before dinner for once and it feels great for real ✨,0,genuine praise,school,none,imo,✨
+175,wdym the deadline was yesterday love that for me,1,rhetorical sarcasm,school,none,wdym,none
+176,"Amazing, soft launched a relationship that lasted exactly one week, worth the effort love that for me 🫠",1,mock enthusiasm,dating,none,none,🫠
+177,"istg yeah, planned this hangout for a month and half the group cancelled same day so worth it",1,mock enthusiasm,friends,none,istg,none
+178,"fr this album has been on repeat all week, it's really solid ❤️",0,genuine reaction,music,none,fr,❤️
+179,"ngl wow, wow the ai gave me a perfectly confident wrong answer again deadass 😭",1,technology sarcasm,ai,deadass,ngl,😭
+180,highkey budgeting got a lot easier after that raise actually kicked in deadass,0,genuine relief,money,highkey; deadass,none,none
+181,"istg oh great, the one song i actually like gets cut off by an ad every time truly 🙏",1,deadpan sarcasm,music,none,istg,🙏
+182,"sure, train doors closed right as i reached them, perfect timing as always honestly 💀",1,situational sarcasm,public transport,none,none,💀
+183,love that my phone battery actually lasted the whole day tbh,0,genuine reaction,smartphones,none,tbh,none
+184,tbh highkey our squad actually synced up and won three matches in a row lowkey,0,genuine excitement,gaming,lowkey; highkey,tbh,none
+185,Tbh that was genuinely a genius move honestly honestly ❤️,0,genuine reaction,technology,none,tbh,❤️
+186,"Sure, referee missed the foul that happened directly in front of him, great call couldn't be happier",1,deadpan sarcasm,sports,none,none,none
+187,"cool, rent went up again, guess i'll just stop eating 🫠",1,situational sarcasm,money,none,none,🫠
+188,"wow, laptop updates itself right when i'm about to submit something, thanks for that truly 😭",1,opposite-polarity sarcasm,technology,none,none,😭
+189,"ngl wow, checkout added a convenience fee for the convenience of paying more deadass 🙏",1,situational sarcasm,shopping,deadass,ngl,🙏
+190,honestly the new season handled the characters really well ngl,0,genuine reaction,tv,none,ngl,none
+191,"yeah, can't wait for the sequel to ruin everything the original set up a real treat 😐",1,opposite-polarity sarcasm,movies,none,none,😐
+192,"oh great, alarm didn't go off on the one day i actually needed to wake up early couldn't be happier",1,situational sarcasm,daily life,none,none,none
+193,fr lowkey planned this hangout for a month and half the group cancelled same day literally 💀,1,mock enthusiasm,friends,lowkey,fr,💀
+194,"imo not gonna lie, support fixed my issue in under ten minutes, really impressed deadass 😂",0,genuine praise,customer service,deadass,imo,😂
+195,"imo not gonna lie, love that my manager actually gave me the day off genuinely 😂",0,genuine praise,work,none,imo,😂
+196,"yeah, matched on the app just to get ghosted after one message, thrilling truly 😐",1,mock enthusiasm,dating,none,none,😐
+197,"tbh yeah, transferred to four different departments just to be told to call back tomorrow honestly 😐",1,ironic complaint,customer service,none,tbh,😐
+198,"ngl package says delivered, mysteriously nowhere on my porch, love that lowkey unhinged",1,situational sarcasm,online shopping,lowkey; unhinged,ngl,none
+199,"ik honestly drive to work only took twenty minutes today, no traffic at all deadass ❤️",0,genuine reaction,traffic,deadass,ik,❤️
+200,"ngl amazing, transferred to four different departments just to be told to call back tomorrow so mid 🫠",1,ironic complaint,customer service,mid,ngl,🫠
+201,"fr ngl got the whole week's tasks done by wednesday, feeling productive tbh 😂",0,genuine praise,work,none,tbh; ngl; fr,😂
+202,Honestly the ai tool actually caught a mistake in my code that i missed ngl it's fire,0,genuine reaction,ai,none,ngl,none
+203,the new season handled the characters really well ngl 👍,0,genuine reaction,tv,none,ngl,👍
+204,ngl tbh that was genuinely a genius move honestly lowkey ✨,0,genuine reaction,technology,lowkey,tbh; ngl,✨
+205,"ik tbh this album has been on repeat all week, it's really solid actually",0,genuine reaction,music,none,ik; tbh,none
+206,"Amazing, meeting that could have been an email just ate my entire afternoon deadass 🙃",1,exaggeration,work,deadass,none,🙃
+207,"cool, package says delivered, mysteriously nowhere on my porch, love that so worth it 🙏",1,situational sarcasm,online shopping,none,none,🙏
+208,"ngl great pass, that assist was actually incredible tbh 👍",0,genuine reaction,sports,none,tbh; ngl,👍
+209,highkey my post actually reached people outside my usual followers today for real 👍,0,genuine reaction,social media,highkey,none,👍
+210,"istg wow, laptop updates itself right when i'm about to submit something, thanks for that so mid 🙃",1,opposite-polarity sarcasm,technology,mid,istg,🙃
+211,"imo not gonna lie, the new patch fixed most of the bugs people were complaining about 🔥",0,genuine excitement,gaming,none,imo,🔥
+212,"Great, the one size that fits me is sold out everywhere, exactly what i needed honestly 🫠",1,situational sarcasm,shopping,none,none,🫠
+213,"fr yeah, love waiting two hours for a text back what a time to be alive 🙏",1,opposite-polarity sarcasm,relationships,none,fr,🙏
+214,imo the show's finale wrapped up every storyline really satisfyingly 👍,0,genuine reaction,streaming,none,imo,👍
+215,"another remake of a remake, truly a golden age of originality so worth it",1,gen-z ironic humor,internet culture,none,none,none
+216,"ngl amazing, love getting assigned extra tasks the day before vacation highkey rough",1,exaggeration,work,highkey,ngl,none
+217,"smh cool, spent three hours debugging just to find a missing semicolon, genius work by me so mid 🙏",1,opposite-polarity sarcasm,technology,mid,smh,🙏
+218,"not gonna lie, my parents surprised me with a visit this weekend and it was really nice genuinely 😊",0,genuine reaction,family,none,none,none
+219,Ngl actually got to the gym before work today and feel great actually ✨,0,genuine reaction,daily life,none,ngl,✨
+220,"tbh yeah, waited forty minutes for cold fries, incredible service",1,exaggeration,food,none,tbh,none
+221,"sure, this app update moved every button i use daily, so convenient couldn't be happier",1,technology sarcasm,apps,none,none,none
+222,"smh yeah, ngl this update is amazing, it deleted all my files truly 🙃",1,opposite-polarity sarcasm,technology,none,ngl; smh,🙃
+223,"drive to work only took twenty minutes today, no traffic at all actually 😂",0,genuine reaction,traffic,none,none,😂
+224,ik the ai tool actually caught a mistake in my code that i missed for real,0,genuine reaction,ai,none,ik,none
+225,this budgeting app made tracking expenses way less of a hassle no cap 🔥,0,genuine reaction,apps,no cap,none,🔥
+226,Love that they actually solved my issue in five minutes ngl 😂,0,genuine praise,customer service,none,ngl,😂
+227,Lowkey that caption actually made me laugh out loud honestly ✨,0,genuine reaction,instagram,lowkey,none,✨
+228,"tbh amazing, group project grade got docked for one member's slide, love shared responsibility so mid 💀",1,rhetorical sarcasm,school,mid,tbh,💀
+229,Ngl this internship actually pays fairly and the hours are reasonable for real ✨,0,genuine reaction,internships,none,ngl,✨
+230,"oh great, soft launched a relationship that lasted exactly one week, worth the effort truly",1,mock enthusiasm,dating,none,none,none
+231,"ngl fifteen minute video, three minutes of actual content, riveting deadass 🫠",1,meme-style sarcasm,youtube,deadass,ngl,🫠
+232,"tbh amazing, love a caption that's just three unrelated hashtags and a crying emoji literally",1,meme-style sarcasm,instagram,none,tbh,none
+233,fr found exactly what i needed on the first try today 🔥,0,genuine satisfaction,shopping,none,fr,🔥
+234,"yeah, laptop updates itself right when i'm about to submit something, thanks for that truly",1,opposite-polarity sarcasm,technology,none,none,none
+235,"istg amazing, a pop quiz on the one day i actually skipped the reading, perfect timing deadass",1,rhetorical sarcasm,school,deadass,istg,none
+236,ngl lowkey budgeting got a lot easier after that raise actually kicked in ❤️,0,genuine relief,money,lowkey,ngl,❤️
+237,"imo not gonna lie, reviewed the right chapters and the exam felt manageable ✨",0,genuine relief,exams,none,imo,✨
+238,"ngl not gonna lie, fr bro that was the best game we've played all season tbh",0,genuine excitement,gaming,bro,tbh; ngl; fr,none
+239,tbh reviewed the right chapters and the exam felt manageable no cap 😂,0,genuine relief,exams,no cap,tbh,😂
+240,Finally found the perfect jacket and of course it's out of stock in my size 🫠,1,situational sarcasm,shopping,none,none,🫠
+241,"Cool, spilled coffee on the shirt i just ironed, love mornings love that for me 😐",1,situational sarcasm,daily life,none,none,😐
+242,fr bus actually showed up exactly on schedule for once actually,0,genuine reaction,public transport,none,fr,none
+243,"matched with four afk teammates, love ranked mode 🙏",1,deadpan sarcasm,gaming,none,afk,🙏
+244,"wow, five hours of sleep before a final, feeling so refreshed lowkey unhinged 🙃",1,understatement,sleep,lowkey; unhinged,none,🙃
+245,"amazing, he said he'd text first thing in the morning, so naturally it's midnight now 🫠",1,mock enthusiasm,dating,none,none,🫠
+246,"fr honestly support fixed my issue in under ten minutes, really impressed highkey",0,genuine praise,customer service,highkey,fr,none
+247,"fr great, the exam covers everything except what we actually studied 🙏",1,rhetorical sarcasm,exams,none,fr,🙏
+248,"amazing, six rounds of interviews for a job that pays entry level, worth it couldn't be happier 😭",1,workplace sarcasm,jobs,none,none,😭
+249,This app update actually made everything easier to find tbh 🔥,0,genuine reaction,apps,none,tbh,🔥
+250,"ngl yeah, group project grade got docked for one member's slide, love shared responsibility a real treat 🙏",1,rhetorical sarcasm,school,none,ngl,🙏
+251,ngl lowkey thanks for actually giving me a heads up about the plans no cap ✨,0,genuine reaction,family,lowkey; no cap,ngl,✨
+252,ngl our squad actually synced up and won three matches in a row 😊,0,genuine excitement,gaming,none,ngl,none
+253,"lowkey order showed up a day early, wasn't expecting that for real 🔥",0,genuine reaction,online shopping,lowkey,none,🔥
+254,"fr yeah, another remake of a remake, truly a golden age of originality deadass 🫠",1,gen-z ironic humor,internet culture,deadass,fr,🫠
+255,"yeah, he said he'd text first thing in the morning, so naturally it's midnight now so worth it 💀",1,mock enthusiasm,dating,none,none,💀
+256,ngl tbh my study group actually stayed focused the whole session today lowkey,0,genuine reaction,college,lowkey,tbh; ngl,none
+257,Highkey wdym you already finished the whole assignment no cap ❤️,0,genuine praise,school,highkey; no cap,wdym,❤️
+258,ik ngl actually got to the gym before work today and feel great lowkey ❤️,0,genuine reaction,daily life,lowkey,ik; ngl,❤️
+259,"sure, another reply-all email chain, exactly what my inbox needed today incredible",1,exaggeration,work,none,none,none
+260,"sure, ngl this update is amazing, it deleted all my files literally 😐",1,opposite-polarity sarcasm,technology,none,ngl,😐
+261,ngl lowkey nothing like sitting in traffic for an hour to go two miles couldn't be happier 🙏,1,situational sarcasm,traffic,lowkey,ngl,🙏
+262,ngl fr bro that was the best game we've played all season ngl it's fire 😂,0,genuine excitement,gaming,bro,ngl; fr,😂
+263,"smh amazing, matched on the app just to get ghosted after one message, thrilling couldn't be happier 🙃",1,mock enthusiasm,dating,none,smh,🙃
+264,"tbh not gonna lie, order showed up a day early, wasn't expecting that lowkey 👍",0,genuine reaction,online shopping,lowkey,tbh,👍
+265,"what a genius move, deleting the whole project folder lowkey unhinged",1,opposite-polarity sarcasm,technology,lowkey; unhinged,none,none
+266,imo tbh that new ramen place downtown was genuinely so good lowkey 🔥,0,genuine reaction,food,lowkey,imo; tbh,🔥
+267,"istg amazing, buffering right at the climax of the episode, perfect timing as always",1,deadpan sarcasm,streaming,none,istg,none
+268,"ik forecast was right for once, perfect weather for the hike for real ❤️",0,genuine reaction,weather,none,ik,❤️
+269,"fr laptop updates itself right when i'm about to submit something, thanks for that lowkey unhinged 🫠",1,opposite-polarity sarcasm,technology,lowkey; unhinged,fr,🫠
+270,"amazing, love getting assigned extra tasks the day before vacation truly 🫠",1,exaggeration,work,none,none,🫠
+271,ngl planned this hangout for a month and half the group cancelled same day truly 🙏,1,mock enthusiasm,friends,none,ngl,🙏
+272,Honestly switched browsers and everything actually loads way faster now lowkey ✨,0,genuine reaction,technology,lowkey,none,✨
+273,"Cool, love getting assigned extra tasks the day before vacation highkey rough 🙃",1,exaggeration,work,highkey,none,🙃
+274,"ngl lowkey spent three hours debugging just to find a missing semicolon, genius work by me truly 💀",1,opposite-polarity sarcasm,technology,lowkey,ngl,💀
+275,tbh lowkey got an offer from the company i really wanted to work for no cap 😊,0,genuine reaction,jobs,lowkey; no cap,tbh,none
+276,"Not gonna lie, got the whole week's tasks done by wednesday, feeling productive ngl it's fire ✨",0,genuine praise,work,none,ngl,✨
+277,smh omg tysm for replying after three days,1,mock enthusiasm,friends,none,omg; smh,none
+278,"ngl yeah, a pop quiz on the one day i actually skipped the reading, perfect timing highkey rough 🫠",1,rhetorical sarcasm,school,highkey,ngl,🫠
+279,"imo not gonna lie, my friend's photos from the trip turned out amazing tbh 🔥",0,genuine reaction,instagram,none,imo; tbh,🔥
+280,ik that channel's new video essay was genuinely well researched 🔥,0,genuine reaction,youtube,none,ik,🔥
+281,"not gonna lie, the video actually got to the point in the first thirty seconds honestly 😊",0,genuine reaction,youtube,none,none,none
+282,tbh alarm didn't go off on the one day i actually needed to wake up early 😐,1,situational sarcasm,daily life,none,tbh,😐
+283,Ngl switched browsers and everything actually loads way faster now tbh,0,genuine reaction,technology,none,tbh; ngl,none
+284,"wow, asked for feedback and got a thumbs up emoji three weeks later 😭",1,exaggeration,work,none,none,😭
+285,imo omg tysm for helping me move all weekend genuinely 🔥,0,genuine reaction,friends,none,imo; omg,🔥
+286,"smh ordered a burger, got a picture of a burger instead apparently incredible",1,exaggeration,food,none,smh,none
+287,"Tbh great, the exam actually matched the study guide this time no cap 👍",0,genuine relief,exams,no cap,tbh,👍
+288,"ngl oh great, package says delivered, mysteriously nowhere on my porch, love that what a time to be alive",1,situational sarcasm,online shopping,none,ngl,none
+289,tbh the whole group actually pulled their weight on this one for once,0,genuine reaction,group projects,none,tbh,none
+290,"Amazing, phone update bricked half my apps, thanks for the upgrade couldn't be happier 💀",1,technology sarcasm,smartphones,none,none,💀
+291,finally found the perfect jacket and of course it's out of stock in my size lowkey unhinged 🙏,1,situational sarcasm,shopping,lowkey; unhinged,none,🙏
+292,ngl that caption actually made me laugh out loud highkey 😂,0,genuine reaction,instagram,highkey,ngl,😂
+293,"highkey cool, they just renewed my show for another three seasons genuinely ❤️",0,genuine reaction,streaming,highkey,none,❤️
+294,"istg sure, love how the algorithm shows me the same three videos for a week straight truly 🙃",1,internet-culture sarcasm,social media,none,istg,🙃
+295,highkey actually got to the gym before work today and feel great ngl it's fire,0,genuine reaction,daily life,highkey,ngl,none
+296,"imo not gonna lie, perfect weather for a picnic today, actually not a cloud in sight actually ✨",0,genuine reaction,weather,none,imo,✨
+297,"smh oh great, buffering right at the climax of the episode, perfect timing as always love that for me",1,deadpan sarcasm,streaming,none,smh,none
+298,"tbh unpaid internship with unpaid overtime, truly a dream opportunity couldn't be happier",1,workplace sarcasm,internships,none,tbh,none
+299,"not gonna lie, the new patch fixed most of the bugs people were complaining about for real",0,genuine excitement,gaming,none,none,none
+300,lowkey that new ramen place downtown was genuinely so good 👍,0,genuine reaction,food,lowkey,none,👍
+301,"istg cool, left an hour early and still somehow late, love this commute what a time to be alive",1,situational sarcasm,traffic,none,istg,none
+302,"Wow, three hour runtime and the plot fits in a tweet, efficient 💀",1,opposite-polarity sarcasm,movies,none,none,💀
+303,"tbh amazing, fifteen minute video, three minutes of actual content, riveting deadass 😭",1,meme-style sarcasm,youtube,deadass,tbh,😭
+304,Ngl the new season handled the characters really well honestly,0,genuine reaction,tv,none,ngl,none
+305,tbh lowkey the new teacher actually explains things really clearly honestly 👍,0,genuine praise,school,lowkey,tbh,👍
+306,ngl highkey the fyp actually served me something new and genuinely funny genuinely 😂,0,genuine reaction,tiktok,highkey,ngl,😂
+307,"Not gonna lie, thanks for actually giving me a heads up about the plans highkey ❤️",0,genuine reaction,family,highkey,none,❤️
+308,"smh sure, stayed up till four am for no reason, definitely going to regret that at eight am 💀",1,understatement,sleep,none,smh,💀
+309,imo highkey our team actually pulled off a comeback in the last quarter deadass,0,genuine reaction,sports,highkey; deadass,imo,none
+310,"fr wow, the one song i actually like gets cut off by an ad every time so mid 😐",1,deadpan sarcasm,music,mid,fr,😐
+311,"tbh oh great, asked to help move again, my back is definitely not tired of this couldn't be happier",1,contextual sarcasm,family,none,tbh,none
+312,"lowkey spent three hours debugging just to find a missing semicolon, genius work by me truly 😭",1,opposite-polarity sarcasm,technology,lowkey,none,😭
+313,"cool, my show got cancelled after one season, love that for me so worth it 🙃",1,deadpan sarcasm,streaming,none,none,🙃
+314,"fr another reply-all email chain, exactly what my inbox needed today what a time to be alive",1,exaggeration,work,none,fr,none
+315,"smh amazing, group chat goes silent the second someone actually needs help with the assignment so worth it",1,ironic praise,college,none,smh,none
+316,imo my study group actually stayed focused the whole session today tbh 🔥,0,genuine reaction,college,none,imo; tbh,🔥
+317,tbh the algorithm really said here's a video you watched six times already highkey rough,1,gen-z ironic humor,tiktok,highkey,tbh,none
+318,"yeah, nothing says teamwork like doing the entire project yourself while everyone else sends a thumbs up two minutes before submission a real treat 🙏",1,situational sarcasm,group projects,none,none,🙏
+319,imo ngl the new patch fixed most of the bugs people were complaining about actually 👍,0,genuine excitement,gaming,none,imo; ngl,👍
+320,"not gonna lie, omg tysm for helping me move all weekend ngl it's fire",0,genuine reaction,friends,none,ngl; omg,none
+321,Highkey the new bus route actually cuts my commute in half 👍,0,genuine reaction,public transport,highkey,none,👍
+322,"ngl wow, love how the algorithm shows me the same three videos for a week straight so worth it 🫠",1,internet-culture sarcasm,social media,none,ngl,🫠
+323,tbh he actually texted first thing in the morning like he said lowkey ✨,0,genuine excitement,dating,lowkey,tbh,✨
+324,ngl the fyp actually served me something new and genuinely funny lowkey 👍,0,genuine reaction,tiktok,lowkey,ngl,👍
+325,fr lowkey the video actually got to the point in the first thirty seconds no cap,0,genuine reaction,youtube,lowkey; no cap,fr,none
+326,Ngl battery life on this phone has honestly held up really well honestly 👍,0,genuine reaction,smartphones,none,ngl,👍
+327,"sure, oh sure, tell me about the plans the day after they happened so mid 😐",1,contextual sarcasm,family,mid,none,😐
+328,"honestly first date went really well, we already have plans for next week 🔥",0,genuine excitement,dating,none,none,🔥
+329,"tbh wow, wrote the entire essay the morning it's due and somehow it's worse than the draft 🫠",1,self-deprecating sarcasm,procrastination,none,tbh,🫠
+330,Honestly we actually had a really honest conversation last night ngl it's fire ❤️,0,genuine reflection,relationships,none,ngl,❤️
+331,lowkey bus actually showed up exactly on schedule for once highkey 🔥,0,genuine reaction,public transport,lowkey; highkey,none,🔥
+332,"ngl honestly drive to work only took twenty minutes today, no traffic at all actually 😂",0,genuine reaction,traffic,none,ngl,😂
+333,Highkey the whole group actually pulled their weight on this one for once genuinely ✨,0,genuine reaction,group projects,highkey,none,✨
+334,"not gonna lie, team actually hit the quarterly goal a week early deadass",0,genuine praise,work,deadass,none,none
+335,"highkey cool, they just renewed my show for another three seasons no cap 🔥",0,genuine reaction,streaming,highkey; no cap,none,🔥
+336,ik ngl ngl this update is actually really good highkey 😊,0,genuine reaction,technology,highkey,ik; ngl,none
+337,ngl lowkey that caption actually made me laugh out loud for real,0,genuine reaction,instagram,lowkey,ngl,none
+338,ngl my manager actually listened to my feedback in the meeting today honestly 😊,0,genuine praise,work,none,ngl,none
+339,highkey ngl this update is actually really good ngl it's fire 🔥,0,genuine reaction,technology,highkey,ngl,🔥
+340,"smh oh great, wrote the entire essay the morning it's due and somehow it's worse than the draft 💀",1,self-deprecating sarcasm,procrastination,none,smh,💀
+341,"honestly great pass, that assist was actually incredible highkey 😂",0,genuine reaction,sports,highkey,none,😂
+342,"smh queued for ten minutes just to get put against a full premade squad, fair matchmaking so worth it 🙃",1,deadpan sarcasm,gaming,none,smh,🙃
+343,"imo not gonna lie, forecast was right for once, perfect weather for the hike genuinely",0,genuine reaction,weather,none,imo,none
+344,fr bro actually cooked with that presentation no cap 😊,0,genuine reaction,college,bro; no cap; cooked,fr,none
+345,"not gonna lie, drive to work only took twenty minutes today, no traffic at all 🔥",0,genuine reaction,traffic,none,none,🔥
+346,meeting that could have been an email just ate my entire afternoon so worth it,1,exaggeration,work,none,none,none
+347,"smh cool, stayed up till four am for no reason, definitely going to regret that at eight am honestly 🫠",1,understatement,sleep,none,smh,🫠
+348,fr app crashes every single time i try to actually use the main feature ngl mid 🙃,1,technology sarcasm,apps,mid,ngl; fr,🙃
+349,imo honestly the ai tool actually caught a mistake in my code that i missed deadass ❤️,0,genuine reaction,ai,deadass,imo,❤️
+350,fr highkey love how the algorithm actually found me content i'm into no cap ❤️,0,genuine reaction,social media,highkey; no cap,fr,❤️
+351,imo tbh actually finished all my homework before dinner for once and it feels great deadass 👍,0,genuine praise,school,deadass,imo; tbh,👍
+352,"smh cancelled after one perfect season, love the timing literally",1,opposite-polarity sarcasm,tv,none,smh,none
+353,fr tbh team actually hit the quarterly goal a week early ngl it's fire 👍,0,genuine praise,work,none,tbh; ngl; fr,👍
+354,Highkey love that my manager actually gave me the day off deadass 🔥,0,genuine praise,work,highkey; deadass,none,🔥
+355,"istg oh great, asked the ai for a summary and it just made up three facts, very reliable a real treat 🫠",1,technology sarcasm,ai,facts,istg,🫠
+356,imo tbh love that my phone battery actually lasted the whole day honestly,0,genuine reaction,smartphones,none,imo; tbh,none
+357,"tbh not gonna lie, that movie's ending actually surprised me in a good way ngl it's fire 🔥",0,genuine reaction,movies,none,tbh; ngl,🔥
+358,"imo not gonna lie, started the assignment early and it made the whole week less stressful",0,genuine reaction,procrastination,none,imo,none
+359,ngl got an offer from the company i really wanted to work for ✨,0,genuine reaction,jobs,none,ngl,✨
+360,"wow, oh sure, tell me about the plans the day after they happened incredible",1,contextual sarcasm,family,none,none,none
+361,ik highkey the ai tool actually caught a mistake in my code that i missed no cap 😂,0,genuine reaction,ai,highkey; no cap,ik,😂
+362,tbh budgeting got a lot easier after that raise actually kicked in lowkey,0,genuine relief,money,lowkey,tbh,none
+363,"tbh sure, planned this hangout for a month and half the group cancelled same day 🙏",1,mock enthusiasm,friends,none,tbh,🙏
+364,Transferred to four different departments just to be told to call back tomorrow lowkey unhinged 💀,1,ironic complaint,customer service,lowkey; unhinged,none,💀
+365,imo highkey starting the essay early actually worked out great this time no cap,0,genuine reaction,procrastination,highkey; no cap,imo,none
+366,"Oh great, perfect day for a picnic, said no one during this monsoon literally 🙏",1,situational sarcasm,weather,none,none,🙏
+367,"Oh great, yeah starting the essay at midnight the night it's due always works out great truly",1,self-deprecating sarcasm,procrastination,none,none,none
+368,"istg lowkey queued for ten minutes just to get put against a full premade squad, fair matchmaking incredible",1,deadpan sarcasm,gaming,lowkey,istg,none
+369,honestly the new patch fixed most of the bugs people were complaining about 😊,0,genuine excitement,gaming,none,none,none
+370,fr lowkey this app update actually made everything easier to find honestly,0,genuine reaction,apps,lowkey,fr,none
+371,"ngl the professor moved the exam up a week, so thoughtful of them love that for me 🫠",1,rhetorical sarcasm,school,none,ngl,🫠
+372,"Amazing, spilled coffee on the shirt i just ironed, love mornings literally 😭",1,situational sarcasm,daily life,none,none,😭
+373,"tbh yeah, asked for feedback and got a thumbs up emoji three weeks later lowkey unhinged",1,exaggeration,work,lowkey; unhinged,tbh,none
+374,ngl actually finished all my homework before dinner for once and it feels great lowkey ❤️,0,genuine praise,school,lowkey,ngl,❤️
+375,"not gonna lie, this budgeting app made tracking expenses way less of a hassle lowkey",0,genuine reaction,apps,lowkey,none,none
+376,ngl this app update actually made everything easier to find highkey 👍,0,genuine reaction,apps,highkey,ngl,👍
+377,imo highkey nothing like an empty highway on a sunday morning honestly ✨,0,genuine reaction,traffic,highkey,imo,✨
+378,"yeah, love being on hold for three hours just to get hung up on 🙃",1,ironic complaint,customer service,none,none,🙃
+379,"amazing, buffering right at the climax of the episode, perfect timing as always honestly 🙏",1,deadpan sarcasm,streaming,none,none,🙏
+380,ik lowkey package actually arrived exactly when the tracker said it would honestly ✨,0,genuine reaction,online shopping,lowkey,ik,✨
+381,ik lowkey this internship actually pays fairly and the hours are reasonable highkey 🔥,0,genuine reaction,internships,lowkey; highkey,ik,🔥
+382,"another reply-all email chain, exactly what my inbox needed today lowkey unhinged 🙏",1,exaggeration,work,lowkey; unhinged,none,🙏
+383,fr honestly team actually hit the quarterly goal a week early no cap 👍,0,genuine praise,work,no cap,fr,👍
+384,"perfect weather for a picnic today, actually not a cloud in sight highkey ❤️",0,genuine reaction,weather,highkey,none,❤️
+385,"Wow, love getting assigned extra tasks the day before vacation literally 🙏",1,exaggeration,work,none,none,🙏
+386,Story views from everyone except the one person i wanted to see it so worth it,1,meme-style sarcasm,instagram,none,none,none
+387,"great pass, that assist was actually incredible honestly ✨",0,genuine reaction,sports,none,none,✨
+388,ik tbh our flight actually left right on time this morning lowkey ❤️,0,genuine reaction,travel,lowkey,ik; tbh,❤️
+389,"matched with four afk teammates, love ranked mode literally",1,deadpan sarcasm,gaming,none,afk,none
+390,"ngl great, the one size that fits me is sold out everywhere, exactly what i needed so worth it 🙏",1,situational sarcasm,shopping,none,ngl,🙏
+391,"oh great, rent went up again, guess i'll just stop eating incredible 😭",1,situational sarcasm,money,none,none,😭
+392,ngl this budgeting app made tracking expenses way less of a hassle ngl it's fire 🔥,0,genuine reaction,apps,none,ngl,🔥
+393,Ngl this app update actually made everything easier to find highkey,0,genuine reaction,apps,highkey,ngl,none
+394,"fr oh great, three hour runtime and the plot fits in a tweet, efficient literally 😭",1,opposite-polarity sarcasm,movies,none,fr,😭
+395,"istg lowkey he said he'd text first thing in the morning, so naturally it's midnight now 😭",1,mock enthusiasm,dating,lowkey,istg,😭
+396,"ngl sure, buffering right at the climax of the episode, perfect timing as always incredible",1,deadpan sarcasm,streaming,none,ngl,none
+397,"ngl cool, group project grade got docked for one member's slide, love shared responsibility so worth it 😭",1,rhetorical sarcasm,school,none,ngl,😭
+398,"istg amazing, tracking says out for delivery for the fifth day straight, very out incredible",1,situational sarcasm,online shopping,none,istg,none
+399,"fr not gonna lie, that meme format is still making me laugh every time i see it highkey 😊",0,genuine reaction,internet culture,highkey,fr,none
+400,"ngl sure, yeah starting the essay at midnight the night it's due always works out great incredible",1,self-deprecating sarcasm,procrastination,none,ngl,none
+401,"oh great, buffering right at the climax of the episode, perfect timing as always ngl mid 😭",1,deadpan sarcasm,streaming,mid,ngl,😭
+402,"ngl highkey great, the exam actually matched the study guide this time no cap 👍",0,genuine relief,exams,highkey; no cap,ngl,👍
+403,asked for feedback and got a thumbs up emoji three weeks later highkey rough 💀,1,exaggeration,work,highkey,none,💀
+404,"fr not gonna lie, love that my phone battery actually lasted the whole day 👍",0,genuine reaction,smartphones,none,fr,👍
+405,the discourse this week is exactly as productive as last week's ngl mid 😐,1,gen-z ironic humor,internet culture,mid,ngl,😐
+406,"fr yeah, bus arrived four minutes early, right as i turned the corner two minutes late deadass 😭",1,situational sarcasm,public transport,deadass,fr,😭
+407,"ngl cool, the servers crash right as i'm one kill from a win, classic love that for me 🙃",1,deadpan sarcasm,gaming,none,ngl,🙃
+408,tbh love that they texted back in like two minutes for real,0,genuine reflection,relationships,none,tbh,none
+409,tbh honestly finally paid off my credit card balance this month ngl it's fire,0,genuine relief,money,none,tbh; ngl,none
+410,"tbh wow five dollars for a full meal, what a deal ngl it's fire ✨",0,genuine reaction,food,none,tbh; ngl,✨
+411,"fr not gonna lie, omg tysm for helping me move all weekend ngl ✨",0,genuine reaction,friends,none,ngl; fr; omg,✨
+412,"fr amazing, can't wait for the sequel to ruin everything the original set up incredible",1,opposite-polarity sarcasm,movies,none,fr,none
+413,ik the whole group actually pulled their weight on this one for once no cap 😂,0,genuine reaction,group projects,no cap,ik,😂
+414,imo actually finished all my homework before dinner for once and it feels great honestly,0,genuine praise,school,none,imo,none
+415,ik we actually had a really honest conversation last night 😂,0,genuine reflection,relationships,none,ik,😂
+416,imo this budgeting app made tracking expenses way less of a hassle,0,genuine reaction,apps,none,imo,none
+417,Tbh package actually arrived exactly when the tracker said it would honestly,0,genuine reaction,online shopping,none,tbh,none
+418,"imo not gonna lie, budgeting got a lot easier after that raise actually kicked in highkey",0,genuine relief,money,highkey,imo,none
+419,"tbh oh great, forecast said sunny, i'm currently getting rained on, thanks so worth it 🙃",1,situational sarcasm,weather,none,tbh,🙃
+420,ngl honestly wdym you already finished the whole assignment highkey 😊,0,genuine praise,school,highkey,ngl; wdym,none
+421,tbh honestly finally paid off my credit card balance this month actually ✨,0,genuine relief,money,none,tbh,✨
+422,highkey actually got eight hours last night and feel so much more focused lowkey ✨,0,genuine reaction,sleep,lowkey; highkey,none,✨
+423,"Lowkey he said he'd text first thing in the morning, so naturally it's midnight now deadass 😐",1,mock enthusiasm,dating,lowkey; deadass,none,😐
+424,fr honestly found a really useful recipe on my fyp earlier ❤️,0,genuine reaction,tiktok,none,fr,❤️
+425,"not gonna lie, this album has been on repeat all week, it's really solid 👍",0,genuine reaction,music,none,none,👍
+426,imo tbh this budgeting app made tracking expenses way less of a hassle ngl,0,genuine reaction,apps,none,imo; tbh; ngl,none
+427,"ik lowkey perfect weather for a picnic today, actually not a cloud in sight tbh 🔥",0,genuine reaction,weather,lowkey,ik; tbh,🔥
+428,"istg sure, a pop quiz on the one day i actually skipped the reading, perfect timing highkey rough",1,rhetorical sarcasm,school,highkey,istg,none
+429,Story views from everyone except the one person i wanted to see it what a time to be alive 😐,1,meme-style sarcasm,instagram,none,none,😐
+430,"smh wow, forty five seconds of unskippable ads before a two minute video, love that lowkey unhinged 🙏",1,meme-style sarcasm,youtube,lowkey; unhinged,smh,🙏
+431,ik honestly my mentor at the internship has been super helpful all summer ngl it's fire,0,genuine reaction,internships,none,ik; ngl,none
+432,"not gonna lie, reviewed the right chapters and the exam felt manageable genuinely ✨",0,genuine relief,exams,none,none,✨
+433,lowkey my friend's photos from the trip turned out amazing no cap 😂,0,genuine reaction,instagram,lowkey; no cap,none,😂
+434,tbh lowkey the sequel actually respected everything the original set up for real 😊,0,genuine reaction,movies,lowkey,tbh,none
+435,"wow five dollars for a full meal, what a deal genuinely 😊",0,genuine reaction,food,none,none,none
+436,fr highkey the show's finale wrapped up every storyline really satisfyingly lowkey,0,genuine reaction,streaming,lowkey; highkey,fr,none
+437,"Tbh eight hours of sleep before the final, feeling actually refreshed",0,genuine reaction,sleep,none,tbh,none
+438,"Sure, cool, my show got cancelled after one season, love that for me truly",1,deadpan sarcasm,streaming,none,none,none
+439,the algorithm really said here's a video you watched six times already lowkey unhinged 😭,1,gen-z ironic humor,tiktok,lowkey; unhinged,none,😭
+440,"ordered a burger, got a picture of a burger instead apparently ngl mid 😐",1,exaggeration,food,mid,ngl,😐
+441,"fr amazing, bus arrived four minutes early, right as i turned the corner two minutes late so worth it 💀",1,situational sarcasm,public transport,none,fr,💀
+442,tbh our team actually pulled off a comeback in the last quarter genuinely,0,genuine reaction,sports,none,tbh,none
+443,ngl this app update actually made everything easier to find,0,genuine reaction,apps,none,ngl,none
+444,"cool, posted once and the algorithm buried it, but the ad reached everyone instantly so mid",1,internet-culture sarcasm,social media,mid,none,none
+445,ik highkey found a really useful recipe on my fyp earlier no cap,0,genuine reaction,tiktok,highkey; no cap,ik,none
+446,"wow, posted once and the algorithm buried it, but the ad reached everyone instantly so worth it",1,internet-culture sarcasm,social media,none,none,none
+447,imo lowkey actually finished all my homework before dinner for once and it feels great honestly ✨,0,genuine praise,school,lowkey,imo,✨
+448,ngl tbh he actually texted first thing in the morning like he said lowkey 😂,0,genuine excitement,dating,lowkey,tbh; ngl,😂
+449,imo honestly thanks for actually giving me a heads up about the plans tbh,0,genuine reaction,family,none,imo; tbh,none
+450,"smh yeah, app crashes every single time i try to actually use the main feature 🫠",1,technology sarcasm,apps,none,smh,🫠
+451,"Not gonna lie, perfect weather for a picnic today, actually not a cloud in sight for real 🔥",0,genuine reaction,weather,none,none,🔥
+452,Package actually arrived exactly when the tracker said it would lowkey,0,genuine reaction,online shopping,lowkey,none,none
+453,tbh lowkey team actually hit the quarterly goal a week early actually 👍,0,genuine praise,work,lowkey,tbh,👍
+454,fr lowkey yeah starting the essay at midnight the night it's due always works out great 🙏,1,self-deprecating sarcasm,procrastination,lowkey,fr,🙏
+455,"ngl cool, matched with four afk teammates, love ranked mode highkey rough 💀",1,deadpan sarcasm,gaming,highkey,ngl; afk,💀
+456,"not gonna lie, great, they finally restocked my size right before the sale ended ngl it's fire 😊",0,genuine satisfaction,shopping,none,ngl,none
+457,"tbh oh great, love waiting two hours for a text back",1,opposite-polarity sarcasm,relationships,none,tbh,none
+458,"fr amazing, nothing like sitting in traffic for an hour to go two miles literally 😐",1,situational sarcasm,traffic,none,fr,😐
+459,budgeting is easy when rent goes up right after you get a raise so mid 💀,1,situational sarcasm,money,mid,none,💀
+460,"ngl not gonna lie, love how the algorithm actually found me content i'm into 👍",0,genuine reaction,social media,none,ngl,👍
+461,ngl honestly love that they actually solved my issue in five minutes ngl it's fire,0,genuine praise,customer service,none,ngl,none
+462,"Not gonna lie, fr bro that was the best game we've played all season highkey",0,genuine excitement,gaming,bro; highkey,fr,none
+463,"ngl yeah, the servers crash right as i'm one kill from a win, classic a real treat 😭",1,deadpan sarcasm,gaming,none,ngl,😭
+464,"ik honestly great, the exam actually matched the study guide this time 😊",0,genuine relief,exams,none,ik,none
+465,"not gonna lie, started the assignment early and it made the whole week less stressful for real 😊",0,genuine reaction,procrastination,none,none,none
+466,fr budgeting is easy when rent goes up right after you get a raise 💀,1,situational sarcasm,money,none,fr,💀
+467,lowkey professor extended the deadline and it genuinely helped tbh 🔥,0,genuine reaction,college,lowkey,tbh,🔥
+468,"istg amazing, the servers crash right as i'm one kill from a win, classic ngl mid",1,deadpan sarcasm,gaming,mid,ngl; istg,none
+469,actually got to the gym before work today and feel great no cap 🔥,0,genuine reaction,daily life,no cap,none,🔥
+470,ngl found exactly what i needed on the first try today highkey,0,genuine satisfaction,shopping,highkey,ngl,none
+471,"amazing, three hour runtime and the plot fits in a tweet, efficient",1,opposite-polarity sarcasm,movies,none,none,none
+472,"sure, forty five seconds of unskippable ads before a two minute video, love that literally",1,meme-style sarcasm,youtube,none,none,none
+473,ngl this update is actually really good genuinely ❤️,0,genuine reaction,technology,none,ngl,❤️
+474,nothing like an empty highway on a sunday morning no cap,0,genuine reaction,traffic,no cap,none,none
+475,"ngl sure, bro really cooked with that presentation truly",1,ironic praise,college,bro; cooked,ngl,none
+476,fr the fyp actually served me something new and genuinely funny highkey 😊,0,genuine reaction,tiktok,highkey,fr,none
+477,"tbh forecast was right for once, perfect weather for the hike deadass ✨",0,genuine reaction,weather,deadass,tbh,✨
+478,"not gonna lie, he actually texted first thing in the morning like he said ngl it's fire 😂",0,genuine excitement,dating,none,ngl,😂
+479,"cool, oh sure, tell me about the plans the day after they happened truly",1,contextual sarcasm,family,none,none,none
+480,ngl wow the ai gave me a perfectly confident wrong answer again truly,1,technology sarcasm,ai,none,ngl,none
+481,"smh asked the ai for a summary and it just made up three facts, very reliable truly",1,technology sarcasm,ai,facts,smh,none
+482,"ngl not gonna lie, love that they actually solved my issue in five minutes no cap 👍",0,genuine praise,customer service,no cap,ngl,👍
+483,"smh lowkey left on read for two days then got a heart reaction, so meaningful highkey rough",1,opposite-polarity sarcasm,relationships,lowkey; highkey,smh,none
+484,"tbh five hours of sleep before a final, feeling so refreshed love that for me 🙃",1,understatement,sleep,none,tbh,🙃
+485,tbh lowkey story views from everyone except the one person i wanted to see it,1,meme-style sarcasm,instagram,lowkey,tbh,none
+486,"cool, great, the exam covers everything except what we actually studied literally 💀",1,rhetorical sarcasm,exams,none,none,💀
+487,highkey got an offer from the company i really wanted to work for,0,genuine reaction,jobs,highkey,none,none
+488,"Great pass right into the other team's hands, incredible strategy lowkey unhinged 😐",1,deadpan sarcasm,sports,lowkey; unhinged,none,😐
+489,highkey that movie's ending actually surprised me in a good way genuinely 😂,0,genuine reaction,movies,highkey,none,😂
+490,fr actually got eight hours last night and feel so much more focused 👍,0,genuine reaction,sleep,none,fr,👍
+491,"ngl he said he'd text first thing in the morning, so naturally it's midnight now love that for me",1,mock enthusiasm,dating,none,ngl,none
+492,fr tbh switched browsers and everything actually loads way faster now actually,0,genuine reaction,technology,none,tbh; fr,none
+493,tbh love when my phone dies at eight percent for no reason what a time to be alive 😐,1,technology sarcasm,smartphones,none,tbh,😐
+494,my parents surprised me with a visit this weekend and it was really nice lowkey 😂,0,genuine reaction,family,lowkey,none,😂
+495,"ik not gonna lie, found a really useful recipe on my fyp earlier",0,genuine reaction,tiktok,none,ik,none
+496,"fr not gonna lie, first date went really well, we already have plans for next week ❤️",0,genuine excitement,dating,none,fr,❤️
+497,"fr lowkey this app update moved every button i use daily, so convenient honestly",1,technology sarcasm,apps,lowkey,fr,none
+498,"tbh not gonna lie, got an offer from the company i really wanted to work for actually",0,genuine reaction,jobs,none,tbh,none
+499,"wow, asked the ai for a summary and it just made up three facts, very reliable love that for me 💀",1,technology sarcasm,ai,facts,none,💀
+500,"fr sure, bus arrived four minutes early, right as i turned the corner two minutes late deadass 🙃",1,situational sarcasm,public transport,deadass,fr,🙃
+501,"ngl cool, forty five seconds of unskippable ads before a two minute video, love that what a time to be alive 😐",1,meme-style sarcasm,youtube,none,ngl,😐
+502,"Yeah, wdym the deadline was yesterday a real treat",1,rhetorical sarcasm,school,none,wdym,none
+503,ngl my friend's photos from the trip turned out amazing deadass 😂,0,genuine reaction,instagram,deadass,ngl,😂
+504,"istg ordered a burger, got a picture of a burger instead apparently love that for me 💀",1,exaggeration,food,none,istg,💀
+505,"wow, group chat goes silent the second someone actually needs help with the assignment truly 🫠",1,ironic praise,college,none,none,🫠
+506,"smh wow, omg tysm for replying after three days highkey rough",1,mock enthusiasm,friends,highkey,omg; smh,none
+507,fr that meme format is still making me laugh every time i see it lowkey,0,genuine reaction,internet culture,lowkey,fr,none
+508,"istg another remake of a remake, truly a golden age of originality",1,gen-z ironic humor,internet culture,none,istg,none
+509,lowkey my study group actually stayed focused the whole session today actually 👍,0,genuine reaction,college,lowkey,none,👍
+510,"ngl not gonna lie, started the assignment early and it made the whole week less stressful ngl it's fire",0,genuine reaction,procrastination,none,ngl,none
+511,"istg cool, great, the exam covers everything except what we actually studied honestly",1,rhetorical sarcasm,exams,none,istg,none
+512,"sure, rent went up again, guess i'll just stop eating honestly 🙏",1,situational sarcasm,money,none,none,🙏
+513,highkey our squad actually synced up and won three matches in a row honestly 😊,0,genuine excitement,gaming,highkey,none,none
+514,ik the whole group actually pulled their weight on this one for once no cap 😊,0,genuine reaction,group projects,no cap,ik,none
+515,ik lowkey our team actually pulled off a comeback in the last quarter ngl,0,genuine reaction,sports,lowkey,ik; ngl,none
+516,"imo ngl great, they finally restocked my size right before the sale ended",0,genuine satisfaction,shopping,none,imo; ngl,none
+517,"ngl wow, spent three hours debugging just to find a missing semicolon, genius work by me ngl mid 🙃",1,opposite-polarity sarcasm,technology,mid,ngl,🙃
+518,lowkey story views from everyone except the one person i wanted to see it truly 🙏,1,meme-style sarcasm,instagram,lowkey,none,🙏
+519,"istg wow, cancelled after one perfect season, love the timing truly 🫠",1,opposite-polarity sarcasm,tv,none,istg,🫠
+520,"fr three hour runtime and the plot fits in a tweet, efficient ngl mid",1,opposite-polarity sarcasm,movies,mid,ngl; fr,none
+521,"flight delayed three hours and then boarded early, make it make sense a real treat 😐",1,situational sarcasm,travel,none,none,😐
+522,"Cool, cancelled after one perfect season, love the timing honestly 😐",1,opposite-polarity sarcasm,tv,none,none,😐
+523,Ngl the new laptop handles everything i throw at it without lagging ngl it's fire 🔥,0,genuine reaction,technology,none,ngl,🔥
+524,fr the algorithm really said here's a video you watched six times already couldn't be happier 💀,1,gen-z ironic humor,tiktok,none,fr,💀
+525,"cool, stayed up till four am for no reason, definitely going to regret that at eight am what a time to be alive 🙃",1,understatement,sleep,none,none,🙃
+526,"Amazing, great pass right into the other team's hands, incredible strategy lowkey unhinged 🙃",1,deadpan sarcasm,sports,lowkey; unhinged,none,🙃
+527,"tbh wow, soft launched a relationship that lasted exactly one week, worth the effort highkey rough",1,mock enthusiasm,dating,highkey,tbh,none
+528,istg lowkey love waiting two hours for a text back,1,opposite-polarity sarcasm,relationships,lowkey,istg,none
+529,"sure, ordered a burger, got a picture of a burger instead apparently what a time to be alive 🙏",1,exaggeration,food,none,none,🙏
+530,imo ngl love that they texted back in like two minutes tbh 👍,0,genuine reflection,relationships,none,imo; tbh; ngl,👍
+531,"honestly forecast was right for once, perfect weather for the hike deadass 😂",0,genuine reaction,weather,deadass,none,😂
+532,"lowkey bus arrived four minutes early, right as i turned the corner two minutes late a real treat",1,situational sarcasm,public transport,lowkey,none,none
+533,"tbh wow, left an hour early and still somehow late, love this commute highkey rough 🙏",1,situational sarcasm,traffic,highkey,tbh,🙏
+534,"ngl not gonna lie, found exactly what i needed on the first try today for real 👍",0,genuine satisfaction,shopping,none,ngl,👍
+535,"ngl yeah, nothing says teamwork like doing the entire project yourself while everyone else sends a thumbs up two minutes before submission incredible",1,situational sarcasm,group projects,none,ngl,none
+536,ngl switched browsers and everything actually loads way faster now 😊,0,genuine reaction,technology,none,ngl,none
+537,"tbh sure, love being on hold for three hours just to get hung up on literally 🙃",1,ironic complaint,customer service,none,tbh,🙃
+538,"istg sure, great, the one size that fits me is sold out everywhere, exactly what i needed love that for me 😐",1,situational sarcasm,shopping,none,istg,😐
+539,"ngl honestly wow five dollars for a full meal, what a deal highkey 👍",0,genuine reaction,food,highkey,ngl,👍
+540,"tbh amazing, oh sure, tell me about the plans the day after they happened truly 🫠",1,contextual sarcasm,family,none,tbh,🫠
+541,"Yeah, the servers crash right as i'm one kill from a win, classic so worth it 🫠",1,deadpan sarcasm,gaming,none,none,🫠
+542,"tbh yeah, fifteen minute video, three minutes of actual content, riveting honestly 🫠",1,meme-style sarcasm,youtube,none,tbh,🫠
+543,Ngl omg tysm for helping me move all weekend no cap 👍,0,genuine reaction,friends,no cap,ngl; omg,👍
+544,"Highkey wow five dollars for a full meal, what a deal ngl it's fire ❤️",0,genuine reaction,food,highkey,ngl,❤️
+545,"smh another remake of a remake, truly a golden age of originality honestly 😐",1,gen-z ironic humor,internet culture,none,smh,😐
+546,"Cool, referee missed the foul that happened directly in front of him, great call ngl mid",1,deadpan sarcasm,sports,mid,ngl,none
+547,"ngl oh great, love getting assigned extra tasks the day before vacation so mid 🙃",1,exaggeration,work,mid,ngl,🙃
+548,omg tysm for replying after three days lowkey unhinged,1,mock enthusiasm,friends,lowkey; unhinged,omg,none
+549,"imo not gonna lie, got the whole week's tasks done by wednesday, feeling productive lowkey",0,genuine praise,work,lowkey,imo,none
+550,tbh honestly love that my manager actually gave me the day off ngl,0,genuine praise,work,none,tbh; ngl,none
+551,ik highkey that caption actually made me laugh out loud genuinely ❤️,0,genuine reaction,instagram,highkey,ik,❤️
+552,"not gonna lie, actually got eight hours last night and feel so much more focused 😂",0,genuine reaction,sleep,none,none,😂
+553,"Lowkey cool, they just renewed my show for another three seasons for real 😊",0,genuine reaction,streaming,lowkey,none,none
+554,"smh wow, studied the wrong chapter for six hours, feeling so prepared a real treat 🙃",1,rhetorical sarcasm,exams,none,smh,🙃
+555,fr that was genuinely a genius move honestly for real ❤️,0,genuine reaction,technology,none,fr,❤️
+556,Bro really cooked with that presentation so mid 😐,1,ironic praise,college,bro; cooked; mid,none,😐
+557,"eight hours of sleep before the final, feeling actually refreshed ngl",0,genuine reaction,sleep,none,ngl,none
+558,"Sure, forecast said sunny, i'm currently getting rained on, thanks couldn't be happier 🙃",1,situational sarcasm,weather,none,none,🙃
+559,Started the assignment early and it made the whole week less stressful,0,genuine reaction,procrastination,none,none,none
+560,"train doors closed right as i reached them, perfect timing as always honestly",1,situational sarcasm,public transport,none,none,none
+561,"tbh wow, wrote the entire essay the morning it's due and somehow it's worse than the draft highkey rough 😐",1,self-deprecating sarcasm,procrastination,highkey,tbh,😐
+562,"not gonna lie, cool, they just renewed my show for another three seasons deadass 😂",0,genuine reaction,streaming,deadass,none,😂
+563,"ngl amazing, wow the ai gave me a perfectly confident wrong answer again ngl mid 😭",1,technology sarcasm,ai,mid,ngl,😭
+564,"lowkey great pass right into the other team's hands, incredible strategy truly",1,deadpan sarcasm,sports,lowkey,none,none
+565,"ngl yeah, posted once and the algorithm buried it, but the ad reached everyone instantly",1,internet-culture sarcasm,social media,none,ngl,none
+566,"fr three hour runtime and the plot fits in a tweet, efficient so mid",1,opposite-polarity sarcasm,movies,mid,fr,none
+567,"not gonna lie, our squad actually synced up and won three matches in a row 😊",0,genuine excitement,gaming,none,none,none
+568,"fr this album has been on repeat all week, it's really solid 🔥",0,genuine reaction,music,none,fr,🔥
+569,"Yeah, left on read for two days then got a heart reaction, so meaningful highkey rough 😭",1,opposite-polarity sarcasm,relationships,highkey,none,😭
+570,"Cool, tracking says out for delivery for the fifth day straight, very out incredible",1,situational sarcasm,online shopping,none,none,none
+571,bus actually showed up exactly on schedule for once lowkey,0,genuine reaction,public transport,lowkey,none,none
+572,"fr wow, transferred to four different departments just to be told to call back tomorrow 🙃",1,ironic complaint,customer service,none,fr,🙃
+573,lowkey transferred to four different departments just to be told to call back tomorrow love that for me 🫠,1,ironic complaint,customer service,lowkey,none,🫠
+574,fr love how the algorithm actually found me content i'm into honestly 😊,0,genuine reaction,social media,none,fr,none
+575,smh lowkey love waiting two hours for a text back so worth it 🫠,1,opposite-polarity sarcasm,relationships,lowkey,smh,🫠
+576,"istg oh great, matched on the app just to get ghosted after one message, thrilling highkey rough 😭",1,mock enthusiasm,dating,highkey,istg,😭
+577,"istg amazing, stayed up till four am for no reason, definitely going to regret that at eight am a real treat",1,understatement,sleep,none,istg,none
+578,"sure, left on read for two days then got a heart reaction, so meaningful so worth it 😭",1,opposite-polarity sarcasm,relationships,none,none,😭
+579,"istg wow, ngl this update is amazing, it deleted all my files highkey rough 💀",1,opposite-polarity sarcasm,technology,highkey,ngl; istg,💀
+580,"Cool, omg tysm for replying after three days lowkey unhinged 😐",1,mock enthusiasm,friends,lowkey; unhinged,omg,😐
+581,highkey love that they texted back in like two minutes ngl it's fire ❤️,0,genuine reflection,relationships,highkey,ngl,❤️
+582,"cool, they just renewed my show for another three seasons ngl 😂",0,genuine reaction,streaming,none,ngl,😂
+583,"order showed up a day early, wasn't expecting that 🔥",0,genuine reaction,online shopping,none,none,🔥
+584,"smh yeah, budgeting is easy when rent goes up right after you get a raise truly 🫠",1,situational sarcasm,money,none,smh,🫠
+585,"istg amazing, rent went up again, guess i'll just stop eating highkey rough",1,situational sarcasm,money,highkey,istg,none
+586,ngl that new ramen place downtown was genuinely so good actually 🔥,0,genuine reaction,food,none,ngl,🔥
+587,"smh oh great, this app update moved every button i use daily, so convenient love that for me",1,technology sarcasm,apps,none,smh,none
+588,"tbh oh great, can't wait for the sequel to ruin everything the original set up incredible",1,opposite-polarity sarcasm,movies,none,tbh,none
+589,"Asked the ai for a summary and it just made up three facts, very reliable highkey rough",1,technology sarcasm,ai,highkey; facts,none,none
+590,"istg yeah, bro really cooked with that presentation literally 😭",1,ironic praise,college,bro; cooked,istg,😭
+591,"ngl sure, spilled coffee on the shirt i just ironed, love mornings so worth it 😭",1,situational sarcasm,daily life,none,ngl,😭
+592,"amazing, matched on the app just to get ghosted after one message, thrilling so worth it",1,mock enthusiasm,dating,none,none,none
+593,"Sure, story views from everyone except the one person i wanted to see it highkey rough",1,meme-style sarcasm,instagram,highkey,none,none
+594,"wow, group chat goes silent the second someone actually needs help with the assignment 🙏",1,ironic praise,college,none,none,🙏
+595,ik highkey professor extended the deadline and it genuinely helped actually 🔥,0,genuine reaction,college,highkey,ik,🔥
+596,ik the ai actually caught the bug in like two seconds actually 😊,0,genuine reaction,ai,none,ik,none
+597,lowkey budgeting is easy when rent goes up right after you get a raise,1,situational sarcasm,money,lowkey,none,none
+598,"ngl sure, queued for ten minutes just to get put against a full premade squad, fair matchmaking ngl mid 😭",1,deadpan sarcasm,gaming,mid,ngl,😭
+599,"fr wow, cancelled after one perfect season, love the timing so mid 🫠",1,opposite-polarity sarcasm,tv,mid,fr,🫠
+600,honestly my parents surprised me with a visit this weekend and it was really nice no cap ❤️,0,genuine reaction,family,no cap,none,❤️
+601,"not gonna lie, great pass, that assist was actually incredible tbh",0,genuine reaction,sports,none,tbh,none
+602,"smh oh sure, tell me about the plans the day after they happened honestly 😐",1,contextual sarcasm,family,none,smh,😐
+603,"oh great, wow five dollars for three fries, what a deal 🫠",1,exaggeration,food,none,none,🫠
+604,ngl tbh professor extended the deadline and it genuinely helped honestly,0,genuine reaction,college,none,tbh; ngl,none
+605,tbh ngl this internship actually pays fairly and the hours are reasonable genuinely,0,genuine reaction,internships,none,tbh; ngl,none
+606,"yeah, app crashes every single time i try to actually use the main feature a real treat",1,technology sarcasm,apps,none,none,none
+607,found a really useful recipe on my fyp earlier genuinely 👍,0,genuine reaction,tiktok,none,none,👍
+608,"wow, forty five seconds of unskippable ads before a two minute video, love that 😐",1,meme-style sarcasm,youtube,none,none,😐
+609,"Wow, story views from everyone except the one person i wanted to see it love that for me",1,meme-style sarcasm,instagram,none,none,none
+610,Highkey we actually had a really honest conversation last night 😊,0,genuine reflection,relationships,highkey,none,none
+611,ik love that they actually solved my issue in five minutes deadass,0,genuine praise,customer service,deadass,ik,none
+612,"tbh amazing, six rounds of interviews for a job that pays entry level, worth it ngl mid 💀",1,workplace sarcasm,jobs,mid,tbh; ngl,💀
+613,ngl the new season handled the characters really well ngl it's fire 👍,0,genuine reaction,tv,none,ngl,👍
+614,lowkey bro really cooked with that presentation so mid 💀,1,ironic praise,college,bro; lowkey; cooked; mid,none,💀
+615,ik honestly the whole group actually pulled their weight on this one for once ngl ✨,0,genuine reaction,group projects,none,ik; ngl,✨
+616,"fr amazing, team down by twenty with two minutes left, definitely still winnable couldn't be happier",1,deadpan sarcasm,sports,none,fr,none
+617,fr lowkey my manager actually listened to my feedback in the meeting today highkey 👍,0,genuine praise,work,lowkey; highkey,fr,👍
+618,tbh my friend's photos from the trip turned out amazing ngl ❤️,0,genuine reaction,instagram,none,tbh; ngl,❤️
+619,"ngl oh great, budgeting is easy when rent goes up right after you get a raise literally",1,situational sarcasm,money,none,ngl,none
+620,"Not gonna lie, finally paid off my credit card balance this month ngl 👍",0,genuine relief,money,none,ngl,👍
+621,fr the new bus route actually cuts my commute in half tbh 👍,0,genuine reaction,public transport,none,tbh; fr,👍
+622,ik tbh this internship actually pays fairly and the hours are reasonable lowkey ✨,0,genuine reaction,internships,lowkey,ik; tbh,✨
+623,"Sure, the one song i actually like gets cut off by an ad every time a real treat 😭",1,deadpan sarcasm,music,none,none,😭
+624,honestly found exactly what i needed on the first try today ngl 😊,0,genuine satisfaction,shopping,none,ngl,none
+625,"Another reply-all email chain, exactly what my inbox needed today lowkey unhinged 😐",1,exaggeration,work,lowkey; unhinged,none,😐
+626,"ngl great pass right into the other team's hands, incredible strategy 😭",1,deadpan sarcasm,sports,none,ngl,😭
+627,"tbh yeah, soft launched a relationship that lasted exactly one week, worth the effort a real treat 🙃",1,mock enthusiasm,dating,none,tbh,🙃
+628,"smh oh great, spent four hours on the app and learned absolutely nothing useful, productive day so mid 🫠",1,gen-z ironic humor,tiktok,mid,smh,🫠
+629,"istg sure, left an hour early and still somehow late, love this commute 🫠",1,situational sarcasm,traffic,none,istg,🫠
+630,fr bro that was the best game we've played all season,0,genuine excitement,gaming,bro,fr,none
+631,"istg lowkey studied the wrong chapter for six hours, feeling so prepared",1,rhetorical sarcasm,exams,lowkey,istg,none
+632,"fr oh great, love when my phone dies at eight percent for no reason a real treat 🙏",1,technology sarcasm,smartphones,none,fr,🙏
+633,"ngl amazing, phone update bricked half my apps, thanks for the upgrade truly 🫠",1,technology sarcasm,smartphones,none,ngl,🫠
+634,"oh great, phone update bricked half my apps, thanks for the upgrade truly",1,technology sarcasm,smartphones,none,none,none
+635,"yeah, what a genius move, deleting the whole project folder a real treat 🫠",1,opposite-polarity sarcasm,technology,none,none,🫠
+636,ngl wow the ai gave me a perfectly confident wrong answer again what a time to be alive 😭,1,technology sarcasm,ai,none,ngl,😭
+637,"fr yeah, waited forty minutes for cold fries, incredible service so worth it",1,exaggeration,food,none,fr,none
+638,"ngl yeah, group chat goes silent the second someone actually needs help with the assignment ngl mid",1,ironic praise,college,mid,ngl,none
+639,ngl the new season handled the characters really well lowkey 😊,0,genuine reaction,tv,lowkey,ngl,none
+640,"fr the professor moved the exam up a week, so thoughtful of them a real treat",1,rhetorical sarcasm,school,none,fr,none
+641,ngl honestly that movie's ending actually surprised me in a good way ❤️,0,genuine reaction,movies,none,ngl,❤️
+642,fr lowkey the sequel actually respected everything the original set up actually 😊,0,genuine reaction,movies,lowkey,fr,none
+643,lowkey can't wait for the sequel to ruin everything the original set up 💀,1,opposite-polarity sarcasm,movies,lowkey,none,💀
+644,"amazing, forty five seconds of unskippable ads before a two minute video, love that incredible",1,meme-style sarcasm,youtube,none,none,none
+645,"ngl not gonna lie, that was honestly one of the best games i've watched this season ngl it's fire 😊",0,genuine reaction,sports,none,ngl,none
+646,"ngl wow, love getting assigned extra tasks the day before vacation ngl mid 😐",1,exaggeration,work,mid,ngl,😐
+647,"not gonna lie, great pass, that assist was actually incredible",0,genuine reaction,sports,none,none,none
+648,"istg package says delivered, mysteriously nowhere on my porch, love that a real treat 🙃",1,situational sarcasm,online shopping,none,istg,🙃
+649,ik highkey thanks for actually giving me a heads up about the plans lowkey 😊,0,genuine reaction,family,lowkey; highkey,ik,none
+650,ik honestly the sequel actually respected everything the original set up lowkey ❤️,0,genuine reaction,movies,lowkey,ik,❤️
+651,"istg amazing, spent four hours on the app and learned absolutely nothing useful, productive day literally 💀",1,gen-z ironic humor,tiktok,none,istg,💀
+652,ik my manager actually listened to my feedback in the meeting today for real ✨,0,genuine praise,work,none,ik,✨
+653,"lowkey great, they finally restocked my size right before the sale ended 😂",0,genuine satisfaction,shopping,lowkey,none,😂
+654,omg tysm for helping me move all weekend no cap,0,genuine reaction,friends,no cap,omg,none
+655,"wow, fifteen minute video, three minutes of actual content, riveting literally 💀",1,meme-style sarcasm,youtube,none,none,💀
+656,fr that channel's new video essay was genuinely well researched no cap,0,genuine reaction,youtube,no cap,fr,none
+657,"fr cool, matched with four afk teammates, love ranked mode highkey rough",1,deadpan sarcasm,gaming,highkey,fr; afk,none
+658,ngl ngl this update is actually really good for real 😊,0,genuine reaction,technology,none,ngl,none
+659,"tbh oh great, love being on hold for three hours just to get hung up on highkey rough",1,ironic complaint,customer service,highkey,tbh,none
+660,fr bus actually showed up exactly on schedule for once 👍,0,genuine reaction,public transport,none,fr,👍
+661,"fr not gonna lie, starting the essay early actually worked out great this time lowkey 😂",0,genuine reaction,procrastination,lowkey,fr,😂
+662,ik honestly the new bus route actually cuts my commute in half ngl it's fire,0,genuine reaction,public transport,none,ik; ngl,none
+663,imo ngl love that they texted back in like two minutes deadass ❤️,0,genuine reflection,relationships,deadass,imo; ngl,❤️
+664,"tbh oh great, asked for feedback and got a thumbs up emoji three weeks later literally",1,exaggeration,work,none,tbh,none
+665,Ngl that was genuinely a genius move honestly ngl it's fire 👍,0,genuine reaction,technology,none,ngl,👍
+666,ik lowkey the new laptop handles everything i throw at it without lagging tbh,0,genuine reaction,technology,lowkey,ik; tbh,none
+667,"fr five hours of sleep before a final, feeling so refreshed a real treat",1,understatement,sleep,none,fr,none
+668,imo highkey the new teacher actually explains things really clearly ❤️,0,genuine praise,school,highkey,imo,❤️
+669,honestly ngl this update is actually really good for real,0,genuine reaction,technology,none,ngl,none
+670,"Amazing, queued for ten minutes just to get put against a full premade squad, fair matchmaking highkey rough 😭",1,deadpan sarcasm,gaming,highkey,none,😭
+671,imo highkey that was honestly one of the best games i've watched this season honestly ❤️,0,genuine reaction,sports,highkey,imo,❤️
+672,package actually arrived exactly when the tracker said it would deadass ✨,0,genuine reaction,online shopping,deadass,none,✨
+673,"ik not gonna lie, that new ramen place downtown was genuinely so good ✨",0,genuine reaction,food,none,ik,✨
+674,ik budgeting got a lot easier after that raise actually kicked in deadass 👍,0,genuine relief,money,deadass,ik,👍
+675,"fr wow, app crashes every single time i try to actually use the main feature ngl mid 😐",1,technology sarcasm,apps,mid,ngl; fr,😐
+676,ngl lowkey the algorithm really said here's a video you watched six times already love that for me 🫠,1,gen-z ironic humor,tiktok,lowkey,ngl,🫠
+677,"yeah, perfect day for a picnic, said no one during this monsoon honestly 😐",1,situational sarcasm,weather,none,none,😐
+678,"smh wow, team down by twenty with two minutes left, definitely still winnable couldn't be happier 💀",1,deadpan sarcasm,sports,none,smh,💀
+679,highkey our team actually pulled off a comeback in the last quarter genuinely ✨,0,genuine reaction,sports,highkey,none,✨
+680,imo ngl my parents surprised me with a visit this weekend and it was really nice honestly 😂,0,genuine reaction,family,none,imo; ngl,😂
+681,imo honestly that channel's new video essay was genuinely well researched no cap 🔥,0,genuine reaction,youtube,no cap,imo,🔥
+682,imo honestly the ai actually caught the bug in like two seconds ngl it's fire ✨,0,genuine reaction,ai,none,imo; ngl,✨
+683,reviewed the right chapters and the exam felt manageable 👍,0,genuine relief,exams,none,none,👍
+684,"tbh amazing, cool, my show got cancelled after one season, love that for me what a time to be alive 🙃",1,deadpan sarcasm,streaming,none,tbh,🙃
+685,"highkey great, they finally restocked my size right before the sale ended",0,genuine satisfaction,shopping,highkey,none,none
+686,ik tbh that meme format is still making me laugh every time i see it deadass 👍,0,genuine reaction,internet culture,deadass,ik; tbh,👍
+687,"ngl train doors closed right as i reached them, perfect timing as always highkey rough 🙏",1,situational sarcasm,public transport,highkey,ngl,🙏
+688,imo ngl wdym you already finished the whole assignment for real,0,genuine praise,school,none,imo; ngl; wdym,none
+689,"ngl yeah, the algorithm really said here's a video you watched six times already highkey rough 😐",1,gen-z ironic humor,tiktok,highkey,ngl,😐
+690,"tbh perfect weather for a picnic today, actually not a cloud in sight ngl it's fire 😂",0,genuine reaction,weather,none,tbh; ngl,😂
+691,"fr lowkey great, the exam covers everything except what we actually studied so worth it 🙃",1,rhetorical sarcasm,exams,lowkey,fr,🙃
+692,"fr yeah, waited forty minutes for cold fries, incredible service love that for me 🙏",1,exaggeration,food,none,fr,🙏
+693,"tbh yeah, fr bro, nothing says teamwork like carrying the whole match solo",1,deadpan sarcasm,gaming,bro,tbh; fr,none
+694,ngl package actually arrived exactly when the tracker said it would highkey,0,genuine reaction,online shopping,highkey,ngl,none
+695,"ik highkey cool, they just renewed my show for another three seasons no cap",0,genuine reaction,streaming,highkey; no cap,ik,none
+696,the whole group actually showed up on time for once for real 🔥,0,genuine reaction,friends,none,none,🔥
+697,tbh lowkey love that my manager actually gave me the day off,0,genuine praise,work,lowkey,tbh,none
+698,tbh lowkey the ai tool actually caught a mistake in my code that i missed ngl it's fire ❤️,0,genuine reaction,ai,lowkey,tbh; ngl,❤️
+699,ngl honestly the video actually got to the point in the first thirty seconds deadass ❤️,0,genuine reaction,youtube,deadass,ngl,❤️
+700,ngl bro actually cooked with that presentation for real 😊,0,genuine reaction,college,bro; cooked,ngl,none
+701,highkey battery life on this phone has honestly held up really well deadass,0,genuine reaction,smartphones,highkey; deadass,none,none
+702,"ngl drive to work only took twenty minutes today, no traffic at all 👍",0,genuine reaction,traffic,none,ngl,👍
+703,ngl the video actually got to the point in the first thirty seconds ngl it's fire ✨,0,genuine reaction,youtube,none,ngl,✨
+704,tbh honestly my mentor at the internship has been super helpful all summer deadass,0,genuine reaction,internships,deadass,tbh,none
+705,"Amazing, phone update bricked half my apps, thanks for the upgrade truly",1,technology sarcasm,smartphones,none,none,none
+706,istg alarm didn't go off on the one day i actually needed to wake up early literally 🙃,1,situational sarcasm,daily life,none,istg,🙃
+707,Lowkey the sequel actually respected everything the original set up 🔥,0,genuine reaction,movies,lowkey,none,🔥
+708,"smh cool, checkout added a convenience fee for the convenience of paying more",1,situational sarcasm,shopping,none,smh,none
+709,"eight hours of sleep before the final, feeling actually refreshed no cap",0,genuine reaction,sleep,no cap,none,none
+710,ngl love when my phone dies at eight percent for no reason deadass,1,technology sarcasm,smartphones,deadass,ngl,none
+711,lowkey the show's finale wrapped up every storyline really satisfyingly ngl it's fire ✨,0,genuine reaction,streaming,lowkey,ngl,✨
+712,fr got an offer from the company i really wanted to work for lowkey,0,genuine reaction,jobs,lowkey,fr,none
+713,"smh wow, can't wait for the sequel to ruin everything the original set up truly 🙏",1,opposite-polarity sarcasm,movies,none,smh,🙏
+714,"sure, six rounds of interviews for a job that pays entry level, worth it highkey rough 💀",1,workplace sarcasm,jobs,highkey,none,💀
+715,"istg amazing, app crashes every single time i try to actually use the main feature a real treat",1,technology sarcasm,apps,none,istg,none
+716,"great, the exam covers everything except what we actually studied couldn't be happier 😐",1,rhetorical sarcasm,exams,none,none,😐
+717,tbh nothing like an empty highway on a sunday morning ngl,0,genuine reaction,traffic,none,tbh; ngl,none
+718,"tbh support fixed my issue in under ten minutes, really impressed lowkey ❤️",0,genuine praise,customer service,lowkey,tbh,❤️
+719,"imo not gonna lie, battery life on this phone has honestly held up really well ❤️",0,genuine reaction,smartphones,none,imo,❤️
+720,"the professor moved the exam up a week, so thoughtful of them couldn't be happier 🫠",1,rhetorical sarcasm,school,none,none,🫠
+721,ngl highkey the new season handled the characters really well genuinely 👍,0,genuine reaction,tv,highkey,ngl,👍
+722,"ik support fixed my issue in under ten minutes, really impressed highkey 👍",0,genuine praise,customer service,highkey,ik,👍
+723,tbh ngl that movie's ending actually surprised me in a good way for real ❤️,0,genuine reaction,movies,none,tbh; ngl,❤️
+724,"Tbh drive to work only took twenty minutes today, no traffic at all highkey",0,genuine reaction,traffic,highkey,tbh,none
+725,ngl actually got eight hours last night and feel so much more focused genuinely 🔥,0,genuine reaction,sleep,none,ngl,🔥
+726,highkey the ai actually caught the bug in like two seconds,0,genuine reaction,ai,highkey,none,none
+727,highkey wdym you already finished the whole assignment deadass 😊,0,genuine praise,school,highkey; deadass,wdym,none
+728,"istg sure, perfect day for a picnic, said no one during this monsoon 😭",1,situational sarcasm,weather,none,istg,😭
+729,"ik highkey great, the exam actually matched the study guide this time deadass 👍",0,genuine relief,exams,highkey; deadass,ik,👍
+730,"amazing, unpaid internship with unpaid overtime, truly a dream opportunity couldn't be happier 😭",1,workplace sarcasm,internships,none,none,😭
+731,"fr fr bro, nothing says teamwork like carrying the whole match solo honestly 🫠",1,deadpan sarcasm,gaming,bro,fr,🫠
+732,"amazing, nothing says teamwork like doing the entire project yourself while everyone else sends a thumbs up two minutes before submission ngl mid 🫠",1,situational sarcasm,group projects,mid,ngl,🫠
+733,"fr ngl forecast was right for once, perfect weather for the hike tbh 😂",0,genuine reaction,weather,none,tbh; ngl; fr,😂
+734,honestly reviewed the right chapters and the exam felt manageable lowkey,0,genuine relief,exams,lowkey,none,none
+735,"tbh lowkey this app update moved every button i use daily, so convenient lowkey unhinged 😐",1,technology sarcasm,apps,lowkey; unhinged,tbh,😐
+736,love being on hold for three hours just to get hung up on so worth it 💀,1,ironic complaint,customer service,none,none,💀
+737,"Not gonna lie, bus actually showed up exactly on schedule for once tbh",0,genuine reaction,public transport,none,tbh,none
+738,"fr support fixed my issue in under ten minutes, really impressed no cap 😂",0,genuine praise,customer service,no cap,fr,😂
+739,"sure, cool, my show got cancelled after one season, love that for me incredible",1,deadpan sarcasm,streaming,none,none,none
+740,honestly bro actually cooked with that presentation no cap,0,genuine reaction,college,bro; no cap; cooked,none,none
+741,"istg yeah, the discourse this week is exactly as productive as last week's lowkey unhinged",1,gen-z ironic humor,internet culture,lowkey; unhinged,istg,none
+742,"istg oh great, fr bro, nothing says teamwork like carrying the whole match solo 🫠",1,deadpan sarcasm,gaming,bro,fr; istg,🫠
+743,"fr not gonna lie, my post actually reached people outside my usual followers today for real 👍",0,genuine reaction,social media,none,fr,👍
+744,"Cool, finally found the perfect jacket and of course it's out of stock in my size lowkey unhinged",1,situational sarcasm,shopping,lowkey; unhinged,none,none
+745,"oh great, finally found the perfect jacket and of course it's out of stock in my size couldn't be happier",1,situational sarcasm,shopping,none,none,none
+746,"lowkey great pass, that assist was actually incredible 👍",0,genuine reaction,sports,lowkey,none,👍
+747,imo my study group actually stayed focused the whole session today ngl,0,genuine reaction,college,none,imo; ngl,none
+748,"smh another reply-all email chain, exactly what my inbox needed today ngl mid",1,exaggeration,work,mid,ngl; smh,none
+749,ngl the ai actually caught the bug in like two seconds genuinely,0,genuine reaction,ai,none,ngl,none
+750,imo tbh finally paid off my credit card balance this month ngl ✨,0,genuine relief,money,none,imo; tbh; ngl,✨
+751,smh yeah starting the essay at midnight the night it's due always works out great so worth it 🙃,1,self-deprecating sarcasm,procrastination,none,smh,🙃
+752,Our flight actually left right on time this morning tbh ❤️,0,genuine reaction,travel,none,tbh,❤️
+753,"not gonna lie, first date went really well, we already have plans for next week deadass",0,genuine excitement,dating,deadass,none,none
+754,"ngl cool, left on read for two days then got a heart reaction, so meaningful literally 💀",1,opposite-polarity sarcasm,relationships,none,ngl,💀
+755,"fr a pop quiz on the one day i actually skipped the reading, perfect timing love that for me 🫠",1,rhetorical sarcasm,school,none,fr,🫠
+756,"Yeah, great, the one size that fits me is sold out everywhere, exactly what i needed lowkey unhinged",1,situational sarcasm,shopping,lowkey; unhinged,none,none
+757,ngl lowkey nothing like an empty highway on a sunday morning 🔥,0,genuine reaction,traffic,lowkey,ngl,🔥
+758,"not gonna lie, our flight actually left right on time this morning 👍",0,genuine reaction,travel,none,none,👍
+759,"imo not gonna lie, that new ramen place downtown was genuinely so good ngl it's fire 🔥",0,genuine reaction,food,none,imo; ngl,🔥
+760,lowkey love getting assigned extra tasks the day before vacation lowkey unhinged 🙏,1,exaggeration,work,lowkey; unhinged,none,🙏
+761,"fr not gonna lie, my mentor at the internship has been super helpful all summer deadass ✨",0,genuine reaction,internships,deadass,fr,✨
+762,honestly the new laptop handles everything i throw at it without lagging tbh 😂,0,genuine reaction,technology,none,tbh,😂
+763,fr my friend's photos from the trip turned out amazing genuinely 👍,0,genuine reaction,instagram,none,fr,👍
+764,ik bro actually cooked with that presentation actually 👍,0,genuine reaction,college,bro; cooked,ik,👍
+765,"wow, team down by twenty with two minutes left, definitely still winnable what a time to be alive 😭",1,deadpan sarcasm,sports,none,none,😭
+766,Lowkey omg tysm for replying after three days love that for me,1,mock enthusiasm,friends,lowkey,omg,none
+767,"smh sure, six rounds of interviews for a job that pays entry level, worth it incredible 🙏",1,workplace sarcasm,jobs,none,smh,🙏
+768,"smh sure, transferred to four different departments just to be told to call back tomorrow so worth it 🙃",1,ironic complaint,customer service,none,smh,🙃
+769,"sure, matched with four afk teammates, love ranked mode love that for me 😐",1,deadpan sarcasm,gaming,none,afk,😐
+770,Lowkey my study group actually stayed focused the whole session today ngl,0,genuine reaction,college,lowkey,ngl,none
+771,"fr wow, oh sure, tell me about the plans the day after they happened incredible",1,contextual sarcasm,family,none,fr,none
+772,found exactly what i needed on the first try today highkey ✨,0,genuine satisfaction,shopping,highkey,none,✨
+773,fr honestly the show's finale wrapped up every storyline really satisfyingly lowkey,0,genuine reaction,streaming,lowkey,fr,none
+774,ngl honestly that meme format is still making me laugh every time i see it ngl it's fire 🔥,0,genuine reaction,internet culture,none,ngl,🔥
+775,"tbh oh great, cool, my show got cancelled after one season, love that for me love that for me 😐",1,deadpan sarcasm,streaming,none,tbh,😐
+776,"lowkey five hours of sleep before a final, feeling so refreshed what a time to be alive 🙃",1,understatement,sleep,lowkey,none,🙃
+777,"Wow, planned this hangout for a month and half the group cancelled same day so worth it",1,mock enthusiasm,friends,none,none,none
+778,highkey the ai actually caught the bug in like two seconds lowkey 👍,0,genuine reaction,ai,lowkey; highkey,none,👍
+779,"tbh lowkey great, they finally restocked my size right before the sale ended ngl ❤️",0,genuine satisfaction,shopping,lowkey,tbh; ngl,❤️
+780,ngl tbh reviewed the right chapters and the exam felt manageable for real,0,genuine relief,exams,none,tbh; ngl,none
+781,"yeah, rent went up again, guess i'll just stop eating love that for me",1,situational sarcasm,money,none,none,none
+782,fr actually got eight hours last night and feel so much more focused honestly,0,genuine reaction,sleep,none,fr,none
+783,"smh amazing, the professor moved the exam up a week, so thoughtful of them a real treat 💀",1,rhetorical sarcasm,school,none,smh,💀
+784,"smh yeah, spilled coffee on the shirt i just ironed, love mornings ngl mid 🫠",1,situational sarcasm,daily life,mid,ngl; smh,🫠
+785,"istg wow five dollars for three fries, what a deal ngl mid",1,exaggeration,food,mid,ngl; istg,none
+786,"tbh not gonna lie, our team actually pulled off a comeback in the last quarter ngl 🔥",0,genuine reaction,sports,none,tbh; ngl,🔥
+787,ngl the whole group actually showed up on time for once tbh 👍,0,genuine reaction,friends,none,tbh; ngl,👍
+788,"yeah, matched on the app just to get ghosted after one message, thrilling truly 😭",1,mock enthusiasm,dating,none,none,😭
+789,"yeah, package says delivered, mysteriously nowhere on my porch, love that incredible",1,situational sarcasm,online shopping,none,none,none
+790,tbh ngl wdym you already finished the whole assignment no cap 😂,0,genuine praise,school,no cap,tbh; ngl; wdym,😂
+791,imo lowkey the sequel actually respected everything the original set up 😊,0,genuine reaction,movies,lowkey,imo,none
+792,"sure, waited forty minutes for cold fries, incredible service 😐",1,exaggeration,food,none,none,😐
+793,istg love how the algorithm shows me the same three videos for a week straight lowkey unhinged 🫠,1,internet-culture sarcasm,social media,lowkey; unhinged,istg,🫠
+794,"istg oh great, meeting that could have been an email just ate my entire afternoon a real treat 🙏",1,exaggeration,work,none,istg,🙏
+795,"referee missed the foul that happened directly in front of him, great call 😐",1,deadpan sarcasm,sports,none,none,😐
+796,tbh love that my phone battery actually lasted the whole day highkey 😂,0,genuine reaction,smartphones,highkey,tbh,😂
+797,professor extended the deadline and it genuinely helped ngl 🔥,0,genuine reaction,college,none,ngl,🔥
+798,"smh sure, the discourse this week is exactly as productive as last week's 💀",1,gen-z ironic humor,internet culture,none,smh,💀
+799,"oh great, asked to help move again, my back is definitely not tired of this truly 🫠",1,contextual sarcasm,family,none,none,🫠
+800,"smh yeah, train doors closed right as i reached them, perfect timing as always honestly 🫠",1,situational sarcasm,public transport,none,smh,🫠
+801,imo honestly the sequel actually respected everything the original set up ngl ❤️,0,genuine reaction,movies,none,imo; ngl,❤️
+802,"oh great, left an hour early and still somehow late, love this commute 🙃",1,situational sarcasm,traffic,none,none,🙃
+803,"smh wow, spent three hours debugging just to find a missing semicolon, genius work by me incredible",1,opposite-polarity sarcasm,technology,none,smh,none
+804,imo our flight actually left right on time this morning genuinely,0,genuine reaction,travel,none,imo,none
+805,"istg amazing, checkout added a convenience fee for the convenience of paying more couldn't be happier 🙃",1,situational sarcasm,shopping,none,istg,🙃
+806,"smh cool, five hours of sleep before a final, feeling so refreshed lowkey unhinged",1,understatement,sleep,lowkey; unhinged,smh,none
+807,"oh great, referee missed the foul that happened directly in front of him, great call highkey rough 🙃",1,deadpan sarcasm,sports,highkey,none,🙃
+808,ngl that channel's new video essay was genuinely well researched for real ✨,0,genuine reaction,youtube,none,ngl,✨
+809,tbh bro really cooked with that presentation love that for me 💀,1,ironic praise,college,bro; cooked,tbh,💀
+810,imo honestly wdym you already finished the whole assignment genuinely ❤️,0,genuine praise,school,none,imo; wdym,❤️
+811,"istg cool, the servers crash right as i'm one kill from a win, classic incredible",1,deadpan sarcasm,gaming,none,istg,none
+812,ik tbh this internship actually pays fairly and the hours are reasonable deadass 😊,0,genuine reaction,internships,deadass,ik; tbh,none
+813,"Oh great, studied the wrong chapter for six hours, feeling so prepared so mid",1,rhetorical sarcasm,exams,mid,none,none
+814,Nothing like sitting in traffic for an hour to go two miles literally,1,situational sarcasm,traffic,none,none,none
+815,"not gonna lie, my post actually reached people outside my usual followers today highkey ✨",0,genuine reaction,social media,highkey,none,✨
+816,ik actually got to the gym before work today and feel great ngl 👍,0,genuine reaction,daily life,none,ik; ngl,👍
+817,"oh great, ordered a burger, got a picture of a burger instead apparently lowkey unhinged 😐",1,exaggeration,food,lowkey; unhinged,none,😐
+818,"Yeah, asked to help move again, my back is definitely not tired of this literally",1,contextual sarcasm,family,none,none,none
+819,"oh great, alarm didn't go off on the one day i actually needed to wake up early deadass 🙃",1,situational sarcasm,daily life,deadass,none,🙃
+820,"lowkey asked the ai for a summary and it just made up three facts, very reliable lowkey unhinged",1,technology sarcasm,ai,lowkey; facts; unhinged,none,none
+821,"cool, love when my phone dies at eight percent for no reason lowkey unhinged 💀",1,technology sarcasm,smartphones,lowkey; unhinged,none,💀
+822,"fr lowkey unpaid internship with unpaid overtime, truly a dream opportunity honestly",1,workplace sarcasm,internships,lowkey,fr,none
+823,lowkey the new teacher actually explains things really clearly genuinely 😊,0,genuine praise,school,lowkey,none,none
+824,lowkey that was genuinely a genius move honestly actually 🔥,0,genuine reaction,technology,lowkey,none,🔥
+825,fr the new patch fixed most of the bugs people were complaining about 😊,0,genuine excitement,gaming,none,fr,none
+826,ngl lowkey battery life on this phone has honestly held up really well deadass 😂,0,genuine reaction,smartphones,lowkey; deadass,ngl,😂
+827,"asked to help move again, my back is definitely not tired of this so worth it 🫠",1,contextual sarcasm,family,none,none,🫠
+828,"lowkey great, the exam covers everything except what we actually studied 💀",1,rhetorical sarcasm,exams,lowkey,none,💀
+829,fr lowkey nothing like sitting in traffic for an hour to go two miles ngl mid 😭,1,situational sarcasm,traffic,lowkey; mid,ngl; fr,😭
+830,"Oh great, meeting that could have been an email just ate my entire afternoon lowkey unhinged 😭",1,exaggeration,work,lowkey; unhinged,none,😭
+831,"imo not gonna lie, ngl this update is actually really good 👍",0,genuine reaction,technology,none,imo; ngl,👍
+832,ik highkey this internship actually pays fairly and the hours are reasonable tbh 😊,0,genuine reaction,internships,highkey,ik; tbh,none
+833,lowkey omg tysm for replying after three days love that for me 🫠,1,mock enthusiasm,friends,lowkey,omg,🫠
+834,lowkey our flight actually left right on time this morning ngl it's fire 🔥,0,genuine reaction,travel,lowkey,ngl,🔥
+835,"ik this album has been on repeat all week, it's really solid actually",0,genuine reaction,music,none,ik,none
+836,Ngl package actually arrived exactly when the tracker said it would actually,0,genuine reaction,online shopping,none,ngl,none
+837,"istg amazing, love a caption that's just three unrelated hashtags and a crying emoji so worth it 😐",1,meme-style sarcasm,instagram,none,istg,😐
+838,"amazing, unpaid internship with unpaid overtime, truly a dream opportunity honestly 😭",1,workplace sarcasm,internships,none,none,😭
+839,"fr not gonna lie, actually finished all my homework before dinner for once and it feels great ngl it's fire ✨",0,genuine praise,school,none,ngl; fr,✨
+840,"wow, three hour runtime and the plot fits in a tweet, efficient incredible 💀",1,opposite-polarity sarcasm,movies,none,none,💀
+841,Group chat goes silent the second someone actually needs help with the assignment so mid 💀,1,ironic praise,college,mid,none,💀
+842,"Not gonna lie, love that my manager actually gave me the day off tbh 😊",0,genuine praise,work,none,tbh,none
+843,"Wow, finally found the perfect jacket and of course it's out of stock in my size so mid 😐",1,situational sarcasm,shopping,mid,none,😐
+844,"Not gonna lie, the ai tool actually caught a mistake in my code that i missed ngl",0,genuine reaction,ai,none,ngl,none
+845,ngl highkey love that my phone battery actually lasted the whole day no cap ❤️,0,genuine reaction,smartphones,highkey; no cap,ngl,❤️
+846,"wow, love being on hold for three hours just to get hung up on 🙏",1,ironic complaint,customer service,none,none,🙏
+847,ik highkey my friend's photos from the trip turned out amazing genuinely 😊,0,genuine reaction,instagram,highkey,ik,none
+848,"cool, package says delivered, mysteriously nowhere on my porch, love that ngl mid 🙃",1,situational sarcasm,online shopping,mid,ngl,🙃
+849,He actually texted first thing in the morning like he said genuinely,0,genuine excitement,dating,none,none,none
+850,"smh yeah, team down by twenty with two minutes left, definitely still winnable lowkey unhinged 🫠",1,deadpan sarcasm,sports,lowkey; unhinged,smh,🫠
+851,"tbh yeah, studied the wrong chapter for six hours, feeling so prepared honestly 🙃",1,rhetorical sarcasm,exams,none,tbh,🙃
+852,"istg yeah, the one song i actually like gets cut off by an ad every time literally 🙃",1,deadpan sarcasm,music,none,istg,🙃
+853,"smh amazing, five hours of sleep before a final, feeling so refreshed highkey rough 😭",1,understatement,sleep,highkey,smh,😭
+854,tbh nothing like an empty highway on a sunday morning highkey 😂,0,genuine reaction,traffic,highkey,tbh,😂
+855,"smh amazing, love being on hold for three hours just to get hung up on truly 🫠",1,ironic complaint,customer service,none,smh,🫠
+856,My parents surprised me with a visit this weekend and it was really nice ngl it's fire 👍,0,genuine reaction,family,none,ngl,👍
+857,fr we actually had a really honest conversation last night deadass,0,genuine reflection,relationships,deadass,fr,none
+858,Actually got eight hours last night and feel so much more focused actually,0,genuine reaction,sleep,none,none,none
+859,ik nothing like an empty highway on a sunday morning actually 😊,0,genuine reaction,traffic,none,ik,none
+860,"tbh unpaid internship with unpaid overtime, truly a dream opportunity deadass 🙏",1,workplace sarcasm,internships,deadass,tbh,🙏
+861,"tbh amazing, left an hour early and still somehow late, love this commute 💀",1,situational sarcasm,traffic,none,tbh,💀
+862,ngl love that they texted back in like two minutes for real ✨,0,genuine reflection,relationships,none,ngl,✨
+863,"ik great, they finally restocked my size right before the sale ended lowkey ❤️",0,genuine satisfaction,shopping,lowkey,ik,❤️
+864,"not gonna lie, package actually arrived exactly when the tracker said it would ngl it's fire 😊",0,genuine reaction,online shopping,none,ngl,none
+865,"amazing, wdym the deadline was yesterday ngl mid 😐",1,rhetorical sarcasm,school,mid,ngl; wdym,😐
+866,ik love that they actually solved my issue in five minutes 😂,0,genuine praise,customer service,none,ik,😂
+867,"smh amazing, asked for feedback and got a thumbs up emoji three weeks later so worth it 😭",1,exaggeration,work,none,smh,😭
+868,switched browsers and everything actually loads way faster now lowkey 👍,0,genuine reaction,technology,lowkey,none,👍
+869,the one song i actually like gets cut off by an ad every time lowkey unhinged 🫠,1,deadpan sarcasm,music,lowkey; unhinged,none,🫠
+870,tbh ngl the whole group actually showed up on time for once genuinely,0,genuine reaction,friends,none,tbh; ngl,none
+871,highkey reviewed the right chapters and the exam felt manageable ngl,0,genuine relief,exams,highkey,ngl,none
+872,ngl the new laptop handles everything i throw at it without lagging genuinely ❤️,0,genuine reaction,technology,none,ngl,❤️
+873,Omg tysm for replying after three days incredible 💀,1,mock enthusiasm,friends,none,omg,💀
+874,honestly starting the essay early actually worked out great this time actually 🔥,0,genuine reaction,procrastination,none,none,🔥
+875,"ngl not gonna lie, actually finished all my homework before dinner for once and it feels great actually 🔥",0,genuine praise,school,none,ngl,🔥
+876,highkey love how the algorithm actually found me content i'm into actually,0,genuine reaction,social media,highkey,none,none
+877,"imo honestly great, the exam actually matched the study guide this time 🔥",0,genuine relief,exams,none,imo,🔥
+878,"not gonna lie, that meme format is still making me laugh every time i see it honestly 😂",0,genuine reaction,internet culture,none,none,😂
+879,"oh great, laptop updates itself right when i'm about to submit something, thanks for that honestly 🙏",1,opposite-polarity sarcasm,technology,none,none,🙏
+880,"fr wow, flight delayed three hours and then boarded early, make it make sense ngl mid",1,situational sarcasm,travel,mid,ngl; fr,none
+881,tbh our flight actually left right on time this morning honestly ✨,0,genuine reaction,travel,none,tbh,✨
+882,"smh amazing, bus arrived four minutes early, right as i turned the corner two minutes late incredible",1,situational sarcasm,public transport,none,smh,none
+883,"fr sure, what a genius move, deleting the whole project folder a real treat",1,opposite-polarity sarcasm,technology,none,fr,none
+884,"fr not gonna lie, found exactly what i needed on the first try today",0,genuine satisfaction,shopping,none,fr,none
+885,tbh bus actually showed up exactly on schedule for once honestly 🔥,0,genuine reaction,public transport,none,tbh,🔥
+886,"Forecast was right for once, perfect weather for the hike 👍",0,genuine reaction,weather,none,none,👍
+887,lowkey my manager actually listened to my feedback in the meeting today ngl 🔥,0,genuine praise,work,lowkey,ngl,🔥
+888,fr ngl love how the algorithm actually found me content i'm into honestly,0,genuine reaction,social media,none,ngl; fr,none
+889,"fr amazing, laptop updates itself right when i'm about to submit something, thanks for that 🙏",1,opposite-polarity sarcasm,technology,none,fr,🙏
+890,"fr honestly great, the exam actually matched the study guide this time ngl it's fire",0,genuine relief,exams,none,ngl; fr,none
+891,fr honestly professor extended the deadline and it genuinely helped ngl it's fire ❤️,0,genuine reaction,college,none,ngl; fr,❤️
+892,"tbh honestly order showed up a day early, wasn't expecting that deadass ✨",0,genuine reaction,online shopping,deadass,tbh,✨
+893,"Sure, waited forty minutes for cold fries, incredible service highkey rough 😐",1,exaggeration,food,highkey,none,😐
+894,"wow, wdym the deadline was yesterday literally 🫠",1,rhetorical sarcasm,school,none,wdym,🫠
+895,"Order showed up a day early, wasn't expecting that tbh ❤️",0,genuine reaction,online shopping,none,tbh,❤️
+896,"ik wow five dollars for a full meal, what a deal ngl ✨",0,genuine reaction,food,none,ik; ngl,✨
+897,"Not gonna lie, the new patch fixed most of the bugs people were complaining about ngl ❤️",0,genuine excitement,gaming,none,ngl,❤️
+898,tbh bro actually cooked with that presentation lowkey 🔥,0,genuine reaction,college,bro; lowkey; cooked,tbh,🔥
+899,"tbh yeah, soft launched a relationship that lasted exactly one week, worth the effort so mid 🙃",1,mock enthusiasm,dating,mid,tbh,🙃
+900,"lowkey forecast said sunny, i'm currently getting rained on, thanks incredible 💀",1,situational sarcasm,weather,lowkey,none,💀
+901,wdym you already finished the whole assignment ngl,0,genuine praise,school,none,ngl; wdym,none
+902,"istg yeah, forecast said sunny, i'm currently getting rained on, thanks literally",1,situational sarcasm,weather,none,istg,none
+903,imo the new laptop handles everything i throw at it without lagging 😊,0,genuine reaction,technology,none,imo,none
+904,tbh found a really useful recipe on my fyp earlier honestly 👍,0,genuine reaction,tiktok,none,tbh,👍
+905,fr that meme format is still making me laugh every time i see it,0,genuine reaction,internet culture,none,fr,none
+906,"not gonna lie, that caption actually made me laugh out loud deadass 🔥",0,genuine reaction,instagram,deadass,none,🔥
+907,"istg wow, nothing says teamwork like doing the entire project yourself while everyone else sends a thumbs up two minutes before submission a real treat",1,situational sarcasm,group projects,none,istg,none
+908,"ngl oh great, this app update moved every button i use daily, so convenient so worth it",1,technology sarcasm,apps,none,ngl,none
+909,this internship actually pays fairly and the hours are reasonable,0,genuine reaction,internships,none,none,none
+910,"ngl oh great, the professor moved the exam up a week, so thoughtful of them so mid 😭",1,rhetorical sarcasm,school,mid,ngl,😭
+911,"tbh lowkey unpaid internship with unpaid overtime, truly a dream opportunity so mid",1,workplace sarcasm,internships,lowkey; mid,tbh,none
+912,"sure, ngl this update is amazing, it deleted all my files 😭",1,opposite-polarity sarcasm,technology,none,ngl,😭
+913,"fr not gonna lie, great, the exam actually matched the study guide this time genuinely ❤️",0,genuine relief,exams,none,fr,❤️
+914,"Sure, left on read for two days then got a heart reaction, so meaningful couldn't be happier 🙏",1,opposite-polarity sarcasm,relationships,none,none,🙏
+915,Highkey the whole group actually showed up on time for once genuinely 😂,0,genuine reaction,friends,highkey,none,😂
+916,"yeah, bus arrived four minutes early, right as i turned the corner two minutes late ngl mid",1,situational sarcasm,public transport,mid,ngl,none
+917,"wow, stayed up till four am for no reason, definitely going to regret that at eight am so worth it 😭",1,understatement,sleep,none,none,😭
+918,istg wrote the entire essay the morning it's due and somehow it's worse than the draft a real treat,1,self-deprecating sarcasm,procrastination,none,istg,none
+919,"Sure, wow five dollars for three fries, what a deal deadass 💀",1,exaggeration,food,deadass,none,💀
+920,Tbh nothing like an empty highway on a sunday morning highkey,0,genuine reaction,traffic,highkey,tbh,none
+921,"soft launched a relationship that lasted exactly one week, worth the effort highkey rough 🙃",1,mock enthusiasm,dating,highkey,none,🙃
+922,tbh starting the essay early actually worked out great this time genuinely ✨,0,genuine reaction,procrastination,none,tbh,✨
+923,fr ngl our squad actually synced up and won three matches in a row actually 😂,0,genuine excitement,gaming,none,ngl; fr,😂
+924,"smh forecast said sunny, i'm currently getting rained on, thanks highkey rough 💀",1,situational sarcasm,weather,highkey,smh,💀
+925,"fr cool, another reply-all email chain, exactly what my inbox needed today truly",1,exaggeration,work,none,fr,none
+926,that caption actually made me laugh out loud ngl it's fire ✨,0,genuine reaction,instagram,none,ngl,✨
+927,"smh cool, the discourse this week is exactly as productive as last week's 💀",1,gen-z ironic humor,internet culture,none,smh,💀
+928,"yeah, meeting that could have been an email just ate my entire afternoon highkey rough 😭",1,exaggeration,work,highkey,none,😭
+929,Wrote the entire essay the morning it's due and somehow it's worse than the draft what a time to be alive 😭,1,self-deprecating sarcasm,procrastination,none,none,😭
+930,"sure, fr bro, nothing says teamwork like carrying the whole match solo love that for me",1,deadpan sarcasm,gaming,bro,fr,none
+931,the fyp actually served me something new and genuinely funny deadass 😂,0,genuine reaction,tiktok,deadass,none,😂
+932,tbh lowkey that was honestly one of the best games i've watched this season deadass ✨,0,genuine reaction,sports,lowkey; deadass,tbh,✨
+933,"Amazing, rent went up again, guess i'll just stop eating lowkey unhinged 🙃",1,situational sarcasm,money,lowkey; unhinged,none,🙃
+934,fr ngl that channel's new video essay was genuinely well researched deadass ❤️,0,genuine reaction,youtube,deadass,ngl; fr,❤️
+935,"lowkey group project grade got docked for one member's slide, love shared responsibility ngl mid 😐",1,rhetorical sarcasm,school,lowkey; mid,ngl,😐
+936,"ngl cool, love when my phone dies at eight percent for no reason so mid",1,technology sarcasm,smartphones,mid,ngl,none
+937,"istg oh great, love how the algorithm shows me the same three videos for a week straight a real treat 🫠",1,internet-culture sarcasm,social media,none,istg,🫠
+938,"Amazing, team down by twenty with two minutes left, definitely still winnable love that for me",1,deadpan sarcasm,sports,none,none,none
+939,"not gonna lie, the ai actually caught the bug in like two seconds ngl it's fire ❤️",0,genuine reaction,ai,none,ngl,❤️
+940,"istg cool, cancelled after one perfect season, love the timing so worth it 💀",1,opposite-polarity sarcasm,tv,none,istg,💀
+941,"fr amazing, checkout added a convenience fee for the convenience of paying more literally",1,situational sarcasm,shopping,none,fr,none
+942,ngl budgeting got a lot easier after that raise actually kicked in deadass 😂,0,genuine relief,money,deadass,ngl,😂
+943,"sure, a pop quiz on the one day i actually skipped the reading, perfect timing love that for me 💀",1,rhetorical sarcasm,school,none,none,💀
+944,"honestly great, they finally restocked my size right before the sale ended ngl 😂",0,genuine satisfaction,shopping,none,ngl,😂
+945,"amazing, fr bro, nothing says teamwork like carrying the whole match solo literally",1,deadpan sarcasm,gaming,bro,fr,none
+946,"Amazing, the one song i actually like gets cut off by an ad every time highkey rough 🫠",1,deadpan sarcasm,music,highkey,none,🫠
+947,"Wow, flight delayed three hours and then boarded early, make it make sense lowkey unhinged",1,situational sarcasm,travel,lowkey; unhinged,none,none
+948,ngl lowkey the new teacher actually explains things really clearly no cap 🔥,0,genuine praise,school,lowkey; no cap,ngl,🔥
+949,tbh the show's finale wrapped up every storyline really satisfyingly ✨,0,genuine reaction,streaming,none,tbh,✨
+950,"tbh another remake of a remake, truly a golden age of originality honestly 😐",1,gen-z ironic humor,internet culture,none,tbh,😐
+951,"wow, left on read for two days then got a heart reaction, so meaningful honestly 🙏",1,opposite-polarity sarcasm,relationships,none,none,🙏
+952,"wow, studied the wrong chapter for six hours, feeling so prepared incredible 😐",1,rhetorical sarcasm,exams,none,none,😐
+953,fr ngl that was honestly one of the best games i've watched this season for real 😊,0,genuine reaction,sports,none,ngl; fr,none
+954,"smh amazing, meeting that could have been an email just ate my entire afternoon ngl mid 🙏",1,exaggeration,work,mid,ngl; smh,🙏
+955,"fr yeah, wow five dollars for three fries, what a deal what a time to be alive 😭",1,exaggeration,food,none,fr,😭
+956,lowkey love that my phone battery actually lasted the whole day for real,0,genuine reaction,smartphones,lowkey,none,none
+957,"what a genius move, deleting the whole project folder what a time to be alive",1,opposite-polarity sarcasm,technology,none,none,none
+958,"ngl oh great, alarm didn't go off on the one day i actually needed to wake up early literally",1,situational sarcasm,daily life,none,ngl,none
+959,"istg cool, six rounds of interviews for a job that pays entry level, worth it so worth it",1,workplace sarcasm,jobs,none,istg,none
+960,"yeah, fr bro, nothing says teamwork like carrying the whole match solo so mid 😭",1,deadpan sarcasm,gaming,bro; mid,fr,😭
+961,ik tbh my manager actually listened to my feedback in the meeting today lowkey ✨,0,genuine praise,work,lowkey,ik; tbh,✨
+962,fr ngl found a really useful recipe on my fyp earlier deadass 🔥,0,genuine reaction,tiktok,deadass,ngl; fr,🔥
+963,"smh lowkey great, the one size that fits me is sold out everywhere, exactly what i needed truly 💀",1,situational sarcasm,shopping,lowkey,smh,💀
+964,"Wow, wow the ai gave me a perfectly confident wrong answer again so mid 💀",1,technology sarcasm,ai,mid,none,💀
+965,ik lowkey that was honestly one of the best games i've watched this season for real ❤️,0,genuine reaction,sports,lowkey,ik,❤️
+966,ngl the fyp actually served me something new and genuinely funny honestly 😊,0,genuine reaction,tiktok,none,ngl,none
+967,highkey bro actually cooked with that presentation lowkey 😂,0,genuine reaction,college,bro; lowkey; highkey; cooked,none,😂
+968,"fr he said he'd text first thing in the morning, so naturally it's midnight now so worth it 🙏",1,mock enthusiasm,dating,none,fr,🙏
+969,"tbh yeah, train doors closed right as i reached them, perfect timing as always love that for me",1,situational sarcasm,public transport,none,tbh,none
+970,"amazing, group project grade got docked for one member's slide, love shared responsibility a real treat",1,rhetorical sarcasm,school,none,none,none
+971,"ngl cool, tracking says out for delivery for the fifth day straight, very out deadass",1,situational sarcasm,online shopping,deadass,ngl,none
+972,"tbh wow, nothing says teamwork like doing the entire project yourself while everyone else sends a thumbs up two minutes before submission incredible 🙏",1,situational sarcasm,group projects,none,tbh,🙏
+973,"not gonna lie, finally paid off my credit card balance this month genuinely",0,genuine relief,money,none,none,none
+974,fr highkey professor extended the deadline and it genuinely helped,0,genuine reaction,college,highkey,fr,none
+975,love that my manager actually gave me the day off ngl 😂,0,genuine praise,work,none,ngl,😂
+976,fr ngl my study group actually stayed focused the whole session today tbh,0,genuine reaction,college,none,tbh; ngl; fr,none
+977,"sure, another remake of a remake, truly a golden age of originality 😐",1,gen-z ironic humor,internet culture,none,none,😐
+978,"not gonna lie, omg tysm for helping me move all weekend ❤️",0,genuine reaction,friends,none,omg,❤️
+979,"smh cool, wdym the deadline was yesterday a real treat 🙏",1,rhetorical sarcasm,school,none,wdym; smh,🙏
+980,ngl fr bro that was the best game we've played all season lowkey 😊,0,genuine excitement,gaming,bro; lowkey,ngl; fr,none
+981,"amazing, ordered a burger, got a picture of a burger instead apparently so worth it 😭",1,exaggeration,food,none,none,😭
+982,"ngl lowkey what a genius move, deleting the whole project folder literally 😐",1,opposite-polarity sarcasm,technology,lowkey,ngl,😐
+983,"Not gonna lie, omg tysm for helping me move all weekend deadass 👍",0,genuine reaction,friends,deadass,omg,👍
+984,"not gonna lie, bro actually cooked with that presentation lowkey 👍",0,genuine reaction,college,bro; lowkey; cooked,none,👍
+985,"yeah, posted once and the algorithm buried it, but the ad reached everyone instantly couldn't be happier 🫠",1,internet-culture sarcasm,social media,none,none,🫠
+986,tbh the sequel actually respected everything the original set up lowkey,0,genuine reaction,movies,lowkey,tbh,none
+987,ik tbh we actually had a really honest conversation last night actually 😊,0,genuine reflection,relationships,none,ik; tbh,none
+988,"ngl cool, love how the algorithm shows me the same three videos for a week straight highkey rough 💀",1,internet-culture sarcasm,social media,highkey,ngl,💀
+989,Ngl this budgeting app made tracking expenses way less of a hassle ngl it's fire ✨,0,genuine reaction,apps,none,ngl,✨
+990,ngl tbh the new laptop handles everything i throw at it without lagging genuinely ✨,0,genuine reaction,technology,none,tbh; ngl,✨
+991,"fr a pop quiz on the one day i actually skipped the reading, perfect timing deadass",1,rhetorical sarcasm,school,deadass,fr,none
+992,"smh team down by twenty with two minutes left, definitely still winnable deadass",1,deadpan sarcasm,sports,deadass,smh,none
+993,"not gonna lie, the new teacher actually explains things really clearly genuinely ✨",0,genuine praise,school,none,none,✨
+994,"ngl not gonna lie, perfect weather for a picnic today, actually not a cloud in sight highkey 😂",0,genuine reaction,weather,highkey,ngl,😂
+995,ngl switched browsers and everything actually loads way faster now ❤️,0,genuine reaction,technology,none,ngl,❤️
+996,"ngl tracking says out for delivery for the fifth day straight, very out a real treat",1,situational sarcasm,online shopping,none,ngl,none
+997,lowkey my manager actually listened to my feedback in the meeting today deadass ❤️,0,genuine praise,work,lowkey; deadass,none,❤️
+998,"Oh great, love a caption that's just three unrelated hashtags and a crying emoji truly 💀",1,meme-style sarcasm,instagram,none,none,💀
+999,"ik ngl got the whole week's tasks done by wednesday, feeling productive genuinely 🔥",0,genuine praise,work,none,ik; ngl,🔥
+1000,fr tbh love that my manager actually gave me the day off deadass 😂,0,genuine praise,work,deadass,tbh; fr,😂

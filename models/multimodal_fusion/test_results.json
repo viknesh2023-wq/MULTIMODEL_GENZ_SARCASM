@@ -1,0 +1,40 @@
+{
+  "configuration": "full_fusion",
+  "description": "Full Five-Source Multimodal Fusion (2,847-D)",
+  "input_dimension": 2847,
+  "best_epoch": 5,
+  "val_macro_f1": 0.8398802039276652,
+  "test_accuracy": 0.7961599158337717,
+  "test_macro_f1": 0.786392648813073,
+  "test_macro_precision": 0.8056202715051329,
+  "test_macro_recall": 0.7816710954044539,
+  "test_weighted_f1": 0.7920391623428742,
+  "per_class_metrics": {
+    "0_non_sarcastic": {
+      "precision": 0.8367346938775511,
+      "recall": 0.6644657863145258,
+      "f1": 0.7407159585145534,
+      "support": 1666
+    },
+    "1_sarcastic": {
+      "precision": 0.7745058491327148,
+      "recall": 0.898876404494382,
+      "f1": 0.8320693391115926,
+      "support": 2136
+    }
+  },
+  "confusion_matrix": [
+    [
+      1107,
+      559
+    ],
+    [
+      216,
+      1920
+    ]
+  ],
+  "training_time_seconds": 57.25,
+  "test_inference_time_seconds": 0.3941,
+  "latency_per_sample_ms": 0.104,
+  "peak_gpu_vram_mb": 88.97
+}

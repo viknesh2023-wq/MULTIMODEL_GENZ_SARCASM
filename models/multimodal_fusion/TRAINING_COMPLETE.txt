@@ -1,0 +1,7 @@
+MULTIMODAL FUSION CLASSIFIER & 8-WAY ABLATION TRAINING COMPLETE
+Timestamp: 2026-10-10 22:07:50
+Full Fusion Test Accuracy: 0.796160
+Full Fusion Test Macro F1: 0.786393
+Full Fusion Test Weighted F1: 0.792039
+Class 0 (Non-sarcastic) F1: 0.740716
+Class 1 (Sarcastic) F1: 0.832069

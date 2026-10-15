@@ -1,0 +1,187 @@
+{
+  "test_1_env_and_gpu": {
+    "python_version": "3.12.10",
+    "pytorch_version": "2.11.0+cu128",
+    "cuda_available": true,
+    "nvidia_smi_initial": {
+      "name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+      "total_mb": 6141.0,
+      "used_mb": 1197.0,
+      "free_mb": 4724.0
+    },
+    "gpu_name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "dedicated_vram_bytes": 6438780928,
+    "dedicated_vram_gb": 5.997,
+    "initial_allocated_mb": 0.0,
+    "initial_reserved_mb": 0.0,
+    "post_load_allocated_mb": 1060.81,
+    "post_load_reserved_mb": 1116.0,
+    "peak_inference_allocated_mb": 1072.39,
+    "peak_inference_reserved_mb": 1120.0,
+    "post_inference_allocated_mb": 1069.94,
+    "post_inference_reserved_mb": 1120.0,
+    "nvidia_smi_after_inference": {
+      "name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+      "total_mb": 6141.0,
+      "used_mb": 2420.0,
+      "free_mb": 3501.0
+    },
+    "post_cleanup_allocated_mb": 9.12,
+    "post_cleanup_reserved_mb": 22.0
+  },
+  "test_2_checkpoint_integrity": {
+    "safetensors_exists": true,
+    "safetensors_size_bytes": 1112284984,
+    "safetensors_size_gb": 1.036,
+    "config_exists": true,
+    "tokenizer_exists": true,
+    "config_num_labels": null,
+    "config_problem_type": "multi_label_classification",
+    "config_id2label_count": 28,
+    "config_architectures": [
+      "XLMRobertaForSequenceClassification"
+    ],
+    "is_multilabel_problem_type": true,
+    "model_load_time_seconds": 4.777,
+    "model_device": "cuda:0",
+    "model_num_parameters": 278065180
+  },
+  "test_6_inference": {
+    "batch_size": 4,
+    "logits_shape": [
+      4,
+      28
+    ],
+    "probs_shape": [
+      4,
+      28
+    ],
+    "all_probs_finite": true,
+    "probs_min": 0.0013864909997209907,
+    "probs_max": 0.937882125377655,
+    "total_inference_time_seconds": 0.2529,
+    "latency_per_sample_ms": 63.22
+  },
+  "test_3_eval_integrity": {
+    "results_file_exists": true,
+    "task": "28-class Multi-Label Emotion Classification (GoEmotions)",
+    "train_samples": 43410,
+    "validation_samples": 5426,
+    "test_samples": 5427,
+    "classification_threshold": 0.5,
+    "stored_metrics": {
+      "test_micro_f1": 0.49262129737764093,
+      "test_macro_f1": 0.21968235173249373,
+      "test_micro_precision": 0.7508090614886731,
+      "test_micro_recall": 0.3665665981987676,
+      "test_macro_precision": 0.3565440125760869,
+      "test_macro_recall": 0.1933377132651406,
+      "hamming_loss": 0.0314498933901919,
+      "exact_match_accuracy": 0.35323383084577115
+    },
+    "per_emotion_count": 28,
+    "recomputed_macro_precision": 0.3565440125760869,
+    "recomputed_macro_recall": 0.1933377132651406,
+    "recomputed_macro_f1": 0.21968235173249373,
+    "macro_precision_diff": 0.0,
+    "macro_recall_diff": 0.0,
+    "macro_f1_diff": 0.0,
+    "internal_consistency_passed": true,
+    "zero_f1_emotions": [
+      "annoyance",
+      "caring",
+      "confusion",
+      "desire",
+      "disappointment",
+      "disgust",
+      "embarrassment",
+      "excitement",
+      "fear",
+      "grief",
+      "nervousness",
+      "pride",
+      "realization",
+      "relief"
+    ],
+    "high_f1_emotions": [
+      "admiration",
+      "amusement",
+      "gratitude",
+      "joy",
+      "love",
+      "neutral"
+    ],
+    "zero_f1_count": 14,
+    "high_f1_count": 6,
+    "macro_vs_micro_f1_gap": 0.2729389456451472
+  },
+  "test_4_feature_integrity": {
+    "source_records": 33077,
+    "metadata_records": 33077,
+    "checkpoint_records": 33077,
+    "total_files_in_features_dir": 33077,
+    "unique_ids_in_meta": 33077,
+    "unique_indices_in_meta": 33077,
+    "split_counts": {
+      "train": 25384,
+      "validation": 3891,
+      "test": 3802
+    },
+    "shape_errors": 0,
+    "dtype_errors": 0,
+    "nan_errors": 0,
+    "inf_errors": 0,
+    "range_errors": 0,
+    "missing_files": 0,
+    "unindexed_files": 0
+  },
+  "test_5_alignment": {
+    "xlmr_text_count": 33077,
+    "xlmr_text_dim": 768,
+    "clip_count": 33077,
+    "clip_dim": 512,
+    "vlm_count": 33077,
+    "vlm_dim": 1536,
+    "sentiment_count": 33077,
+    "sentiment_dim": 3,
+    "emotion_count": 33077,
+    "emotion_dim": 28,
+    "store_alignment_checks": {
+      "xlmr_text": {
+        "record_count": 33077,
+        "index_aligned": true,
+        "id_or_path_aligned": true,
+        "split_aligned": true
+      },
+      "clip": {
+        "record_count": 33077,
+        "index_aligned": true,
+        "id_or_path_aligned": true,
+        "split_aligned": false
+      },
+      "vlm": {
+        "record_count": 33077,
+        "index_aligned": true,
+        "id_or_path_aligned": true,
+        "split_aligned": false
+      },
+      "sentiment": {
+        "record_count": 33077,
+        "index_aligned": true,
+        "id_or_path_aligned": true,
+        "split_aligned": true
+      },
+      "emotion": {
+        "record_count": 33077,
+        "index_aligned": true,
+        "id_or_path_aligned": true,
+        "split_aligned": true
+      }
+    },
+    "all_stores_33077_records": true,
+    "all_stores_indices_aligned": true,
+    "all_stores_ids_aligned": true,
+    "all_stores_splits_aligned": false,
+    "total_concatenated_dimensions": 2847
+  }
+}

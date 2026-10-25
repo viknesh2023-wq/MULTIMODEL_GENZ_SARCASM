@@ -3,9 +3,9 @@ title Multimodal Sarcasm Intelligence - Frontend UI
 echo =======================================================
 echo Starting Vite Frontend Dashboard (Port 5173)...
 echo URL: http://localhost:5173
+echo Frontend Directory: %~dp0frontend
 echo =======================================================
 
-set PATH=C:\Program Files\nodejs;%PATH%
-cd /d D:\NLP_PROJECT\frontend
+cd /d "%~dp0frontend"
 call npm run dev
 pause

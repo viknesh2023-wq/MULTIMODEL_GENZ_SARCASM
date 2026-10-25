@@ -2,10 +2,22 @@
 title Multimodal Sarcasm Intelligence - Backend API
 echo =======================================================
 echo Starting FastAPI Backend (Port 8000)...
-echo Python Environment: D:\NLP_PROJECT\internvl_env
-echo XLM-R Model: D:\NLP_PROJECT\models\xlmr_text_sarcasm_full
 echo =======================================================
 
-cd /d D:\NLP_PROJECT\backend
-D:\NLP_PROJECT\internvl_env\Scripts\python.exe -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+cd /d "%~dp0backend"
+
+if exist "%~dp0internvl_env\Scripts\python.exe" (
+    set "PYTHON_EXE=%~dp0internvl_env\Scripts\python.exe"
+) else if exist "%~dp0venv\Scripts\python.exe" (
+    set "PYTHON_EXE=%~dp0venv\Scripts\python.exe"
+) else if exist "%~dp0.venv\Scripts\python.exe" (
+    set "PYTHON_EXE=%~dp0.venv\Scripts\python.exe"
+) else (
+    set "PYTHON_EXE=python"
+)
+
+echo Python Runtime: %PYTHON_EXE%
+echo Backend Directory: %~dp0backend
+echo =======================================================
+"%PYTHON_EXE%" -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 pause

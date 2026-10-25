@@ -12,7 +12,8 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 logger = logging.getLogger(__name__)
 
-MODEL_PATH = r"D:\NLP_PROJECT\models\xlmr_text_sarcasm_full"
+PROJECT_ROOT = Path(os.getenv("PROJECT_ROOT", Path(__file__).resolve().parent.parent.parent.parent))
+MODEL_PATH = os.getenv("MODEL_PATH", str(PROJECT_ROOT / "models" / "xlmr_text_sarcasm_full"))
 MAX_LENGTH = 128
 
 # ── Singleton state ──────────────────────────────────────────────────────────
@@ -134,7 +135,7 @@ def get_all_comprehensive_metrics() -> dict:
     """Read all model evaluation results and ablation benchmark summary from disk."""
     import csv
 
-    project_root = Path(r"D:\NLP_PROJECT")
+    project_root = PROJECT_ROOT
 
     # 1. Text Sarcasm
     text_path = project_root / "models" / "xlmr_text_sarcasm_full" / "final_test_results.json"

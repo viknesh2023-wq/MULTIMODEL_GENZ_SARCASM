@@ -27,7 +27,7 @@ from torchvision import transforms
 from transformers import AutoTokenizer, AutoModel, AutoModelForSequenceClassification
 import clip
 
-PROJECT_ROOT = Path(r"D:\NLP_PROJECT")
+PROJECT_ROOT = Path(os.getenv("PROJECT_ROOT", Path(__file__).resolve().parent.parent.parent.parent))
 if str(PROJECT_ROOT / "fusion") not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT / "fusion"))
 

@@ -14,7 +14,7 @@ from app.services.explanation_service import get_explanation_service
 
 router = APIRouter(prefix="/api", tags=["Model"])
 
-MODEL_PATH = r"D:\NLP_PROJECT\models\xlmr_text_sarcasm_full"
+from app.services.model_service import MODEL_PATH
 
 
 @router.get("/health", response_model=HealthResponse)

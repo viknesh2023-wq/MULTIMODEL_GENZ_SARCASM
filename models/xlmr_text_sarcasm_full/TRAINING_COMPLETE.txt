@@ -1,0 +1,3 @@
+XLM-R full text sarcasm training completed.
+Test Accuracy: 0.771941
+Test Macro-F1: 0.771939

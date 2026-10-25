@@ -1,0 +1,27 @@
+{
+  "phase": "Phase 10 \u2014 Automated Dual-Pass LLM Annotation",
+  "timestamp": "2026-10-21T20:58:09.448382+00:00",
+  "prompt_version": "v1.0.0",
+  "annotator_a": {
+    "model": "llama3.2:latest",
+    "total_records": 30,
+    "output_file": "data\\annotations\\phase10\\annotator_a.jsonl",
+    "duration_sec": 0.0
+  },
+  "annotator_b": {
+    "model": "qwen2.5:1.5b",
+    "total_records": 30,
+    "output_file": "data\\annotations\\phase10\\annotator_b.jsonl",
+    "duration_sec": 45.59
+  },
+  "modality_honesty": {
+    "image_assessed": false,
+    "ocr_assessed": false,
+    "modality_used": [
+      "text"
+    ],
+    "disclaimer": "Models were evaluated in text-only mode; image pixels were unassessed."
+  },
+  "evaluation_gate": "BLOCKED_PENDING_HUMAN_ANNOTATION",
+  "silver_gate": "LLM_SILVER_DATASET_AVAILABLE_FOR_EXPLORATORY_RESEARCH"
+}

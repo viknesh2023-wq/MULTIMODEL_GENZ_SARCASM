@@ -1,0 +1,32 @@
+{
+    "model": "FacebookAI/xlm-roberta-base",
+    "dataset": "TEXT_SARCASM",
+    "train_samples": 812130,
+    "validation_samples": 96518,
+    "test_samples": 96519,
+    "max_length": 128,
+    "epochs": 3,
+    "learning_rate": 2e-05,
+    "train_batch_size": 8,
+    "eval_batch_size": 8,
+    "gradient_accumulation_steps": 2,
+    "effective_batch_size": 16,
+    "test_accuracy": 0.7719412758109803,
+    "test_macro_precision": 0.771944280101952,
+    "test_macro_recall": 0.7719563088832025,
+    "test_macro_f1": 0.7719393151718419,
+    "confusion_matrix": [
+        [
+            37112,
+            10824
+        ],
+        [
+            11188,
+            37395
+        ]
+    ],
+    "labels": {
+        "0": "non-sarcastic",
+        "1": "sarcastic"
+    }
+}

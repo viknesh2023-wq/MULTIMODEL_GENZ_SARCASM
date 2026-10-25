@@ -1,0 +1,61 @@
+{
+  "pipeline_version": "7.0.0",
+  "evaluation_timestamp": "2026-10-21T19:11:44.581776+00:00",
+  "global_human_benchmark_gate": "BLOCKED_PENDING_HUMAN_ANNOTATION",
+  "experiments": {
+    "auxiliary_sarcasm_multimodal_training": {
+      "status": "READY_FOR_AUXILIARY_TASK",
+      "target_dataset": "mmsd + sarcnet",
+      "record_count": 27970,
+      "modality": "Image + Text",
+      "label_scheme": "Sarcasm Binary",
+      "justification": "All 27,970 images and texts are verified, preprocessed, and grouped into clean 70/15/15 splits with 0 cross-partition leakage."
+    },
+    "auxiliary_sarcasm_text_baseline_training": {
+      "status": "READY_FOR_AUXILIARY_TASK",
+      "target_dataset": "mmsd + sarcnet (text only)",
+      "record_count": 27970,
+      "modality": "Text Only",
+      "label_scheme": "Sarcasm Binary",
+      "justification": "Text baseline pipeline verified in Phase 3."
+    },
+    "auxiliary_dialogue_sarcasm_context_training": {
+      "status": "READY_FOR_AUXILIARY_TASK",
+      "target_dataset": "mustard",
+      "record_count": 690,
+      "modality": "Text Utterance + Context Turns",
+      "label_scheme": "Sarcasm Binary",
+      "justification": "Dialogue context prefixes preprocessed."
+    },
+    "exploratory_weak_supervision_passive_aggression": {
+      "status": "READY_FOR_EXPLORATORY_TRAINING",
+      "target_dataset": "silver_dataset_verified (Phase 5D)",
+      "record_count": 20,
+      "modality": "Text Only (dialogue context where available)",
+      "label_scheme": "Verified Silver Passive Aggression",
+      "justification": "Permitted strictly for loss formulation and weak supervision exploratory probing. Barred from test evaluation."
+    },
+    "supervised_multimodal_passive_aggression_training": {
+      "status": "BLOCKED_INSUFFICIENT_LABELS",
+      "target_dataset": "multimodal PA",
+      "record_count": 2,
+      "modality": "Image + Text",
+      "label_scheme": "Passive Aggression",
+      "justification": "Only 2 verified silver positive records have accompanying images. Model training on 2 examples is statistically invalid."
+    },
+    "independent_real_world_passive_aggression_benchmark_evaluation": {
+      "status": "BLOCKED_PENDING_HUMAN_ANNOTATION",
+      "target_dataset": "phase6a_pilot_manifest",
+      "record_count": 30,
+      "modality": "Multimodal / Text",
+      "label_scheme": "Human Ground Truth",
+      "justification": "Zero human annotations have been submitted (annotator_1_responses.csv and annotator_2_responses.csv have completed_count = 0). LLM labels cannot serve as ground truth."
+    }
+  },
+  "evaluation_restrictions": [
+    "DO_NOT_REPORT_AUXILIARY_SARCASM_METRICS_AS_PASSIVE_AGGRESSION_DETECTION",
+    "DO_NOT_EVALUATE_MODELS_ON_LLM_SILVER_DATA_AND_CLAIM_GROUND_TRUTH_ACCURACY",
+    "DO_NOT_UNLOCK_HUMAN_BENCHMARK_GATE_WITHOUT_GENUINE_COMPLETED_HUMAN_REVIEWS",
+    "MAINTAIN_STRICT_ISOLATION_BETWEEN_TRAINING_AND_HELD_OUT_TEST_SPLITS"
+  ]
+}

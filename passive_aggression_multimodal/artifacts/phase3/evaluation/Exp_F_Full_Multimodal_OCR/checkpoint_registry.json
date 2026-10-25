@@ -1,0 +1,71 @@
+{
+  "best_epoch": 5,
+  "best_metric": 1.0,
+  "best_checkpoint": "artifacts\\phase3\\evaluation\\Exp_F_Full_Multimodal_OCR\\best_checkpoint.pt",
+  "checkpoints": [
+    {
+      "epoch": 1,
+      "path": "artifacts\\phase3\\evaluation\\Exp_F_Full_Multimodal_OCR\\best_checkpoint.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 0.21645021645021645,
+      "sha256": "e9badaa2d85578b7116053a0e2aaa6abac049c1b1ba11b75b01284828ef1735b",
+      "is_best": true
+    },
+    {
+      "epoch": 2,
+      "path": "artifacts\\phase3\\evaluation\\Exp_F_Full_Multimodal_OCR\\best_checkpoint.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 0.5555555555555555,
+      "sha256": "329e546c8b9232a9ff5c9be9d21539372376da1883b3789e1bd97b06f040d323",
+      "is_best": true
+    },
+    {
+      "epoch": 3,
+      "path": "artifacts\\phase3\\evaluation\\Exp_F_Full_Multimodal_OCR\\best_checkpoint.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 0.8611111111111112,
+      "sha256": "29b35f3bd3c90aa4c4005db4cb87d40af8db1530c436353ec908a0f3d76be5cb",
+      "is_best": true
+    },
+    {
+      "epoch": 4,
+      "path": "artifacts\\phase3\\evaluation\\Exp_F_Full_Multimodal_OCR\\best_checkpoint.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 0.9732905982905983,
+      "sha256": "95b6060984565375f653201416fc25c7b6b9a16fbabbf729ad244efb96bade01",
+      "is_best": true
+    },
+    {
+      "epoch": 5,
+      "path": "artifacts\\phase3\\evaluation\\Exp_F_Full_Multimodal_OCR\\best_checkpoint.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "390926fe2e890b965041bd49e62ee2107c38e45adf84f583303d09a4994e6a43",
+      "is_best": true
+    },
+    {
+      "epoch": 6,
+      "path": "artifacts\\phase3\\evaluation\\Exp_F_Full_Multimodal_OCR\\checkpoint_epoch_006.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "b0f01487d0ef9906eabaa3527e1e44ec0ec5bcca99cf23456d55df6f3a9f8308",
+      "is_best": false
+    },
+    {
+      "epoch": 7,
+      "path": "artifacts\\phase3\\evaluation\\Exp_F_Full_Multimodal_OCR\\checkpoint_epoch_007.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "6b718813edcd05f0b1e938554cf2c001f11453c9d9a748e2a14c8c65cc95f5fc",
+      "is_best": false
+    },
+    {
+      "epoch": 8,
+      "path": "artifacts\\phase3\\evaluation\\Exp_F_Full_Multimodal_OCR\\checkpoint_epoch_008.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "e92ef8d366f0a1adf3f740960d3e63458aa35132152d083414a9044c14dab48b",
+      "is_best": false
+    }
+  ]
+}

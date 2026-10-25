@@ -1,0 +1,209 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Phase7CanonicalRecordSchema",
+  "description": "Canonical, unified record schema for Phase 7 dataset forensics, governance, and reproducible splits.",
+  "type": "object",
+  "required": [
+    "record_id",
+    "source_dataset",
+    "source_record_id",
+    "language",
+    "language_scope",
+    "text",
+    "primary_label_original",
+    "image_available",
+    "image_decoded",
+    "ocr_available",
+    "ocr_processed",
+    "label_provenance",
+    "adjudication_status",
+    "ambiguity_status",
+    "duplicate_group_id",
+    "source_group_id",
+    "split_group_id",
+    "eligibility_flags",
+    "exclusion_reasons"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "description": "Unique immutable identifier for this record across the entire project."
+    },
+    "source_dataset": {
+      "type": "string",
+      "enum": [
+        "mmsd",
+        "sarcnet",
+        "goemotions",
+        "civil_comments",
+        "mustard",
+        "isarcasm",
+        "synthetic_pilot",
+        "silver_dataset_verified",
+        "phase6d_adjudicated",
+        "phase6a_human_pilot"
+      ]
+    },
+    "source_record_id": {
+      "type": "string",
+      "description": "Original record ID in the source dataset."
+    },
+    "source_split": {
+      "type": ["string", "null"],
+      "enum": ["train", "validation", "test", "dev", "unassigned", null]
+    },
+    "language": {
+      "type": "string",
+      "description": "ISO 639-1 language code (e.g. 'en', 'zh')."
+    },
+    "language_scope": {
+      "type": "string",
+      "enum": [
+        "CORE_ENGLISH_BENCHMARK",
+        "NON_ENGLISH_SEPARATE_ANALYSIS",
+        "GENERAL_MULTILINGUAL"
+      ]
+    },
+    "text": {
+      "type": "string",
+      "description": "Primary comment or utterance text."
+    },
+    "caption": {
+      "type": ["string", "null"],
+      "description": "Post caption or title if distinct from comment."
+    },
+    "dialogue_context": {
+      "type": ["array", "null"],
+      "items": { "type": "string" },
+      "description": "Preceding dialogue or conversational turns."
+    },
+    "image_path": {
+      "type": ["string", "null"],
+      "description": "Repository-relative path to image file."
+    },
+    "image_available": {
+      "type": "boolean",
+      "description": "Whether an image file exists on disk."
+    },
+    "image_decoded": {
+      "type": "boolean",
+      "description": "Whether the image was successfully decoded into pixels."
+    },
+    "ocr_text": {
+      "type": ["string", "null"],
+      "description": "Text extracted from the image via OCR."
+    },
+    "ocr_available": {
+      "type": "boolean",
+      "description": "Whether OCR text is available for this record."
+    },
+    "ocr_processed": {
+      "type": "boolean",
+      "description": "Whether OCR extraction has actually been executed."
+    },
+    "primary_label_original": {
+      "description": "Original raw label as provided in the source dataset."
+    },
+    "primary_label_derived": {
+      "type": ["string", "null"],
+      "enum": ["passive_aggressive", "non_passive_aggressive", "ambiguous", null]
+    },
+    "subtype_label": {
+      "type": ["string", "null"],
+      "enum": [
+        "fake_politeness",
+        "indirect_criticism",
+        "backhanded_compliment",
+        "implied_blame",
+        "sarcastic_agreement",
+        "dismissiveness",
+        "other_or_unclear",
+        "none",
+        null
+      ]
+    },
+    "auxiliary_labels": {
+      "type": "object",
+      "description": "Auxiliary task targets (sarcasm, toxicity, emotion, sentiment)."
+    },
+    "label_provenance": {
+      "type": "string",
+      "enum": [
+        "ORIGINAL_SOURCE_LABEL",
+        "HUMAN_ANNOTATED",
+        "SYNTHETIC_LABEL",
+        "MACHINE_GENERATED_LOCAL_OLLAMA_LLM",
+        "MACHINE_GENERATED_ADJUDICATION_NOT_GROUND_TRUTH",
+        "DERIVED_AUXILIARY_LABEL",
+        "UNKNOWN_PROVENANCE"
+      ]
+    },
+    "annotator_or_model": {
+      "type": ["string", "null"]
+    },
+    "annotation_prompt_version": {
+      "type": ["string", "null"]
+    },
+    "annotation_timestamp": {
+      "type": ["string", "null"]
+    },
+    "adjudication_status": {
+      "type": "string",
+      "enum": [
+        "UNADJUDICATED",
+        "UNANIMOUS_CONSENSUS",
+        "ADJUDICATED_BY_LLM",
+        "ADJUDICATED_BY_HUMAN"
+      ]
+    },
+    "ambiguity_status": {
+      "type": "string",
+      "enum": [
+        "CLEAR",
+        "AMBIGUOUS_INSUFFICIENT_CONTEXT",
+        "AMBIGUOUS_UNASSESSED_IMAGE",
+        "AMBIGUOUS_PRAGMATIC",
+        "UNASSESSED"
+      ]
+    },
+    "duplicate_group_id": {
+      "type": "string",
+      "description": "Connected component cluster ID for identical or near-duplicate texts/images."
+    },
+    "source_group_id": {
+      "type": "string",
+      "description": "Source dataset or batch group identifier."
+    },
+    "conversation_group_id": {
+      "type": ["string", "null"],
+      "description": "Dialogue, post, or thread ID to prevent intra-thread split leakage."
+    },
+    "image_group_id": {
+      "type": ["string", "null"],
+      "description": "Hash-based image cluster identifier."
+    },
+    "split_group_id": {
+      "type": "string",
+      "description": "Unified isolation group for group-aware deterministic splitting."
+    },
+    "eligibility_flags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "ELIGIBLE_FOR_SUPERVISED_PA_TRAINING",
+          "ELIGIBLE_FOR_AUXILIARY_TASK",
+          "ELIGIBLE_FOR_EXPLORATORY_WEAK_SUPERVISION",
+          "ELIGIBLE_FOR_UNLABELED_PRETRAINING",
+          "ELIGIBLE_FOR_HUMAN_ANNOTATION",
+          "INELIGIBLE_FOR_CURRENT_OBJECTIVE",
+          "REQUIRES_MANUAL_REVIEW"
+        ]
+      }
+    },
+    "exclusion_reasons": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

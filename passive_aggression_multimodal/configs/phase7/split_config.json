@@ -1,0 +1,28 @@
+{
+  "random_seed": 42,
+  "split_strategy": "DETERMINISTIC_GROUP_AWARE_MD5_HASH",
+  "total_records": 27970,
+  "total_clusters": 27218,
+  "target_proportions": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "actual_counts": {
+    "train": 19618,
+    "validation": 4143,
+    "test": 4209
+  },
+  "actual_percentages": {
+    "train": 70.14,
+    "validation": 14.81,
+    "test": 15.05
+  },
+  "group_leakage_across_partitions": 0,
+  "experiments_supported": {
+    "multimodal_sarcasm_auxiliary": true,
+    "text_baseline_sarcasm_auxiliary": true,
+    "weak_supervision_silver_pa": false,
+    "human_evaluation_benchmark": false
+  }
+}

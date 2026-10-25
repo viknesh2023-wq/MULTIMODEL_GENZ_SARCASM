@@ -1,0 +1,37 @@
+2026-10-10 21:51:10,530 [INFO] ===========================================================================
+2026-10-10 21:51:10,530 [INFO]    PHASE A & B: RECONCILE AND ASSEMBLE 2,847-D MULTIMODAL MATRICES
+2026-10-10 21:51:10,530 [INFO] ===========================================================================
+2026-10-10 21:51:10,530 [INFO] Loading master multimodal dataset: D:\NLP_PROJECT\FINAL_DATASETS\MULTIMODAL_SARCASM\multimodal_sarcasm_combined.csv
+2026-10-10 21:51:10,798 [INFO] Total master records: 33,077
+2026-10-10 21:51:10,798 [INFO] Loading authoritative split assignments from: D:\NLP_PROJECT\FINAL_DATASETS\MULTIMODAL_SARCASM\SPLIT
+2026-10-10 21:51:12,004 [INFO] Total canonical split records: 33,077
+2026-10-10 21:51:12,004 [INFO] Verifying metadata files across all 5 stores...
+2026-10-10 21:51:12,963 [INFO] Checking 1-to-1 sample identity alignment...
+2026-10-10 21:51:12,989 [INFO] Sample identity, label, and split reconciliation PASSED (100% agreement).
+2026-10-10 21:51:12,989 [INFO] Allocating master matrix: (33077, 2847) float32 (~376.7 MB)...
+2026-10-10 21:51:12,994 [INFO] Loading modalities using ThreadPoolExecutor with 16 parallel workers...
+2026-10-10 21:51:12,994 [INFO] Loading modality: 'text' (dim=768, cols [0:768]) from features...
+2026-10-10 21:51:57,361 [INFO] Modality 'text' loaded successfully in 44.37 seconds.
+2026-10-10 21:51:57,361 [INFO] Loading modality: 'clip' (dim=512, cols [768:1280]) from features...
+2026-10-10 21:54:20,217 [INFO] Modality 'clip' loaded successfully in 142.86 seconds.
+2026-10-10 21:54:20,217 [INFO] Loading modality: 'vlm' (dim=1536, cols [1280:2816]) from features...
+2026-10-10 21:55:03,497 [INFO] Modality 'vlm' loaded successfully in 43.28 seconds.
+2026-10-10 21:55:03,497 [INFO] Loading modality: 'sentiment' (dim=3, cols [2816:2819]) from features...
+2026-10-10 21:59:12,559 [INFO] Modality 'sentiment' loaded successfully in 249.06 seconds.
+2026-10-10 21:59:12,559 [INFO] Loading modality: 'emotion' (dim=28, cols [2819:2847]) from features...
+2026-10-10 21:59:24,572 [INFO] Modality 'emotion' loaded successfully in 12.01 seconds.
+2026-10-10 21:59:24,572 [INFO] Validating full matrix numerical integrity (NaN, Inf, Finiteness)...
+2026-10-10 21:59:24,704 [INFO] Full matrix numerical integrity verified: 0 NaNs, 0 Infs.
+2026-10-10 21:59:24,705 [INFO] Partitioning into official Train, Validation, and Test splits...
+2026-10-10 21:59:24,718 [INFO] Split sizes: Train=25,384, Val=3,891, Test=3,802
+2026-10-10 21:59:24,928 [INFO] X_train shape: (25384, 2847), y_train shape: (25384,)
+2026-10-10 21:59:24,928 [INFO] X_val shape:   (3891, 2847), y_val shape:   (3891,)
+2026-10-10 21:59:24,928 [INFO] X_test shape:  (3802, 2847), y_test shape:  (3802,)
+2026-10-10 21:59:24,932 [INFO] Train labels (0 / 1): {1: 13970, 0: 11414}
+2026-10-10 21:59:24,932 [INFO] Val labels (0 / 1):   {1: 2403, 0: 1488}
+2026-10-10 21:59:24,932 [INFO] Test labels (0 / 1):  {1: 2136, 0: 1666}
+2026-10-10 21:59:24,932 [INFO] Total labels (0 / 1): {1: 18509, 0: 14568}
+2026-10-10 21:59:24,932 [INFO] Saving assembled matrices to: D:\NLP_PROJECT\FINAL_DATASETS\MULTIMODAL_SARCASM\FUSION_DATA
+2026-10-10 21:59:25,562 [INFO] Saved fusion_metadata.csv (33,077 rows)
+2026-10-10 21:59:25,568 [INFO] Assembly completed successfully in 495.03 seconds!
+2026-10-10 21:59:25,568 [INFO] ===========================================================================

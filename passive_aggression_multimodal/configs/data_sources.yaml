@@ -1,0 +1,104 @@
+# Dataset Sources Configuration
+version: "1.0.0"
+project: "Context-Aware Multimodal Passive-Aggression Detection in Social Media Using Image-Comment Fusion"
+
+datasets:
+  mmsd:
+    name: "MMSD / MMSD2.0 / MMSD3.0"
+    description: "Multimodal Sarcasm Detection Benchmark from Twitter and Amazon"
+    official_url: "https://github.com/ZHCMOONWIND/MMSD3.0"
+    benchmark_paper: "Cai et al. ACL 2019 / Ying et al. 2023 / CVPR 2026"
+    raw_dir: "data/raw/mmsd"
+    image_dir: "data/images/mmsd"
+    modality: "multimodal (image + text)"
+    license: "Academic Research Use Only (Twitter terms apply to original media)"
+    license_type: "Restricted Academic"
+    requires_manual_action: false
+    status_candidate: "DOWNLOADED_AND_VERIFIED"
+    text_fields:
+      id: "image_id"
+      text: "text"
+      label: "label"
+    splits: ["train", "valid", "test"]
+
+  sarcnet:
+    name: "SarcNet"
+    description: "Multilingual Multimodal Sarcasm Detection Dataset (English and Chinese)"
+    official_url: "https://github.com/yuetanbupt/SarcNet"
+    benchmark_paper: "Yue et al., LREC-COLING 2024"
+    raw_dir: "data/raw/sarcnet"
+    image_dir: "data/images/sarcnet"
+    modality: "multimodal (image + text)"
+    license: "MIT License for code/annotations; social media image terms apply"
+    license_type: "MIT / Fair Academic Research"
+    download_url: "https://drive.google.com/file/d/18m3KdDCXgkAlvTbjNhfftvU9LdhyDUTt/view?usp=drive_link"
+    google_drive_id: "18m3KdDCXgkAlvTbjNhfftvU9LdhyDUTt"
+    requires_manual_action: false
+    status_candidate: "DOWNLOADED_AND_VERIFIED"
+    splits: ["train", "valid", "test"]
+
+  goemotions:
+    name: "GoEmotions"
+    description: "Fine-grained Reddit emotion dataset (58k comments across 27 emotions + neutral)"
+    official_url: "https://github.com/google-research/google-research/tree/master/goemotions"
+    benchmark_paper: "Demszky et al., ACL 2020"
+    raw_dir: "data/raw/goemotions"
+    modality: "text-only"
+    license: "Apache License 2.0"
+    license_type: "Permissive Open Source"
+    requires_manual_action: false
+    status_candidate: "DOWNLOADED_AND_VERIFIED"
+    files:
+      train: "train.tsv"
+      dev: "dev.tsv"
+      test: "test.tsv"
+      emotions: "emotions.txt"
+    relevant_subtypes:
+      annoyance: 3
+      disapproval: 10
+      disappointment: 9
+
+  civil_comments:
+    name: "Civil Comments"
+    description: "Public domain collection of news comment threads with toxicity & hostility annotations"
+    official_url: "https://www.tensorflow.org/datasets/catalog/civil_comments"
+    huggingface_url: "https://huggingface.co/datasets/google/civil_comments"
+    benchmark_paper: "Borkan et al., WWW 2019"
+    raw_dir: "data/raw/civil_comments"
+    modality: "text-only"
+    license: "CC0-1.0 Universal (Public Domain)"
+    license_type: "Public Domain"
+    requires_manual_action: false
+    status_candidate: "DOWNLOADED_AND_VERIFIED"
+    features:
+      - "text"
+      - "toxicity"
+      - "severe_toxicity"
+      - "insult"
+      - "identity_attack"
+
+  mustard:
+    name: "MUStARD"
+    description: "Multimodal Sarcasm in Dialogue dataset compiled from TV sitcoms with context"
+    official_url: "https://github.com/soujanyaporia/MUStARD"
+    benchmark_paper: "Castro et al., ACL 2019"
+    raw_dir: "data/raw/mustard"
+    modality: "audiovisual dialogue + context"
+    license: "MIT License for metadata & transcripts; TV show video clips fair research use"
+    license_type: "MIT / Research Use"
+    requires_manual_action: false
+    status_candidate: "DOWNLOADED_AND_VERIFIED"
+    files:
+      annotations: "sarcasm_data.json"
+
+  isarcasm:
+    name: "iSarcasm / iSarcasmEval"
+    description: "SemEval-2022 Task 6 intended sarcasm benchmark"
+    official_url: "https://github.com/headacheboy/data-iSarcasmEval"
+    benchmark_paper: "Abu Farha et al., SemEval 2022"
+    raw_dir: "data/raw/isarcasm"
+    modality: "text-only"
+    license: "Academic Research Use"
+    license_type: "Academic Research"
+    requires_manual_action: false
+    status_candidate: "PARTIALLY_AVAILABLE"

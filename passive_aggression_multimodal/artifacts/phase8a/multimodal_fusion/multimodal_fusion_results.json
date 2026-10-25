@@ -1,0 +1,88 @@
+{
+  "model_name": "Image-Comment Multimodal Fusion (XLM-RoBERTa + Spatial Vision + Gating)",
+  "architecture": "GatedMultimodalFusion (768 text, 768 image -> 512 fused -> 256 -> 2 classes)",
+  "device": "cuda",
+  "vram_allocated_mb": 1180.5,
+  "training_duration_seconds": 1158.03,
+  "epochs": 5,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "best_epoch": 5,
+  "best_val_macro_f1": 0.7482,
+  "test_loss": 0.5025,
+  "test_metrics": {
+    "accuracy": 0.7502969826562129,
+    "balanced_accuracy": 0.7495067950423241,
+    "macro_f1": 0.7496974098418259,
+    "macro_precision": 0.7504745873449424,
+    "macro_recall": 0.7495067950423241,
+    "weighted_f1": 0.7500554072018725,
+    "per_class": {
+      "non_sarcastic": {
+        "precision": 0.7478879502000889,
+        "recall": 0.7765466297322253,
+        "f1": 0.7619479048697622,
+        "support": 2166
+      },
+      "sarcastic": {
+        "precision": 0.753061224489796,
+        "recall": 0.7224669603524229,
+        "f1": 0.7374469148138896,
+        "support": 2043
+      }
+    },
+    "class_distribution": {
+      "non_sarcastic": 2166,
+      "sarcastic": 2043
+    },
+    "confusion_matrix": [
+      [
+        1682,
+        484
+      ],
+      [
+        567,
+        1476
+      ]
+    ],
+    "total_samples": 4209
+  },
+  "checkpoint_path": "artifacts\\phase8a\\multimodal_fusion\\best_multimodal_fusion.pt",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.6218,
+      "val_loss": 0.5356,
+      "val_macro_f1": 0.7219,
+      "val_accuracy": 0.7265
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.5475,
+      "val_loss": 0.5327,
+      "val_macro_f1": 0.7289,
+      "val_accuracy": 0.7289
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5291,
+      "val_loss": 0.5403,
+      "val_macro_f1": 0.7408,
+      "val_accuracy": 0.7425
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.5084,
+      "val_loss": 0.5031,
+      "val_macro_f1": 0.7477,
+      "val_accuracy": 0.7483
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.4926,
+      "val_loss": 0.5049,
+      "val_macro_f1": 0.7482,
+      "val_accuracy": 0.749
+    }
+  ]
+}

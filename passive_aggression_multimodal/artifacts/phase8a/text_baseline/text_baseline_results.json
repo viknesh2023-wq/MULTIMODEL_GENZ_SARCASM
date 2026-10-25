@@ -1,0 +1,87 @@
+{
+  "model_name": "Text-Only Sarcasm Baseline (TF-IDF + Linear Classifier)",
+  "selected_architecture": "logistic_regression",
+  "selected_C": 1.0,
+  "random_seed": 42,
+  "train_samples": 19618,
+  "val_samples": 4143,
+  "test_samples": 4209,
+  "training_duration_seconds": 36.89,
+  "model_selection_history": [
+    {
+      "model_type": "logistic_regression",
+      "C": 0.5,
+      "val_macro_f1": 0.739212432352893,
+      "val_accuracy": 0.73980207579049
+    },
+    {
+      "model_type": "logistic_regression",
+      "C": 1.0,
+      "val_macro_f1": 0.7406875613059929,
+      "val_accuracy": 0.741250301713734
+    },
+    {
+      "model_type": "logistic_regression",
+      "C": 2.0,
+      "val_macro_f1": 0.7386542472861031,
+      "val_accuracy": 0.7393193338160753
+    },
+    {
+      "model_type": "linear_svm",
+      "C": 0.5,
+      "val_macro_f1": 0.7359517641829402,
+      "val_accuracy": 0.7364228819695873
+    },
+    {
+      "model_type": "linear_svm",
+      "C": 1.0,
+      "val_macro_f1": 0.7334544631685436,
+      "val_accuracy": 0.7340091720975139
+    },
+    {
+      "model_type": "linear_svm",
+      "C": 2.0,
+      "val_macro_f1": 0.7257023133158587,
+      "val_accuracy": 0.7262853005068791
+    }
+  ],
+  "best_val_macro_f1": 0.7407,
+  "test_metrics": {
+    "accuracy": 0.751960085531005,
+    "balanced_accuracy": 0.7515396130018996,
+    "macro_f1": 0.7516318989443527,
+    "macro_precision": 0.7518007948335816,
+    "macro_recall": 0.7515396130018996,
+    "weighted_f1": 0.7518957352198967,
+    "per_class": {
+      "non_sarcastic": {
+        "precision": 0.755464480874317,
+        "recall": 0.7659279778393352,
+        "f1": 0.7606602475928473,
+        "support": 2166
+      },
+      "sarcastic": {
+        "precision": 0.7481371087928465,
+        "recall": 0.737151248164464,
+        "f1": 0.742603550295858,
+        "support": 2043
+      }
+    },
+    "class_distribution": {
+      "non_sarcastic": 2166,
+      "sarcastic": 2043
+    },
+    "confusion_matrix": [
+      [
+        1659,
+        507
+      ],
+      [
+        537,
+        1506
+      ]
+    ],
+    "total_samples": 4209
+  },
+  "checkpoint_path": "artifacts\\phase8a\\text_baseline\\best_text_baseline.pkl"
+}

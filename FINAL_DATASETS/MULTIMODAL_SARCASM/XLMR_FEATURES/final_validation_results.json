@@ -1,0 +1,25 @@
+{
+  "source_multimodal_records": 33077,
+  "indexed_feature_records": 33077,
+  "checkpoint_records": 33077,
+  "physical_feature_files": 33077,
+  "missing_features": 0,
+  "invalid_shape_count": 0,
+  "invalid_dtype_count": 0,
+  "nan_inf_count": 0,
+  "duplicate_sample_ids": 0,
+  "duplicate_indices": 0,
+  "duplicate_feature_files": 0,
+  "alignment_id_match": true,
+  "alignment_label_match": true,
+  "alignment_index_match": true,
+  "split_coverage": {
+    "train": 25384,
+    "validation": 3891,
+    "test": 3802
+  },
+  "failures_count": 0,
+  "device_used": "cuda (NVIDIA GeForce RTX 4050 Laptop GPU, 6.00 GB VRAM)",
+  "execution_time_seconds": 640.93,
+  "validation_duration_seconds": 11.52
+}

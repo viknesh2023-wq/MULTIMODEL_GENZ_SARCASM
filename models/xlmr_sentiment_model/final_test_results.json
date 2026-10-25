@@ -1,0 +1,69 @@
+{
+  "model": "FacebookAI/xlm-roberta-base",
+  "task": "3-class Sentiment Classification",
+  "train_samples": 107678,
+  "validation_samples": 7916,
+  "test_samples": 16730,
+  "epochs": 3,
+  "effective_batch_size": 32,
+  "learning_rate": 2e-05,
+  "test_accuracy": 0.7332337118947998,
+  "test_macro_precision": 0.729403002683603,
+  "test_macro_recall": 0.7317286138542775,
+  "test_macro_f1": 0.7294527182702505,
+  "confusion_matrix": [
+    [
+      3446,
+      941,
+      531
+    ],
+    [
+      1190,
+      3853,
+      891
+    ],
+    [
+      361,
+      549,
+      4968
+    ]
+  ],
+  "classification_report": {
+    "Negative": {
+      "precision": 0.6896137682609566,
+      "recall": 0.7006913379422529,
+      "f1-score": 0.6951084215834594,
+      "support": 4918.0
+    },
+    "Neutral": {
+      "precision": 0.7211304510574583,
+      "recall": 0.649309066397034,
+      "f1-score": 0.6833377671366498,
+      "support": 5934.0
+    },
+    "Positive": {
+      "precision": 0.7774647887323943,
+      "recall": 0.8451854372235454,
+      "f1-score": 0.8099119660906423,
+      "support": 5878.0
+    },
+    "accuracy": 0.7332337118947998,
+    "macro avg": {
+      "precision": 0.729403002683603,
+      "recall": 0.7317286138542775,
+      "f1-score": 0.7294527182702505,
+      "support": 16730.0
+    },
+    "weighted avg": {
+      "precision": 0.731658495938515,
+      "recall": 0.7332337118947998,
+      "f1-score": 0.7312691012682087,
+      "support": 16730.0
+    }
+  },
+  "labels": {
+    "0": "Negative",
+    "1": "Neutral",
+    "2": "Positive"
+  }
+}

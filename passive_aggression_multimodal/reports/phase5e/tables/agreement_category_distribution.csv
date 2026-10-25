@@ -1,0 +1,10 @@
+audit_category,record_count,percentage,description,example_record_ids
+LIKELY_GENUINE_PA_SILVER,18,26.47%,"High-confidence passive aggression with confirmed individual target, covert hostility, and plausible deniability.",mustard_2_490; mmsd_validation_01859; mustard_1_162
+LIKELY_NON_PA,1,1.47%,Consensus negative example with confirmed absence of hostility or aggression.,sarcnet_test_00053
+GENERAL_SARCASM_NO_INTERPERSONAL_TARGET,6,8.82%,Broadcast sarcasm or ironic humor directed at general audience rather than a specific addressee.,civil_comments_val_05247; civil_comments_val_01142; civil_comments_val_02566
+INSTITUTIONAL_OR_SITUATIONAL_CRITIQUE,11,16.18%,"Satire, venting, or grievance directed at abstract institutions (media, government, NFL) or general situations.",mustard_2_174; sarcnet_test_00274; mmsd_train_05348
+DIRECT_AGGRESSION_OR_DIRECT_ARGUMENT,4,5.88%,"Overt hostility, blunt arguments, or direct insults lacking courtesy facade or plausible deniability.",civil_comments_val_04917; civil_comments_val_02587; civil_comments_val_00154
+SINCERE_PRAISE_OR_FRIENDLY_TEASING,2,2.94%,"Sincere gratitude, polite compliment, or character self-talk misclassified as passive-aggressive.",mustard_2_372; civil_comments_val_08920
+AMBIGUOUS_INSUFFICIENT_CONTEXT,4,5.88%,Short or fragmented comments where missing conversational context prevents reliable classification.,civil_comments_val_00793; mmsd_train_06126; mmsd_train_03612
+SHARED_MODEL_ERROR_SUSPECTED,2,2.94%,Factual inquiries or promotional statements hallucinated by both models as passive-aggressive.,civil_comments_val_02265; mmsd_train_00135
+UNRESOLVED_REQUIRES_HUMAN_REVIEW,20,29.41%,Multimodal posts where image was unassessed; target and intent cannot be resolved without human visual inspection.,sarcnet_train_00045; mmsd_test_00916; sarcnet_train_00095

@@ -1,0 +1,480 @@
+================================================================================
+PROJECT DEMONSTRATION VIDEO SCRIPT & SCREEN-RECORDING MANUAL
+================================================================================
+Project Title    : A Multimodal Vision-Language Framework for Gen-Z Sarcasm
+                   Detection Using XLM-R, CLIP and Vision-Language Models
+Short Title      : Multimodal Gen-Z Sarcasm Detection
+Target Duration  : 5 to 7 Minutes (Realistic Spoken Pace)
+Format           : Teleprompter-Friendly Plain Text (Read directly from your phone)
+Repository Root  : D:\NLP_PROJECT
+Document File    : PROJECT_DEMONSTRATION_SCRIPT.txt
+================================================================================
+
+
+================================================================================
+DELIVERABLE 5: FACULTY DATABASE & BACKEND COMPLIANCE NOTE
+================================================================================
+CRITICAL CONTEXT FOR FACULTY REVIEW:
+In traditional software engineering rubrics, faculty members frequently include
+standard evaluation checkboxes: "Shows Architecture", "Module Walkthrough",
+"Shows Database", and "Frontend-to-Backend Reflection".
+
+HOW THIS APPLIES TO OUR SYSTEM:
+Our project is a real-time deep learning inference platform rather than a CRUD
+(Create, Read, Update, Delete) database application. Sarcasm detection is an
+on-demand analytical process. Consequently, our backend DOES NOT store user posts
+in an SQL database table like MySQL or SQLite.
+
+Instead, persistent backend storage in this system consists of:
+1. Physical Master Datasets: CSV archives with 1,224,831 records (FINAL_DATASETS/).
+2. Persistent Feature Stores: 165,385 pre-extracted feature files and partition
+   matrices (X_train.npy, X_val.npy, X_test.npy, fusion_metadata.csv).
+3. Serialized Model Checkpoints: Pre-trained deep neural network weights (models/)
+   totaling over 3.3 GB of safetensors and PyTorch state dicts.
+4. Pre-Fitted Preprocessing Objects: Saved StandardScaler (fusion_scaler.joblib).
+
+HOW TO ADDRESS THIS RESPECTFULLY AND ACCURATELY:
+In Scene 9 of this script, you will explain this architecture with complete
+academic honesty and show:
+- The physical feature store and dataset repository on disk.
+- The live browser Developer Tools Network tab (or Swagger API documentation),
+  proving that frontend user clicks send HTTP multipart POST payloads to FastAPI,
+  which process through the models and immediately reflect on the frontend UI.
+This satisfies the faculty's criteria 100% truthfully without inventing non-existent
+SQL databases.
+
+
+================================================================================
+DELIVERABLE 4: FINAL PRE-RECORDING CHECKLIST
+================================================================================
+Complete these checks 5 minutes before pressing "Record":
+
+[ ] 1. ENVIRONMENT READY:
+       Open PowerShell in D:\NLP_PROJECT and ensure internvl_env is active.
+
+[ ] 2. START THE BACKEND:
+       Double-click start_backend.bat (or run Uvicorn on port 8000).
+       Wait until you see: "✓ Multimodal pipeline ready (5 branches + Fusion MLP)."
+
+[ ] 3. START THE FRONTEND:
+       Double-click start_frontend.bat (or run npm run dev in frontend/).
+       Confirm Vite starts on http://localhost:5173.
+
+[ ] 4. PREPARE BROWSER TABS:
+       Tab 1: http://localhost:5173 (The React Dashboard - opened to Overview).
+       Tab 2: http://localhost:8000/docs (FastAPI Swagger Interactive Documentation).
+       Tab 3: (Optional) GenZ_SarC_Complete_Architecture.png in Windows Photo Viewer.
+
+[ ] 5. PREPARE SAMPLE INPUTS:
+       - Text Sarcasm Sample:
+         "Great, another three-hour meeting right before the long weekend. Just what I needed."
+       - Multimodal Image Sample:
+         Have a test meme image ready on your Desktop (e.g., a burnt pizza or
+         failed repair image, or select an image from D:\NLP_PROJECT\06_MMSD2.0\).
+       - Multimodal Caption:
+         "Best pizza I have ever made! 🍕✨"
+
+[ ] 6. SYSTEM CLEANUP:
+       - Close all games, heavy browser tabs, and video editors to keep GPU VRAM free.
+       - Turn on Windows "Focus Assist" (Do Not Disturb) to block notifications.
+       - Set your phone's screen timeout to "Never" or 10 minutes so this script
+         stays visible while reading.
+       - Plug in your laptop charger and ensure your microphone audio is crisp.
+
+
+================================================================================
+DELIVERABLE 3: ESTIMATED TIMELINE & PACING GUIDE
+================================================================================
+Total Estimated Time: 5 Minutes 30 Seconds to 6 Minutes 30 Seconds
+
+- Scene 1 : Greeting, Team Introduction & Problem Statement  [0:00 - 0:45] (45s)
+- Scene 2 : Proposed System Architecture Walkthrough          [0:45 - 1:30] (45s)
+- Scene 3 : Live Module 1 — Overview & Hardware Telemetry    [1:30 - 2:00] (30s)
+- Scene 4 : Live Module 2 — Text-Only Sarcasm Classification [2:00 - 2:45] (45s)
+- Scene 5 : Live Module 3 — Multimodal Meme Sarcasm Detection[2:45 - 3:45] (60s)
+- Scene 6 : Live Module 4 — Explainable AI (XAI) Reasoning   [3:45 - 4:15] (30s)
+- Scene 7 : Live Module 5 — Model Architecture & Performance [4:15 - 4:45] (30s)
+- Scene 8 : Live Module 6 — Master Datasets & Features       [4:45 - 5:15] (30s)
+- Scene 9 : Database, Storage & Frontend-to-Backend Flow     [5:15 - 6:00] (45s)
+- Scene 10: Conclusion & Respectful Wrap-Up                  [6:00 - 6:30] (30s)
+
+
+================================================================================
+DELIVERABLES 1 & 2: COMPLETE SPOKEN DEMONSTRATION SCRIPT & ACTION GUIDE
+================================================================================
+
+HOW TO USE THIS SECTION:
+- [SCREEN ACTION]: What you should physically click, type, or scroll to on your laptop.
+- [SAY]: The exact natural words to speak aloud from your phone.
+- [SHOW]: What the reviewer should see on the screen while you speak.
+
+--------------------------------------------------------------------------------
+SCENE 1: GREETING, TEAM INTRODUCTION & PROBLEM STATEMENT
+Estimated Time: 0:00 - 0:45 (45 Seconds)
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION: Open your browser to http://localhost:5173. Display the main
+ dashboard with the project title clearly visible.]
+
+[SAY:]
+"Good morning, ma'am/sir. 
+
+My name is [MY FULL NAME], and today I will be demonstrating our final year
+project on behalf of our team. 
+
+My team members are:
+- Neteesh Reddy,
+- Sanjibani,
+- Swethavarshini,
+- and Varshitha.
+
+Our project is titled:
+'A Multimodal Vision-Language Framework for Gen-Z Sarcasm Detection Using
+ XLM-R, CLIP and Vision-Language Models.'
+
+In modern social media communication, sarcasm is rarely conveyed through plain
+text alone. In fact, most sarcastic internet memes rely on what we call
+'cross-modal incongruity'--where a positive caption is paired with a contrasting,
+distressed, or absurd image. 
+
+Traditional NLP models looking only at text mistake sarcastic mockery for
+genuine praise. Our project solves this by combining visual scene understanding,
+high-resolution vision semantics, sentiment valence, and emotional states with
+contextual text to accurately detect sarcasm."
+
+[SHOW: Keep the main dashboard visible, highlighting the project title and team
+ context.]
+
+
+--------------------------------------------------------------------------------
+SCENE 2: PROPOSED SYSTEM ARCHITECTURE WALKTHROUGH
+Estimated Time: 0:45 - 1:30 (45 Seconds)
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION: In the left sidebar, click on 'Model Architecture' (or switch
+ to the tab displaying GenZ_SarC_Complete_Architecture.png).]
+
+[SAY:]
+"Before demonstrating the live application, I would like to briefly present our
+proposed system architecture diagram. Please note that this is our complete
+system architecture diagram, not an entity-relationship diagram.
+
+Our system operates on a heterogeneous five-branch multimodal pipeline:
+
+First, when a user provides text and an image, the text is processed by our
+fine-tuned XLM-RoBERTa transformer to extract a 768-dimensional contextual
+representation.
+
+Second, the image is passed through OpenAI CLIP ViT-B/32 to extract a
+512-dimensional visual scene embedding.
+
+Third, the image is dynamically tiled and processed through the OpenGVLab
+InternVL3-2B foundation vision-language model to extract 1,536 dimensions of
+fine-grained visual semantics.
+
+Fourth and fifth, our auxiliary XLM-RoBERTa classifiers extract a 3-dimensional
+sentiment probability distribution and a 28-dimensional GoEmotions affective
+spectrum.
+
+All five representation streams are concatenated into a single 2,847-dimensional
+feature vector. This vector is normalized using our pre-fitted StandardScaler and
+passed into our 4-layer Multimodal Fusion MLP, which outputs the final binary
+prediction: sarcastic or non-sarcastic.
+
+Finally, an optional Explainable AI reasoner translates the model's signals into
+an evidence-grounded natural-language explanation."
+
+[SHOW: Point your cursor across the five branches on the Model Architecture
+ page, showing the flow converging into the 2,847-D fusion layer.]
+
+
+--------------------------------------------------------------------------------
+SCENE 3: LIVE MODULE 1 — OVERVIEW & HARDWARE TELEMETRY
+Estimated Time: 1:30 - 2:00 (30 Seconds)
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION: In the left sidebar, click on 'Overview'.]
+
+[SAY:]
+"Now, let us begin the live demonstration of our application modules.
+
+Here on our Overview dashboard, we have our live system telemetry. You can see
+that our FastAPI backend is online, and our pre-trained models are fully loaded
+in memory.
+
+Our system is currently running locally on an NVIDIA GeForce RTX 4050 GPU with
+CUDA acceleration. 
+
+To maintain stability within a 6 GB VRAM budget, our vision and text transformers
+are loaded on CUDA, while our auxiliary sentiment and emotion heads are offloaded
+to host CPU memory. This ensures zero memory crashes and keeps our inference
+latency fast."
+
+[SHOW: Point to the green 'Backend Online' badge, 'Models Loaded' badge, and the
+ hardware status cards.]
+
+
+--------------------------------------------------------------------------------
+SCENE 4: LIVE MODULE 2 — TEXT-ONLY SARCASM CLASSIFICATION
+Estimated Time: 2:00 - 2:45 (45 Seconds)
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION: In the left sidebar, click on 'Sarcasm Detection'. Click in the
+ text box, type:
+ 'Great, another three-hour meeting right before the long weekend. Just what I needed.'
+ (Or click the quick example dropdown and choose one).
+ Then click the 'Analyze Text' button.]
+
+[SAY:]
+"Our second major module is real-time Text-Only Sarcasm Detection. 
+
+I will enter a typical sarcastic workplace comment:
+'Great, another three-hour meeting right before the long weekend. Just what I needed.'
+
+Now I click 'Analyze Text'.
+
+In less than 25 milliseconds, our fine-tuned XLM-RoBERTa text model processes
+the sentence. 
+
+As you can see, the model outputs a confident verdict of 'SARCASTIC' with over
+98% confidence. Below it, the probability distribution bars show that the
+sarcastic probability dominates, and the inference was executed directly on our
+CUDA device."
+
+[SHOW: Point to the bold 'SARCASTIC' badge, the circular confidence gauge, and
+ the probability bars.]
+
+
+--------------------------------------------------------------------------------
+SCENE 5: LIVE MODULE 3 — MULTIMODAL SARCASM DETECTION (MEME UPLOAD)
+Estimated Time: 2:45 - 3:45 (60 Seconds)
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION: In the left sidebar, click on 'Multimodal Analysis'.
+ Drag and drop your test meme image (e.g., a burnt pizza or damaged car) into the
+ image dropzone.
+ In the caption box, type:
+ 'Best pizza I have ever made! 🍕✨'
+ Ensure the 'Generate Evidence-Grounded Explanation' toggle is checked.
+ Click the 'Run Multimodal Inference' button.]
+
+[SAY:]
+"Now, we come to the primary core contribution of our research: Multimodal Meme
+Sarcasm Detection.
+
+Here on the Multimodal Analysis studio, I will upload an image of a severely
+burnt pizza. In the caption box, I enter positive praise:
+'Best pizza I have ever made!'
+
+Notice that if a text-only model evaluated this sentence alone, it would classify
+it as 100% positive and non-sarcastic because words like 'best' and pizza emojis
+appear completely sincere.
+
+Now I click 'Run Multimodal Inference'.
+
+The backend is now concurrently executing all five feature branches: extracting
+text tokens, CLIP visual scene embeddings, InternVL high-resolution tiles,
+sentiment, and emotion distributions.
+
+Here are our real-time results:
+Our Multimodal Fusion MLP has correctly identified the cross-modal conflict and
+classified this post as 'SARCASTIC' with over 90% confidence!
+
+Below the prediction, our dashboard displays the auxiliary model outputs:
+- The sentiment model detected high surface positive polarity.
+- The 28-class GoEmotions spectrum captured underlying disapproval and annoyance.
+- And our latency breakdown diagnostics show the exact processing time across
+  all five branches."
+
+[SHOW: Point out the 'SARCASTIC' verdict card, the 3-D sentiment distribution,
+ the top detected emotions, and the per-branch latency diagnostics.]
+
+
+--------------------------------------------------------------------------------
+SCENE 6: LIVE MODULE 4 — EXPLAINABLE AI (XAI) REASONING
+Estimated Time: 3:45 - 4:15 (30 Seconds)
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION: Scroll down slightly on the same page to show the 'Explainable AI
+ Reasoning' card.]
+
+[SAY:]
+"Next, we demonstrate our Explainable AI module.
+
+For academic and content moderation transparency, a black-box percentage is not
+enough. Our system incorporates a decoupled local explanation reasoner powered by
+Llama 3.2 1B pinned to host CPU.
+
+Looking at the explanation card:
+- In the Summary, it explains in plain English that surface praise contrasts
+  sharply with visual evidence of culinary failure.
+- Under Visual Evidence, our resident InternVL model factually observes the
+  blackened, burnt crust on the baking tray.
+- Under Text Evidence, it highlights the ironic praise markers.
+- And under Limitations, it acknowledges statistical boundaries.
+
+Most importantly, our explanation reasoner is strictly post-hoc: it cannot alter
+the underlying model probabilities, ensuring complete scientific integrity."
+
+[SHOW: Highlight the five structured sections inside the Explanation card.]
+
+
+--------------------------------------------------------------------------------
+SCENE 7: LIVE MODULE 5 — MODEL ARCHITECTURE & PERFORMANCE
+Estimated Time: 4:15 - 4:45 (30 Seconds)
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION: In the left sidebar, click on 'Model Performance'.]
+
+[SAY:]
+"Our next module is Model Performance and Evaluation.
+
+Here, we present our verified experimental results evaluated on untouched held-out
+test sets:
+Our Full Multimodal Fusion MLP achieves 79.62% Test Accuracy and 78.64% Macro F1
+on 3,802 test samples, with an outstanding 89.89% recall on sarcastic memes.
+
+Below the confusion matrix, we have our formal 8-Way Modality Ablation Benchmark.
+This ablation study scientifically proves our hypothesis:
+Text-only representations achieve only 61.98% Macro F1. 
+Adding CLIP visual features triggers a dramatic 16% jump, and combining all five
+heterogeneous streams achieves our highest performance of 78.64% Macro F1--an
+absolute gain of +16.66% over the text baseline."
+
+[SHOW: Point to the 2x2 confusion matrix heatmap and scroll briefly down to the
+ 8-way ablation comparison chart.]
+
+
+--------------------------------------------------------------------------------
+SCENE 8: LIVE MODULE 6 — MASTER DATASETS & FEATURES
+Estimated Time: 4:45 - 5:15 (30 Seconds)
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION: In the left sidebar, click on 'Dataset'.]
+
+[SAY:]
+"Here on the Dataset module, we visualize our complete data repository.
+
+Across the project, our team assembled, audited, and strictly partitioned four
+master datasets containing over 1.22 million records:
+1. Our Text Sarcasm corpus contains 1,005,167 samples with balanced 50:50 labels,
+   including 20,000 code-mixed Dravidian samples across Tamil, Kannada, and Malayalam.
+2. Our Multimodal Sarcasm dataset contains 33,077 verified image-text pairs from
+   MMSD 2.0 and MEMOTION 3.0, incorporating South Asian Hinglish memes.
+3. Our Sentiment corpus contains 132,324 samples across positive, neutral, and negative.
+4. And our Emotion dataset contains 54,263 multi-label GoEmotions records.
+
+All synthetic data and training scalers were strictly isolated to training splits
+to guarantee zero test leakage."
+
+[SHOW: Point out the dataset summary cards and the language distribution graphs.]
+
+
+--------------------------------------------------------------------------------
+SCENE 9: DATABASE, STORAGE ARCHITECTURE & FRONTEND-TO-BACKEND FLOW
+Estimated Time: 5:15 - 6:00 (45 Seconds)
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION: Press F12 in your browser to open Developer Tools. Click on the
+ 'Network' tab. 
+ (Alternatively, switch to your second browser tab showing http://localhost:8000/docs).
+ Go back to 'Sarcasm Detection' or 'Multimodal Analysis', enter a short text, and
+ click 'Analyze Text'.
+ In the Network tab, click on the resulting 'text' or 'multimodal' network request
+ to show the Headers and Response.]
+
+[SAY:]
+"Now, I would like to address our backend architecture, data storage, and the live
+flow from frontend to backend.
+
+Our application is designed as a real-time machine learning inference system rather
+than a transactional database application. Because our objective is real-time
+analytical prediction, our backend does not persist user queries in an SQL table.
+
+Instead, our persistent storage consists of our serialized model checkpoints, our
+pre-fitted StandardScaler, and our physical master feature store of 33,077 samples
+in our repository directory.
+
+Here in the browser Developer Tools Network tab, you can see the live frontend-to-backend
+reflection in action:
+When I submit input on the frontend, an HTTP POST request is dispatched to our
+FastAPI endpoint at /api/predict/text. 
+
+The backend receives the JSON payload, validates the input schema via Pydantic,
+executes the neural forward pass in memory, and returns an HTTP 200 OK response with
+calibrated probabilities. The React frontend immediately intercepts this JSON response
+and renders the live prediction gauges without reloading the page.
+
+Furthermore, our API is fully documented and testable live via FastAPI Swagger UI
+at port 8000."
+
+[SHOW: Point to the HTTP 200 OK status in the DevTools Network tab, the request
+ payload, and the JSON response object, then briefly show the terminal running
+ Uvicorn with live log output.]
+
+
+--------------------------------------------------------------------------------
+SCENE 10: CONCLUSION & RESPECTFUL WRAP-UP
+Estimated Time: 6:00 - 6:30 (30 Seconds)
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION: Click back to the 'Overview' tab so the clean main dashboard is
+ displayed on screen.]
+
+[SAY:]
+"In conclusion, our project successfully demonstrates a fully implemented,
+end-to-end multimodal AI platform for Gen-Z sarcasm detection.
+
+By uniting multilingual text embeddings, CLIP visual representations, InternVL
+visual-semantic tokens, and affective sentiment and emotion models into a
+2,847-dimensional neural fusion architecture, we achieved a significant 16.66%
+performance improvement over text-only baselines.
+
+Together with our CPU-isolated Explainable AI reasoner and our production React
+dashboard, the system provides both high accuracy and transparent interpretability.
+
+On behalf of my teammates Neteesh Reddy, Sanjibani, Swethavarshini, Varshitha,
+and myself, thank you very much for your time and guidance, ma'am/sir. 
+I am now ready to answer any questions."
+
+[SHOW: Keep the clean dashboard on screen, smiling, and conclude the recording.]
+
+
+================================================================================
+DELIVERABLE 6: QUICK RECOVERY & BACKUP CONTINGENCY GUIDE
+================================================================================
+
+If an unexpected issue happens during recording:
+
+1. IF INFERENCE TAKES A FEW SECONDS LONGER THAN EXPECTED:
+   Do not panic or restart. Simply continue speaking:
+   "The backend is currently dynamically extracting high-resolution visual tiles
+   through our 2-billion parameter InternVL vision model..."
+   By the time you finish this sentence, the result will have appeared.
+
+2. IF AN UNEXPECTED PREDICTION IS RETURNED (E.g. classified as Non-Sarcastic):
+   Do not edit code or restart. State the scientific reality:
+   "As we see here, the model outputs a lower confidence score for this sample.
+   This illustrates an important research limitation: sarcasm is subjective and
+   context-dependent, which is why our system provides confidence scores rather
+   than deterministic guarantees."
+
+3. IF OLLAMA IS NOT RUNNING:
+   You do not need Ollama! The backend will automatically output:
+   "Deterministic Cognitive Reasoner (Local Grounded)" in less than 1 millisecond.
+   Simply say:
+   "Here, our built-in Deterministic Cognitive Reasoner has generated the explanation
+   based on lexical patterns and sentiment distributions."
+
+4. IF THE BROWSER SHOWS "BACKEND OFFLINE":
+   Check your backend PowerShell terminal. If Uvicorn crashed or was closed, run
+   start_backend.bat and wait 15 seconds for models to finish loading before
+   refreshing the browser.
+
+5. GENERAL ADVICE:
+   Do one quick, unrecorded practice run from Scene 3 through Scene 5 to warm up
+   the PyTorch cache and verify that both servers are communicating smoothly.
+
+================================================================================
+END OF DEMONSTRATION SCRIPT — READY FOR RECORDING
+================================================================================

@@ -1,0 +1,10 @@
+record_id,group_id,source_dataset,source_record_id,text,dialogue_context,has_image,image_path,image_assessed,silver_label,silver_subtype,confidence_band,provenance,acceptance_category,annotator_a_label,annotator_b_label
+civil_comments_val_07561,grp_civil_comments_val_07561,civil_comments,val_07561,"Thanks, GofJBR. Like I said, I like Francis. He just needs to learn that there's no shame in saying ""no comment"" once in a while.
+
+By the way, I hope your nom de plume doesn't go through any more additions. Reading it is starting to become like taking an eye test. Personally, I think you should just go back to 'Jonny Beeski.' I mean, if Dr. Who can regenerate now and then, why can't you?",,True,,False,non_passive_aggressive,implied_blame,medium,LLM_ADJUDICATED,SILVER_ADJUDICATED,ambiguous,passive_aggressive
+mustard_1_3660,grp_mustard_1_3660,mustard,mustard_1_3660,There a new girlfriend in there? 'Cause you might need one.,"[Turn 1]: Leonard, what do the two of you talk about after the coitus? 
+ [Turn 2]: My guess is, ""Hey, four minutes! New record!"" 
+ [Turn 3]: That's why I'm the funny one. 
+ [Turn 4]: Anyway, we followed the guy to this garage sale, and they had the coolest stuff. 
+ [Turn 5]: They were closing up. We got this whole box for 60 bucks. 
+ [Turn 6]: We didn't even get to go through it all. There could be anything in here.",True,,False,passive_aggressive,indirect_criticism,medium,LLM_CROSS_MODEL_AGREEMENT,SILVER_HIGH_AGREEMENT,passive_aggressive,passive_aggressive

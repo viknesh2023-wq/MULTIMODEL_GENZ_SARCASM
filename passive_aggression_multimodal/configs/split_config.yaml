@@ -1,0 +1,33 @@
+# Dataset Splitting Configuration
+version: "2.0.0"
+random_seed: 42
+
+split_ratios:
+  train: 0.80
+  validation: 0.10
+  test: 0.10
+
+grouping_keys:
+  - post_id
+  - conversation_id
+  - exact_text_hash
+  - perceptual_image_hash
+
+hash_thresholds:
+  dhash_hamming_distance: 2  # Hamming distance <= 2 treated as near-duplicate image
+
+dataset_strategies:
+  mmsd:
+    strategy: "preserve_official_benchmark_with_leakage_audit"
+    official_splits: ["train", "validation", "test"]
+    audit_duplicate_leakage: true
+  sarcnet:
+    strategy: "preserve_official_benchmark_with_leakage_audit"
+    official_splits: ["train", "validation", "test"]
+    audit_duplicate_leakage: true
+  unified_multimodal:
+    strategy: "grouped_stratified_80_10_10"
+    group_by: "cluster_id"
+    train_ratio: 0.80
+    val_ratio: 0.10
+    test_ratio: 0.10

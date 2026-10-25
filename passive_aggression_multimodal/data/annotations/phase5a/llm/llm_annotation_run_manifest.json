@@ -1,0 +1,47 @@
+{
+  "pipeline_version": "5.0.0",
+  "prompt_version": "v1.0.0",
+  "execution_date": "2026-10-21",
+  "start_time": "2026-10-21T13:43:26.156137+00:00",
+  "end_time": "2026-10-21T13:52:04.513137+00:00",
+  "total_duration_sec": 518.36,
+  "primary_model": "llama3.2:latest",
+  "second_pass_executed": true,
+  "second_pass_model": "qwen2.5:1.5b",
+  "records_attempted": 100,
+  "pass1_success_count": 100,
+  "pass2_success_count": 100,
+  "dry_run": false,
+  "modality_used": "TEXT_ONLY",
+  "visual_assessment_policy": "UNASSESSED_VISION_MODEL_ABSENT",
+  "label_distribution_pass1": {
+    "passive_aggressive": 96,
+    "non_passive_aggressive": 4,
+    "ambiguous": 0
+  },
+  "subtype_distribution_pass1": {
+    "backhanded_compliment": 18,
+    "implied_blame": 60,
+    "indirect_criticism": 10,
+    "fake_politeness": 7,
+    "sarcastic_agreement": 1
+  },
+  "consistency": {
+    "paired_records_count": 100,
+    "agreement_count": 68,
+    "disagreement_count": 32,
+    "raw_consistency_percent": 68.0,
+    "per_class_consistency": {
+      "passive_aggressive": 69.79,
+      "non_passive_aggressive": 25.0,
+      "ambiguous": null
+    }
+  },
+  "output_files": {
+    "pass1": "data/annotations/phase5a/llm\\llm_annotations_pass1.jsonl",
+    "pass2": "data/annotations/phase5a/llm\\llm_annotations_pass2.jsonl",
+    "failures": "data/annotations/phase5a/llm\\llm_annotation_failures.jsonl",
+    "disagreements": "data/annotations/phase5a/llm\\llm_annotation_disagreements.csv",
+    "distribution": "data/annotations/phase5a/llm\\llm_annotation_label_distribution.json"
+  }
+}

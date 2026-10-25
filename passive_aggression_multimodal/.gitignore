@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large binary files and media
+data/images/
+data/features/
+*.pt
+*.pkl
+backups/
+data/raw/**/*.zip
+data/raw/**/*.z[0-9][0-9]
+data/raw/**/*.tar.gz
+data/raw/**/*.7z
+*.mp4
+*.avi
+*.mkv
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.bak

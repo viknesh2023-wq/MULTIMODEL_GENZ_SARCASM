@@ -1,0 +1,522 @@
+================================================================================
+          TEAM 14 — PROJECT DEMONSTRATION VIDEO SCRIPT
+       GEN Z-FOCUSED MULTIMODAL SARCASM ANALYSIS (CSI4001)
+================================================================================
+Presenter: Viknesh G (23MID0161)
+Teammate:  Navaneeth P (23MID0013)
+Course:    Natural Language Processing and Computational Linguistics (CSI4001)
+Team:      Team 14
+Delivery:  Natural Spoken English | Phone-Prompt Ready | Short Sentences
+Target:    4 to 6 Minutes Total Duration
+
+================================================================================
+FACULTY COMPLIANCE & PREPARATION CHECKLIST
+================================================================================
+
+[FACULTY MANDATORY PRIORITIES ADDRESSED IN SCRIPT]:
+  Priority 1: Project Title & System Architecture Diagram (NOT an ER Diagram).
+  Priority 2: Live Execution of Every Major Functional Module (Text & Multimodal).
+  Priority 3: Database & Frontend-to-Backend Network Data Flow Demonstration.
+  Remaining:  Overview Dashboard and Complete Tour of All Remaining UI Tabs.
+
+[PREPARATION STEPS BEFORE RECORDING]:
+1. VERIFY SERVICES:
+   - FastAPI Backend running at: http://localhost:8000
+     (Command: D:\NLP_PROJECT\internvl_env\Scripts\python.exe D:\NLP_PROJECT\backend\run_server.py)
+   - Vite Frontend running at: http://localhost:5173
+     (Command: cd D:\NLP_PROJECT\frontend && npm run dev)
+   - Backend health endpoint: http://localhost:8000/api/health (must show "status": "ok")
+
+2. PREPARE ASSETS:
+   - System Architecture Diagram open in Windows Photo Viewer:
+     D:\NLP_PROJECT\GenZ_SarC_Complete_Architecture.png (or Report Page 21)
+   - Sample Meme Image ready in File Explorer:
+     D:\NLP_PROJECT\06_MMSD2.0\DATA1\dataset_image\dataset_image\1001.jpg
+   - Sample Text ready to paste:
+     "Great, another three-hour meeting. Just what I needed."
+
+3. AUDIO & RECORDING ENVIRONMENT:
+   - Use a clear microphone close to you.
+   - Silence all phone notifications and set phone display to "Never sleep".
+   - Keep Chrome DevTools (F12) open in the background on the 'Network' tab.
+
+================================================================================
+ESTIMATED VIDEO TIMING BREAKDOWN (TOTAL: ~4.5 - 5.5 MINUTES)
+================================================================================
+  Section 1: Introduction & Project Details            — 0:00 to 0:30 (30s)
+  Section 2: System Architecture Diagram (Priority 1)  — 0:30 to 1:05 (35s)
+  Section 3: Live Execution of Major Modules (Priority 2)
+             - Text Sarcasm Detection                  — 1:05 to 1:45 (40s)
+             - Multimodal Sarcasm Detection & XAI     — 1:45 to 2:40 (55s)
+             - Linguistic Text Analysis                — 2:40 to 3:05 (25s)
+  Section 4: Database & Backend Data Flow (Priority 3) — 3:05 to 3:45 (40s)
+  Section 5: Tour of Remaining Frontend Tabs           — 3:45 to 4:55 (70s)
+  Section 6: Conclusion & Sign-Off                     — 4:55 to 5:20 (25s)
+
+================================================================================
+PART 1: FACULTY MANDATORY PRIORITIES (SECTIONS 1 TO 4)
+================================================================================
+
+--------------------------------------------------------------------------------
+SECTION 1: INTRODUCTION AND PROJECT TITLE
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION]
+Stay on your desktop or opening title slide with your webcam visible.
+Look at the camera and speak with confidence and clarity.
+
+[SAY]
+"Good morning, faculty. I am Viknesh G, registration number 23MID0161, from
+Team 14. Today, I will be demonstrating our final project for Natural Language
+Processing and Computational Linguistics, course code CSI4001.
+
+Our project title is: 'Gen Z-Focused Multimodal Sarcasm Analysis'.
+My teammate is Navaneeth P, registration number 23MID0013.
+
+In social media today, particularly in Gen Z communication, sarcasm is rarely
+expressed as plain text alone. It is communicated through memes and posts where
+the text caption directly contradicts the visual context.
+
+In this demonstration, I will first explain our proposed system architecture,
+execute our live prediction modules, demonstrate our backend data flow, and
+then walk you through every page of our completed web application."
+
+[SHOW]
+The title slide or screen showing the project title and Team 14 member names.
+
+
+--------------------------------------------------------------------------------
+SECTION 2: SYSTEM ARCHITECTURE DIAGRAM (FACULTY PRIORITY 1)
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION]
+Switch smoothly to the opened System Architecture Diagram image:
+D:\NLP_PROJECT\GenZ_SarC_Complete_Architecture.png (or Report Page 21).
+Maximize the window so all blocks are clearly legible.
+
+[SAY]
+"Here is our proposed system architecture diagram. This is the complete system
+pipeline that drives our application.
+
+Our architecture accepts two parallel inputs: social media text and an optional
+meme image.
+
+For the text input, we extract a 768-dimensional contextual representation
+using fine-tuned XLM-RoBERTa.
+
+For the visual input, we extract dual visual features: 512 image tokens using
+CLIP ViT-B/32, and 1,536 visual-semantic tokens using InternVL3-2B.
+
+To capture emotional undertones, auxiliary classifiers generate 3 sentiment
+scores and 28 fine-grained emotion probabilities.
+
+These five sources are concatenated into a unified 2,847-dimensional feature
+vector, normalized by a pre-fitted scaler, and classified by our
+MultimodalFusionMLP network into Sarcastic or Non-Sarcastic.
+
+Finally, an optional local Llama 3.2 1-Billion model provides natural language
+explanations without altering the classifier's predicted labels or probabilities."
+
+[SHOW]
+Point your mouse cursor steadily across:
+1. Input Layer (Text + Meme Image)
+2. Five Feature Extractors (XLM-R, CLIP, InternVL, Sentiment, Emotion)
+3. 2,847-D Concatenation Layer
+4. Multimodal Fusion MLP Classifier (Linear 2847 -> 1024 -> 512 -> 128 -> 2)
+5. Decoupled Llama 3.2 Ollama Explanation Component
+
+
+--------------------------------------------------------------------------------
+SECTION 3: LIVE DEMONSTRATION OF MAJOR MODULES (FACULTY PRIORITY 2)
+--------------------------------------------------------------------------------
+
+=== MODULE 1: LIVE TEXT-ONLY SARCASM DETECTION ===
+
+[SCREEN ACTION]
+Switch directly to Google Chrome at http://localhost:5173.
+Click on 'Sarcasm Detection' in the sidebar menu.
+Click inside the text box.
+Type or paste the sample sentence:
+"Great, another three-hour meeting. Just what I needed."
+Click the 'Analyze Sarcasm' button.
+Pause for 1 second while the loading spinner runs and the result card displays.
+
+[SAY]
+"Now, let us demonstrate our major modules through live execution.
+
+I have opened the Sarcasm Detection module, which runs our fine-tuned
+XLM-RoBERTa text model.
+
+I will enter a typical sarcastic sentence: 'Great, another three-hour meeting.
+Just what I needed.'
+
+When I click Analyze Sarcasm, the frontend sends this text to our FastAPI
+backend. The XLM-RoBERTa model tokenizes the input, evaluates the semantic
+context, and returns the prediction.
+
+As displayed on screen, the model classifies the input as SARCASTIC with high
+confidence, showing the complete probability distribution and latency."
+
+[SHOW]
+The live prediction card displaying:
+- Classification verdict: SARCASTIC
+- Confidence bar & probability values
+- Latency indicator (e.g., ~40-60 ms).
+
+
+=== MODULE 2: LIVE MULTIMODAL SARCASM DETECTION & XAI ===
+
+[SCREEN ACTION]
+Click on 'Multimodal Analysis' in the sidebar.
+In the Caption input field, enter:
+"My morning routine is going so smoothly."
+Click 'Upload Meme Image' and select the test image from:
+D:\NLP_PROJECT\06_MMSD2.0\DATA1\dataset_image\dataset_image\1001.jpg
+(The image showing spilled coffee and a chaotic morning).
+Click the 'Run Multimodal Fusion' button.
+Wait 2 to 3 seconds for the model forward pass and explanation to complete.
+Scroll down to reveal the full result card and explanation box.
+
+[SAY]
+"Next, I will demonstrate the primary contribution of our research: Multimodal
+Sarcasm Analysis.
+
+Here, I input both a text caption and an image. The caption says: 'My morning
+routine is going so smoothly', but the uploaded image portrays spilled coffee
+and a chaotic desk.
+
+When I click Run Multimodal Fusion, our backend simultaneously extracts features
+from all five branches: 768 from XLM-RoBERTa, 512 from CLIP, 1,536 from
+InternVL, plus sentiment and emotion scores.
+
+These 2,847 features are normalized and processed by our MultimodalFusionMLP.
+
+The system accurately detects Sarcasm driven by the cross-modal incongruity
+between the positive caption and the chaotic visual scene.
+
+Below the prediction, our local explanation component clearly describes the
+contradiction between the text and the visual context."
+
+[SHOW]
+The completed Multimodal Analysis screen showing:
+- Image preview side-by-side with the caption
+- Sarcasm classification verdict with probability breakdown
+- Detected sentiment polarity and emotion tags
+- Natural-language explanation describing the text-image contradiction.
+
+
+=== MODULE 3: LIVE LINGUISTIC TEXT ANALYSIS ===
+
+[SCREEN ACTION]
+Click on 'Text Analysis' in the sidebar.
+In the input box, enter:
+"Oh wonderful, my code crashed for the tenth time today! #blessed"
+Click 'Analyze Linguistic Features'.
+Scroll through the radar chart and statistical metric cards.
+
+[SAY]
+"The third major module is Linguistic Text Analysis.
+
+Beyond deep embeddings, online sarcasm exhibits specific surface patterns.
+This module extracts rule-based lexical indicators, such as capitalization
+intensity, punctuation clustering, hashtag sentiment inversion, and Gen Z
+slang density.
+
+These metrics offer transparent linguistic insight into why certain phrasing
+signals sarcasm before neural embeddings are even generated."
+
+[SHOW]
+The statistical dashboard displaying:
+- Gen Z slang density and hashtag markers
+- Exclamation count and punctuation frequency
+- Sentiment polarity radar chart.
+
+
+--------------------------------------------------------------------------------
+SECTION 4: DATABASE & BACKEND DATA FLOW (FACULTY PRIORITY 3)
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION]
+Press F12 in Chrome to reveal Developer Tools.
+Select the 'Network' tab.
+Filter by 'Fetch/XHR'.
+Click back to 'Sarcasm Detection' or stay on the current tab, and click
+'Analyze' again.
+In the DevTools Network list, click on the resulting POST request
+('predict' or 'text').
+First click the 'Payload' tab to show the JSON input.
+Then click the 'Response' tab to show the JSON output.
+Optionally, briefly bring up the Uvicorn terminal showing the HTTP 200 log.
+
+[SAY]
+"Now, I will demonstrate our database architecture and frontend-to-backend data
+flow, addressing our faculty's third requirement.
+
+Our application is built as an artificial intelligence inference engine.
+Instead of a conventional relational SQL database with user tables, our
+persistent storage consists of serialized model weights, pre-fitted feature
+scalers, and curated dataset stores on disk.
+
+Here in the Chrome Developer Tools Network tab, you can see the live request
+and response flow.
+
+When an analysis is triggered, the React frontend dispatches an asynchronous
+HTTP POST request to our FastAPI backend endpoint at localhost port 8000.
+
+The Payload tab shows the input text sent by the browser.
+
+The Response tab shows the structured JSON returned by FastAPI, containing the
+predicted label, probabilities, and execution latency.
+
+Our backend terminal confirms this request was received and processed with
+HTTP status 200 OK. Every prediction is computed on the fly through our resident
+PyTorch models."
+
+[SHOW]
+1. Network tab showing HTTP POST to http://localhost:8000/api/predict/text
+2. Request Payload: {"text": "Great, another three-hour meeting..."}
+3. Response JSON: {"prediction": "SARCASTIC", "confidence": 0.88, ...}
+4. Backend terminal displaying: "POST /api/predict/text HTTP/1.1 200 OK"
+
+
+================================================================================
+PART 2: COMPLETE TOUR OF ALL REMAINING FRONTEND TABS (SECTION 5)
+================================================================================
+
+--------------------------------------------------------------------------------
+TAB 1: OVERVIEW PAGE
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION]
+Close DevTools (F12).
+Click on the first item in the sidebar: 'Overview'.
+Scroll slowly down through the dashboard telemetry cards.
+
+[SAY]
+"Having demonstrated our primary modules and backend integration, let us now
+tour every page of our application in order, starting with the Overview dashboard.
+
+This page summarizes our entire platform. It displays live status indicators
+confirming that our FastAPI backend is active and that both the XLM-RoBERTa text
+model and Multimodal Fusion MLP are loaded and ready in memory."
+
+[SHOW]
+The system status pills, loaded model indicators, and platform summary cards.
+
+
+--------------------------------------------------------------------------------
+TABS 2, 3, & 4: SARCASM DETECTION, TEXT ANALYSIS, & MULTIMODAL ANALYSIS
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION]
+Briefly click on 'Sarcasm Detection', 'Text Analysis', and 'Multimodal Analysis'
+in sequence (1 second each) to demonstrate full sidebar continuity.
+
+[SAY]
+"Tabs 2, 3, and 4 represent our live inference and linguistic modules, which we
+demonstrated in detail at the start of our presentation."
+
+[SHOW]
+Quick, seamless visual continuity of the three interactive analysis modules.
+
+
+--------------------------------------------------------------------------------
+TAB 5: MODEL ARCHITECTURE
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION]
+Click on 'Model Architecture' in the sidebar.
+Scroll through the interactive feature dimensions breakdown.
+Click on one of the branch accordions (e.g., 'InternVL3-2B' or 'Feature Fusion').
+
+[SAY]
+"Tab 5 is Model Architecture.
+
+This page documents the technical configuration of our inference pipeline.
+It provides an interactive breakdown of our 2,847-dimensional fused vector:
+768 dimensions from XLM-RoBERTa, 512 from CLIP, 1,536 from InternVL, 3 from
+Sentiment, and 28 from Emotion.
+
+It also details our MultimodalFusionMLP classifier layers, including batch
+normalization and dropout rates."
+
+[SHOW]
+The interactive feature-dimension cards and neural network layer specifications.
+
+
+--------------------------------------------------------------------------------
+TAB 6: MODEL PERFORMANCE
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION]
+Click on 'Model Performance' in the sidebar.
+Scroll to the main performance comparison table.
+Hover over the confusion matrix and the ablation study bar chart.
+
+[SAY]
+"Tab 6 displays our verified Model Performance, documented in our final report.
+
+Our text-only XLM-RoBERTa baseline achieves 77.19% accuracy and a 77.19% Macro F1
+score on our test set.
+
+Our Multimodal Fusion MLP achieves 79.62% accuracy, an overall Macro F1 of
+78.64%, and an 83.21% F1-score on sarcastic samples across 3,802 held-out test
+instances.
+
+The 8-way ablation study shows that incorporating dual visual features,
+sentiment, and emotion yields a 16.66% Macro F1 gain over text alone."
+
+[SHOW]
+The model metrics table:
+- Text Sarcasm (XLM-R): 77.19% Accuracy / 77.19% Macro F1
+- Multimodal Fusion MLP: 79.62% Accuracy / 78.64% Macro F1 / 83.21% Sarcastic F1
+- Sentiment Classifier: 73.32% Accuracy / 72.95% Macro F1
+- 8-Way Ablation Study chart illustrating progressive performance gains.
+
+
+--------------------------------------------------------------------------------
+TAB 7: FEATURE EXTRACTION
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION]
+Click on 'Feature Extraction' in the sidebar.
+Scroll down through the five vector store alignment cards.
+
+[SAY]
+"Tab 7 is Feature Extraction.
+
+This module monitors the dimensional alignment of our five feature extractors.
+Because each model produces features at different numeric scales, our pre-fitted
+StandardScaler normalizes the combined 2,847 features before classification.
+
+This prevents high-dimensional visual tokens from overwhelming smaller but
+essential sentiment and emotion signals."
+
+[SHOW]
+The feature store cards showing vector dimensions, normalization status, and
+pre-extracted array statistics.
+
+
+--------------------------------------------------------------------------------
+TAB 8: DATASET
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION]
+Click on 'Dataset' in the sidebar.
+Scroll through the four dataset category cards and distribution charts.
+
+[SAY]
+"Tab 8 presents our Dataset statistics.
+
+Our models were trained and evaluated on over 1.22 million instances across four
+groups: Text Sarcasm, Multimodal Sarcasm, Sentiment, and Fine-Grained Emotion.
+
+The corpus incorporates established benchmarks like MMSD 2.0, SARC, Memotion
+3.0, GoEmotions, and Dravidian code-mixed social media datasets.
+
+This page displays the class balance and split distributions for each corpus."
+
+[SHOW]
+The dataset statistics dashboard displaying total sample counts, modal splits,
+and benchmark source attributions.
+
+
+--------------------------------------------------------------------------------
+TAB 9: RESEARCH & NOVELTY
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION]
+Click on 'Research & Novelty' in the sidebar.
+Scroll down through the novelty pillars and cross-modal incongruity cards.
+
+[SAY]
+"Tab 9 highlights our Research and Novelty.
+
+Traditional sarcasm detection focuses strictly on unimodal text sentiment.
+
+Our novelty lies in modeling cross-modal cognitive dissonance in Gen Z content:
+pairing dual vision encoders from CLIP and InternVL with auxiliary affective
+features to detect when a seemingly positive text caption is completely
+reversed by the visual scene."
+
+[SHOW]
+The research methodology cards detailing dual vision encoders, affective
+fusion, and Gen Z linguistic adaptations.
+
+
+--------------------------------------------------------------------------------
+TAB 10: ABOUT PROJECT
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION]
+Click on 'About Project' in the sidebar.
+Scroll down to show team details, environment specifications, and dependencies.
+
+[SAY]
+"Our final tab is About Project.
+
+This page provides project metadata, Team 14 member information, software
+dependencies, CUDA GPU acceleration status, and model checkpoint locations,
+ensuring complete reproducibility."
+
+[SHOW]
+The system telemetry screen showing Team 14, Viknesh G, Navaneeth P, PyTorch
+environment, and model checkpoint paths.
+
+
+================================================================================
+PART 3: CONCLUSION & CLOSING (SECTION 6)
+================================================================================
+
+--------------------------------------------------------------------------------
+SECTION 6: CONCLUSION
+--------------------------------------------------------------------------------
+
+[SCREEN ACTION]
+Click back to the 'Overview' tab.
+Bring up your facecam / webcam or conclude cleanly with the dashboard visible.
+
+[SAY]
+"In conclusion, we have presented our final project: 'Gen Z-Focused Multimodal
+Sarcasm Analysis' for CSI4001.
+
+We demonstrated our proposed system architecture, executed live text and
+multimodal predictions, demonstrated our backend data flow in Developer Tools,
+and reviewed every module of our web application.
+
+Our results demonstrate that fusing text, dual visual features, sentiment, and
+emotion achieves a superior 79.62% accuracy in resolving multimodal sarcasm.
+
+On behalf of Team 14, Navaneeth P and myself, Viknesh G, thank you very much."
+
+[SHOW]
+The running Overview dashboard of the application.
+Stop screen recording.
+
+
+================================================================================
+PART 4: CONTINGENCY, RECOVERY, & FACULTY LIMITATION NOTE
+================================================================================
+
+[NOTE ON FACULTY DATABASE REQUIREMENT]:
+  If the faculty asks: "Where is your SQL database table?"
+  Answer honestly:
+  "Our project is an AI inference system, not a CRUD database application.
+   Predictions are computed dynamically in real time by our resident PyTorch
+   models on GPU. Our persistent storage consists of serialized model weights
+   in the models directory, pre-fitted standard scalers, and cached vector
+   stores on disk, which are loaded once at startup. Frontend-to-backend data
+   transfer is handled asynchronously via FastAPI REST endpoints."
+
+[RECOVERY CONTINGENCIES]:
+1. If the Ollama explanation service is slow:
+   The application automatically switches to our deterministic cognitive reasoner
+   fallback (<1 ms). The classifier prediction is completely independent and
+   will succeed.
+2. If the backend disconnects:
+   Check the PowerShell window running 'run_server.py'. It can be restarted
+   instantly, and the frontend will automatically reconnect.
+3. Audio clarity:
+   Keep a steady pace. During model inference, allow the 1-2 second loading
+   bar to display silently; do not rush or speak over it.
+================================================================================

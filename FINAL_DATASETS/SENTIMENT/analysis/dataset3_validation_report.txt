@@ -1,0 +1,119 @@
+======================================================================
+DATASET 3 - SENTIMENT VALIDATION REPORT
+======================================================================
+
+INPUT PROCESSING
+----------------------------------------------------------------------
+TweetEval train: 45,615 rows; 0 invalid labels removed
+TweetEval validation: 2,000 rows; 0 invalid labels removed
+TweetEval test: 12,284 rows; 0 invalid labels removed
+SentiMix train: 14,569 rows; 0 invalid labels removed
+SentiMix validation: 2,999 rows; 0 invalid labels removed
+DravidianCodeMix Kannada-English train: 3,995 kept; 2,141 excluded
+DravidianCodeMix Kannada-English validation: 505 kept; 262 excluded
+DravidianCodeMix Kannada-English test: 502 kept; 266 excluded
+DravidianCodeMix Malayalam-English train: 8,410 kept; 7,284 excluded
+DravidianCodeMix Malayalam-English validation: 1,044 kept; 916 excluded
+DravidianCodeMix Malayalam-English test: 1,039 kept; 923 excluded
+DravidianCodeMix Tamil-English train: 24,064 kept; 11,156 excluded
+DravidianCodeMix Tamil-English validation: 2,966 kept; 1,432 excluded
+DravidianCodeMix Tamil-English test: 3,047 kept; 1,355 excluded
+Synthetic Neutral: 12,000 rows; TRAIN ONLY
+
+FINAL DATASET SIZE
+----------------------------------------------------------------------
+Total: 132,324
+Train: 107,678
+Validation: 7,916
+Test: 16,730
+
+SENTIMENT DISTRIBUTION
+----------------------------------------------------------------------
+Negative: 25,109
+Neutral: 45,405
+Positive: 61,810
+
+LANGUAGE DISTRIBUTION
+----------------------------------------------------------------------
+English: 59,865
+Hinglish: 15,771
+Kannada-English: 8,768
+Malayalam-English: 14,136
+Tamil-English: 33,784
+
+SOURCE DISTRIBUTION
+----------------------------------------------------------------------
+DravidianCodeMix: 44,688
+DravidianCodeMix-Synthetic: 12,000
+SentiMix: 15,771
+TweetEval: 59,865
+
+SPLIT LABEL DISTRIBUTION
+----------------------------------------------------------------------
+
+TRAIN
+  0 (Negative): 18,555
+  1 (Neutral): 37,994
+  2 (Positive): 51,129
+
+VALIDATION
+  0 (Negative): 1,636
+  1 (Neutral): 1,477
+  2 (Positive): 4,803
+
+TEST
+  0 (Negative): 4,918
+  1 (Neutral): 5,934
+  2 (Positive): 5,878
+
+DATA QUALITY
+----------------------------------------------------------------------
+Empty text: 0
+Invalid labels: 0
+Duplicate IDs: 0
+Duplicate normalized texts: 0
+
+LEAKAGE CHECK
+----------------------------------------------------------------------
+Train <-> Validation: 0
+Train <-> Test: 0
+Validation <-> Test: 0
+
+ROWS REMOVED
+----------------------------------------------------------------------
+Invalid/empty rows: 0
+Train internal duplicates: 975
+Validation rows overlapping train: 1,587
+Validation internal duplicates: 11
+Test rows overlapping train/validation: 134
+Test internal duplicates: 8
+
+SYNTHETIC DATA CHECK
+----------------------------------------------------------------------
+Synthetic rows: 12,000
+Synthetic rows outside train: 0
+
+FINAL CHECKS
+----------------------------------------------------------------------
+PASS: No empty text
+PASS: All labels valid
+PASS: IDs unique
+PASS: Final text unique
+PASS: Train-validation leakage absent
+PASS: Train-test leakage absent
+PASS: Validation-test leakage absent
+PASS: Synthetic data train-only
+PASS: Train contains Negative, Neutral, Positive
+PASS: Validation contains all 3 labels
+PASS: Test contains all 3 labels
+
+OVERALL STATUS: PASSED
+
+OUTPUT FILES
+----------------------------------------------------------------------
+D:\NLP_PROJECT\FINAL_DATASETS\SENTIMENT\sentiment_combined.csv
+D:\NLP_PROJECT\FINAL_DATASETS\SENTIMENT\SPLIT\train.csv
+D:\NLP_PROJECT\FINAL_DATASETS\SENTIMENT\SPLIT\validation.csv
+D:\NLP_PROJECT\FINAL_DATASETS\SENTIMENT\SPLIT\test.csv
+D:\NLP_PROJECT\FINAL_DATASETS\SENTIMENT\sentimix_unlabeled_test.csv
+D:\NLP_PROJECT\FINAL_DATASETS\SENTIMENT\analysis\dataset3_validation_report.txt

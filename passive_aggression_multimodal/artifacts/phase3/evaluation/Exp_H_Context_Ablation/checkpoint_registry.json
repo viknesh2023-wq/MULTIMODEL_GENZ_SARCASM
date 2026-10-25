@@ -1,0 +1,71 @@
+{
+  "best_epoch": 5,
+  "best_metric": 1.0,
+  "best_checkpoint": "artifacts\\phase3\\evaluation\\Exp_H_Context_Ablation\\best_checkpoint.pt",
+  "checkpoints": [
+    {
+      "epoch": 1,
+      "path": "artifacts\\phase3\\evaluation\\Exp_H_Context_Ablation\\best_checkpoint.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 0.21645021645021645,
+      "sha256": "9de23aaa23a30955aafca17bbceee9a04c9fc5548aa5d7d2abf0d164e02459a6",
+      "is_best": true
+    },
+    {
+      "epoch": 2,
+      "path": "artifacts\\phase3\\evaluation\\Exp_H_Context_Ablation\\best_checkpoint.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 0.5555555555555555,
+      "sha256": "752c1229690a246eead70c7eafe438e77f3de04bb5ca5096455ed615a0f42cd5",
+      "is_best": true
+    },
+    {
+      "epoch": 3,
+      "path": "artifacts\\phase3\\evaluation\\Exp_H_Context_Ablation\\best_checkpoint.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 0.9732905982905983,
+      "sha256": "95001bf86ac9c8443b1da3542a149b1b02301240d77cc287c0fbf99c638436a1",
+      "is_best": true
+    },
+    {
+      "epoch": 4,
+      "path": "artifacts\\phase3\\evaluation\\Exp_H_Context_Ablation\\checkpoint_epoch_004.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 0.9598554797270173,
+      "sha256": "0bc116f6f543661219be97ade445285b9a0c0a76acfd7da0caedb742808293d2",
+      "is_best": false
+    },
+    {
+      "epoch": 5,
+      "path": "artifacts\\phase3\\evaluation\\Exp_H_Context_Ablation\\best_checkpoint.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "f633012dd2a42c940ad0bdfca4f2630343a98ddf2ca73b71672d1d8dc84a49dc",
+      "is_best": true
+    },
+    {
+      "epoch": 6,
+      "path": "artifacts\\phase3\\evaluation\\Exp_H_Context_Ablation\\checkpoint_epoch_006.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "55cbb7523f6fbe6926ad4a3052579069a18008996e048da5dd7153aefb99b954",
+      "is_best": false
+    },
+    {
+      "epoch": 7,
+      "path": "artifacts\\phase3\\evaluation\\Exp_H_Context_Ablation\\checkpoint_epoch_007.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "de005305d6dbf43323aedf12e1e4eba1d73cf5337449ff0c3d3bea39090a53bc",
+      "is_best": false
+    },
+    {
+      "epoch": 8,
+      "path": "artifacts\\phase3\\evaluation\\Exp_H_Context_Ablation\\checkpoint_epoch_008.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "fcad4fd0ccce65bcf9d85e618a076fcb48aefc4386f76dcf0543bbef937a10b7",
+      "is_best": false
+    }
+  ]
+}

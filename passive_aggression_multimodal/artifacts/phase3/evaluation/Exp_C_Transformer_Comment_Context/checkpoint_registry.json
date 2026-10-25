@@ -1,0 +1,63 @@
+{
+  "best_epoch": 4,
+  "best_metric": 1.0,
+  "best_checkpoint": "artifacts\\phase3\\evaluation\\Exp_C_Transformer_Comment_Context\\best_checkpoint.pt",
+  "checkpoints": [
+    {
+      "epoch": 1,
+      "path": "artifacts\\phase3\\evaluation\\Exp_C_Transformer_Comment_Context\\best_checkpoint.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 0.21645021645021645,
+      "sha256": "ff98bc1f5ffa6390558249d9c8def509d176d0dc313c4e34220cf46e200b9dbf",
+      "is_best": true
+    },
+    {
+      "epoch": 2,
+      "path": "artifacts\\phase3\\evaluation\\Exp_C_Transformer_Comment_Context\\best_checkpoint.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 0.9463231347289319,
+      "sha256": "1ed2a3a367de0851086f9c6492451b2b899f22c1ba3328a800b0e517d0c76c21",
+      "is_best": true
+    },
+    {
+      "epoch": 3,
+      "path": "artifacts\\phase3\\evaluation\\Exp_C_Transformer_Comment_Context\\best_checkpoint.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 0.9732905982905983,
+      "sha256": "2e37021238b3b38d6187b7ffcc0a857f69f3c8c5cbeb88f76d966c665a103986",
+      "is_best": true
+    },
+    {
+      "epoch": 4,
+      "path": "artifacts\\phase3\\evaluation\\Exp_C_Transformer_Comment_Context\\best_checkpoint.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "4f469d9bd56358afadf0e49c5ba11d5370927cbf06156578c2c9bc878da5a00f",
+      "is_best": true
+    },
+    {
+      "epoch": 5,
+      "path": "artifacts\\phase3\\evaluation\\Exp_C_Transformer_Comment_Context\\checkpoint_epoch_005.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "b0b9c63eaf9953a1829c7e59f1b0f12a41938e7bd659494aef31a5f595ca0a73",
+      "is_best": false
+    },
+    {
+      "epoch": 6,
+      "path": "artifacts\\phase3\\evaluation\\Exp_C_Transformer_Comment_Context\\checkpoint_epoch_006.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "d62a400044e53fb965e49fd2cd725f55497f96865943df5bf912b784ae371a40",
+      "is_best": false
+    },
+    {
+      "epoch": 7,
+      "path": "artifacts\\phase3\\evaluation\\Exp_C_Transformer_Comment_Context\\checkpoint_epoch_007.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "65b96f85ff1b19e4cc572973aa5eaf516f07a48ddd954a8c957c8dfbec19c15f",
+      "is_best": false
+    }
+  ]
+}

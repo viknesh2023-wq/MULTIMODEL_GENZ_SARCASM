@@ -1,0 +1,38 @@
+{
+  "gate_timestamp": "2026-10-22T00:50:56.226215+00:00",
+  "milestone": "Phase 6C \u2014 Human Annotation Completion Gate",
+  "pilot_size": 30,
+  "gate_status": "GATE_LOCKED_PENDING_HUMAN_ANNOTATION",
+  "annotator_01": {
+    "completed_count": 0,
+    "pending_count": 30,
+    "invalid_count": 0,
+    "status": "AWAITING_HUMAN_INPUT"
+  },
+  "annotator_02": {
+    "completed_count": 0,
+    "pending_count": 30,
+    "invalid_count": 0,
+    "status": "AWAITING_HUMAN_INPUT"
+  },
+  "paired_completed_count": 0,
+  "language_scope": {
+    "CORE_ENGLISH_BENCHMARK": 27,
+    "NON_ENGLISH_SEPARATE_ANALYSIS": 3
+  },
+  "inter_annotator_agreement": {
+    "status": "INSUFFICIENT_PAIRED_LABELS",
+    "paired_count": 0,
+    "cohens_kappa": null,
+    "raw_agreement_percent": null
+  },
+  "adjudication_status": "AWAITING_COMPLETED_REVIEWS",
+  "evaluation_readiness_status": "BLOCKED_PENDING_HUMAN_ANNOTATION",
+  "integrity_rules_enforced": {
+    "no_fabricated_labels": true,
+    "no_synthetic_defaults": true,
+    "double_blind_isolated": true,
+    "language_segregation_maintained": true,
+    "image_existence_verified": true
+  }
+}

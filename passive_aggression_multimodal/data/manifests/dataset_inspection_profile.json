@@ -1,0 +1,151 @@
+{
+  "mmsd": {
+    "dataset": "MMSD / MMSD2.0",
+    "total_records": 24635,
+    "unique_texts": 24009,
+    "unique_images": 24635,
+    "label_distribution": {
+      "1": 11655,
+      "0": 12980
+    },
+    "text_length_words": {
+      "min": 1,
+      "max": 66,
+      "mean": 13.45090318652324,
+      "median": 12.0
+    },
+    "has_context": false,
+    "has_images": true,
+    "multimodal_type": "Image + Tweet Text"
+  },
+  "sarcnet": {
+    "dataset": "SarcNet",
+    "total_records": 3335,
+    "unique_texts": 3305,
+    "unique_images": 3335,
+    "multi_label_distribution": {
+      "1": 1875,
+      "0": 1460
+    },
+    "text_label_distribution": {
+      "1": 1446,
+      "0": 1889
+    },
+    "image_label_distribution": {
+      "0": 2267,
+      "1": 1068
+    },
+    "text_length_chars": {
+      "min": 2,
+      "max": 1058,
+      "mean": 110.15292353823088,
+      "median": 80.0
+    },
+    "has_context": false,
+    "has_images": true,
+    "multimodal_type": "Image + Chinese/English Social Post"
+  },
+  "goemotions": {
+    "dataset": "GoEmotions",
+    "total_records": 54263,
+    "unique_texts": 53994,
+    "pa_adjacent_emotion_counts": {
+      "annoyance": 3093,
+      "disapproval": 2581,
+      "disappointment": 1583,
+      "anger": 1960
+    },
+    "top_5_emotions": [
+      [
+        "neutral",
+        17772
+      ],
+      [
+        "admiration",
+        5122
+      ],
+      [
+        "approval",
+        3687
+      ],
+      [
+        "gratitude",
+        3372
+      ],
+      [
+        "annoyance",
+        3093
+      ]
+    ],
+    "text_length_words": {
+      "min": 1,
+      "max": 33,
+      "mean": 12.828354495696884,
+      "median": 12.0
+    },
+    "has_context": false,
+    "has_images": false,
+    "multimodal_type": "Text-Only (Reddit Comments)"
+  },
+  "civil_comments": {
+    "dataset": "Civil Comments",
+    "total_records": 97320,
+    "unique_texts": 96846,
+    "toxic_threshold_0_5": 7671,
+    "non_toxic_threshold_0_5": 89649,
+    "severe_toxic_count": 0,
+    "insult_count": 5769,
+    "text_length_words": {
+      "min": 1,
+      "max": 335,
+      "mean": 51.5816687217427,
+      "median": 35.0
+    },
+    "has_context": false,
+    "has_images": false,
+    "multimodal_type": "Text-Only (News Comment Threads)"
+  },
+  "mustard": {
+    "dataset": "MUStARD",
+    "total_records": 690,
+    "sarcastic_count": 345,
+    "non_sarcastic_count": 345,
+    "show_distribution": {
+      "BBT": 280,
+      "FRIENDS": 356,
+      "GOLDENGIRLS": 40,
+      "SARCASMOHOLICS": 14
+    },
+    "top_speakers": [
+      [
+        "CHANDLER",
+        158
+      ],
+      [
+        "SHELDON",
+        89
+      ],
+      [
+        "HOWARD",
+        47
+      ],
+      [
+        "PERSON",
+        45
+      ],
+      [
+        "DOROTHY",
+        39
+      ]
+    ],
+    "context_turns": {
+      "min": 1,
+      "max": 11,
+      "mean": 3.2768115942028984,
+      "median": 3.0
+    },
+    "has_context": true,
+    "has_images": false,
+    "multimodal_type": "Dialogue Audio/Video + Text Utterance & Context"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "manifest_name": "phase6a_annotation_status_manifest",
+  "version": "6.0.0",
+  "created_date": "2026-10-21",
+  "pilot_sample_size": 30,
+  "archetype_distribution": {
+    "LLM_SILVER_POSITIVE_CANDIDATE": 5,
+    "NON_PA_CONTRAST_CANDIDATE": 5,
+    "DIRECT_AGGRESSION_OR_DISAGREEMENT": 5,
+    "GENERAL_SARCASM_INSTITUTIONAL_CRITIQUE": 5,
+    "AMBIGUOUS_CONTEXT_DEPENDENT": 5,
+    "MULTIMODAL_IMAGE_DEPENDENT": 5
+  },
+  "source_dataset_distribution": {
+    "mustard": 6,
+    "civil_comments": 10,
+    "mmsd": 10,
+    "sarcnet": 4
+  },
+  "language_coverage": {
+    "CORE_ENGLISH_BENCHMARK": 27,
+    "NON_ENGLISH_SEPARATE_ANALYSIS": 3
+  },
+  "modality_coverage": {
+    "text_only": 16,
+    "image_available": 14
+  },
+  "phase5a_agreement_distribution": {
+    "EXACT_MATCH": 22,
+    "DISAGREEMENT": 8
+  },
+  "annotator_01": {
+    "assigned_file": "data/annotations/phase6a/annotator_1_responses.csv",
+    "completed_count": 0,
+    "status": "AWAITING_HUMAN_INPUT"
+  },
+  "annotator_02": {
+    "assigned_file": "data/annotations/phase6a/annotator_2_responses.csv",
+    "completed_count": 0,
+    "status": "AWAITING_HUMAN_INPUT"
+  },
+  "inter_annotator_agreement": {
+    "cohens_kappa": null,
+    "raw_agreement_percent": null,
+    "target_kappa_threshold": 0.7,
+    "status": "AWAITING_COMPLETED_REVIEWS"
+  },
+  "adjudication": {
+    "completed_count": 0,
+    "unanimous_count": 0,
+    "disputed_count": 0,
+    "status": "AWAITING_COMPLETED_REVIEWS"
+  },
+  "evaluation_readiness_status": "BLOCKED_PENDING_HUMAN_ANNOTATION",
+  "status_reason": "Phase 6A pilot templates prepared for Annotator 1 and Annotator 2 across 30 stratified records. Zero human reviews have been logged yet. In accordance with Phase 4/5/6 scientific rules, benchmark evaluation remains blocked until independent human annotations are recorded and adjudicated."
+}

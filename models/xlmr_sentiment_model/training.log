@@ -1,0 +1,24 @@
+2026-10-10 12:11:31,321 [INFO] ===========================================================================
+2026-10-10 12:11:31,321 [INFO]    MILESTONE 2: XLM-R 3-CLASS SENTIMENT MODEL TRAINING
+2026-10-10 12:11:31,321 [INFO] ===========================================================================
+2026-10-10 12:11:31,370 [INFO] GPU: NVIDIA GeForce RTX 4050 Laptop GPU (6.00 GB VRAM)
+2026-10-10 12:11:31,370 [INFO] Loading dataset splits...
+2026-10-10 12:11:31,790 [INFO] Train samples:      107,678
+2026-10-10 12:11:31,790 [INFO] Validation samples: 7,916
+2026-10-10 12:11:31,790 [INFO] Test samples:       16,730
+2026-10-10 12:11:31,836 [INFO] Loading tokenizer: FacebookAI/xlm-roberta-base
+2026-10-10 12:11:34,276 [INFO] Tokenizing datasets...
+2026-10-10 12:11:38,299 [INFO] Initializing XLM-R 3-class classifier: FacebookAI/xlm-roberta-base
+2026-10-10 12:11:41,996 [INFO] Starting training loop...
+2026-10-10 18:30:53,397 [INFO] Training completed. Global steps: 10095
+2026-10-10 18:30:53,397 [INFO] Evaluating best checkpoint on unseen test split (16,730 samples)...
+2026-10-10 18:32:05,980 [INFO] Saving final model and tokenizer to: D:\NLP_PROJECT\models\xlmr_sentiment_model
+2026-10-10 18:32:08,234 [INFO] ===========================================================================
+2026-10-10 18:32:08,234 [INFO]    TEST ACCURACY: 0.733234
+2026-10-10 18:32:08,234 [INFO]    TEST MACRO F1: 0.729453
+2026-10-10 18:32:08,234 [INFO]    CONFUSION MATRIX (Negative, Neutral, Positive):
+2026-10-10 18:32:08,234 [INFO]       [3446, 941, 531]
+2026-10-10 18:32:08,234 [INFO]       [1190, 3853, 891]
+2026-10-10 18:32:08,234 [INFO]       [361, 549, 4968]
+2026-10-10 18:32:08,234 [INFO] ===========================================================================
+2026-10-10 18:32:08,234 [INFO] XLM-R Sentiment Model training finished successfully.

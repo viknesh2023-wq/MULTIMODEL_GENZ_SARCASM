@@ -1,0 +1,34 @@
+{
+  "synthetic_pilot_350.jsonl": {
+    "file": "synthetic_pilot_350.jsonl",
+    "total_records": 350,
+    "valid_records": 350,
+    "invalid_records": 0,
+    "is_all_valid": true,
+    "primary_label_distribution": {
+      "passive_aggressive": 180,
+      "non_passive_aggressive": 145,
+      "ambiguous": 25
+    },
+    "subtype_distribution": {
+      "fake_politeness": 30,
+      "indirect_criticism": 30,
+      "backhanded_compliment": 30,
+      "implied_blame": 30,
+      "sarcastic_agreement": 30,
+      "dismissiveness": 30,
+      "other_or_unclear": 170
+    },
+    "sample_errors": []
+  },
+  "unified_raw_manifest.jsonl": {
+    "file": "unified_raw_manifest.jsonl",
+    "total_records": 48660,
+    "valid_records": 48660,
+    "invalid_records": 0,
+    "is_all_valid": true,
+    "primary_label_distribution": {},
+    "subtype_distribution": {},
+    "sample_errors": []
+  }
+}

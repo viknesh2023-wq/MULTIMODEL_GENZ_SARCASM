@@ -1,0 +1,25 @@
+# Configuration for Traditional Text-Only Baselines (Phase 3 Task C)
+version: "3.0.0"
+artifact_dir: "artifacts/phase3/text_baseline"
+random_state: 42
+
+primary_task:
+  dataset_path: "data/synthetic/synthetic_pilot_350.jsonl"
+  train_split_ratio: 0.70
+  val_split_ratio: 0.15
+  test_split_ratio: 0.15
+  num_classes: 3
+  models:
+    logistic_regression:
+      c_values: [0.1, 1.0, 5.0, 10.0]
+      class_weight: "balanced"
+    linear_svm:
+      c_values: [0.1, 1.0, 5.0]
+      class_weight: "balanced"
+
+auxiliary_sarcasm_task:
+  train_split: "data/splits/grouped_train.jsonl"
+  val_split: "data/splits/grouped_validation.jsonl"
+  test_split: "data/splits/grouped_test.jsonl"
+  max_train_samples: 5000  # For fast reproducible CPU execution
+  max_eval_samples: 1000

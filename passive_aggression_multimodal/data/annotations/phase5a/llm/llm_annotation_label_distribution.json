@@ -1,0 +1,14 @@
+{
+  "primary_labels": {
+    "passive_aggressive": 96,
+    "non_passive_aggressive": 4,
+    "ambiguous": 0
+  },
+  "subtypes": {
+    "backhanded_compliment": 18,
+    "implied_blame": 60,
+    "indirect_criticism": 10,
+    "fake_politeness": 7,
+    "sarcastic_agreement": 1
+  }
+}

@@ -54,21 +54,35 @@ desktop.ini
 
 # Model Checkpoints & Large Weights (>100MB / ~30GB total)
 # Full checkpoints cannot be pushed to standard GitHub due to 100MB file limits.
-models/xlmr_emotion_model/
-models/xlmr_sentiment_model/
-models/xlmr_text_sarcasm/
-models/xlmr_text_sarcasm_full/
+# Individual safetensors checkpoints (>1GB) are hosted on Hugging Face / Cloud Archive.
+# Tokenizers, configs, and training logs are tracked in Git.
+models/**/checkpoint-*/
 checkpoint-*/
 *.safetensors
 *.bin
 optimizer.pt
 training_args.bin
 
-# Raw Datasets, Large Part Archives & Media (>100MB / ~10GB total)
-# GitHub enforces a 100MB individual file limit.
-06_MMSD2.0/
-FINAL_DATASETS/
-sarc/
+# Unignore the trained neural fusion model and scaler (tracked in Git!)
+!models/multimodal_fusion/fusion_model.pt
+!models/multimodal_fusion/fusion_scaler.joblib
+
+# Large Datasets & Intermediate Features
+# Master CSV datasets, splits, and manifests are tracked in Git.
+# Intermediate loose single-item vectors (160k files) are excluded.
+FINAL_DATASETS/TEXT_SARCASM/text_sarcasm_combined.csv
+FINAL_DATASETS/MULTIMODAL_SARCASM/**/features/
+*.npy
+*.npz
+sarc/train-balanced-sarc.csv
+
+# Large Media & Archives (>100MB)
+06_MMSD2.0/DATA1/dataset_image.z0*
+06_MMSD2.0/DATA1/dataset_image.zip
+06_MMSD2.0/DATA1/dataset_image/dataset_image/
+!06_MMSD2.0/DATA1/dataset_image/dataset_image/1001.jpg
+!06_MMSD2.0/DATA1/dataset_image/dataset_image/1002.jpg
+!06_MMSD2.0/DATA1/dataset_image/dataset_image/1003.jpg
 MEMOTION/
 video/
 *.zip
@@ -77,8 +91,8 @@ video/
 *.tgz
 *.7z
 *.rar
-*.npy
-*.npz
 *.mp4
 *.mkv
 *.avi
+
+.git_backup/

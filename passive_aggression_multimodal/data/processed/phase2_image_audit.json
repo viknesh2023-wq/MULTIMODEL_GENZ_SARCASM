@@ -1,0 +1,44 @@
+{
+  "total_images_inspected": 27970,
+  "mmsd_image_count": 24635,
+  "sarcnet_image_count": 3335,
+  "valid_decodable_images": 27970,
+  "corrupted_images": 0,
+  "zero_byte_images": 0,
+  "format_distribution": {
+    "JPEG": 27846,
+    "PNG": 108,
+    "GIF": 16
+  },
+  "unique_sha256_count": 27558,
+  "duplicate_sha256_count": 248,
+  "sample_duplicates": [
+    [
+      "data\\images\\mmsd\\685520313069776896.jpg",
+      "data\\images\\mmsd\\685576450364289026.jpg"
+    ],
+    [
+      "data\\images\\mmsd\\686253993769734145.jpg",
+      "data\\images\\mmsd\\688779229627035650.jpg",
+      "data\\images\\mmsd\\693852643249233920.jpg",
+      "data\\images\\mmsd\\696389385328160768.jpg",
+      "data\\images\\mmsd\\698926085866700801.jpg"
+    ],
+    [
+      "data\\images\\mmsd\\687046254455566337.jpg",
+      "data\\images\\mmsd\\687053223753060354.jpg"
+    ],
+    [
+      "data\\images\\mmsd\\688454234367377408.jpg",
+      "data\\images\\mmsd\\691372367214284800.jpg",
+      "data\\images\\mmsd\\697115545720610816.jpg"
+    ],
+    [
+      "data\\images\\mmsd\\688750591502381056.jpg",
+      "data\\images\\mmsd\\691649604924882944.jpg",
+      "data\\images\\mmsd\\694548759049535488.jpg",
+      "data\\images\\mmsd\\697447769104060418.jpg",
+      "data\\images\\mmsd\\700346963942887425.jpg"
+    ]
+  ]
+}

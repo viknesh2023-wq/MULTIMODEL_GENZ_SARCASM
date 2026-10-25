@@ -1,0 +1,5 @@
+run_phase,model_name,records_attempted,schema_validation_failures,api_timeouts,network_errors,unrecoverable_failures,success_rate_pct
+Phase 5A Pass 1 (100 records),llama3.2:latest,100,0,0,0,0,100.0%
+Phase 5A Pass 2 (100 records),qwen2.5:1.5b,100,0,0,0,0,100.0%
+Phase 5B Diagnostic (12 records),llama3.2:latest (v2),12,0,0,0,0,100.0%
+Phase 5B Diagnostic (12 records),qwen2.5:1.5b (v2),12,0,0,0,0,100.0%

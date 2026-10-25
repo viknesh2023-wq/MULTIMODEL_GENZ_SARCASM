@@ -1,0 +1,217 @@
+{
+  "phase": "Phase 10",
+  "project_title": "Context-Aware Multimodal Passive-Aggression Detection in Social Media Using Image-Comment Fusion",
+  "canonical_root": "D:\\NLP_PROJECT\\passive_aggression_multimodal",
+  "active_workspace": "D:\\multimodel_passive_aggression",
+  "timestamp": "2026-10-22T02:40:00+05:30",
+  "environment": {
+    "os": "Windows 11",
+    "python_version": "3.12.10",
+    "pytorch_version": "2.11.0+cu128",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU (6 GB VRAM)",
+    "ollama_endpoint": "http://localhost:11434",
+    "python_executable": "D:\\NLP_PROJECT\\internvl_env\\Scripts\\python.exe"
+  },
+  "local_model_inventory": {
+    "annotator_a": {
+      "model_id": "llama3.2:latest",
+      "parameter_count": "3.2B",
+      "architecture": "LlamaForCausalLM",
+      "vision_capable": false,
+      "modality": "text-only"
+    },
+    "annotator_b": {
+      "model_id": "qwen2.5:1.5b",
+      "parameter_count": "1.5B",
+      "architecture": "Qwen2ForCausalLM",
+      "vision_capable": false,
+      "modality": "text-only"
+    },
+    "adjudicator": {
+      "model_id": "llama3.2:latest",
+      "parameter_count": "3.2B",
+      "role": "Third-pass independent adjudicator"
+    }
+  },
+  "corpus_preparation": {
+    "total_eligible_sampled": 100,
+    "pilot_scope": 30,
+    "sources": {
+      "mmsd": 50,
+      "sarcnet": 30,
+      "mustard": 10,
+      "civil_comments": 10
+    },
+    "duplicate_quarantine_count": 12,
+    "source_group_count": 100,
+    "deduplication_method": "exact_sha256_and_normalized_token_hashing"
+  },
+  "dual_pass_annotation": {
+    "records_processed": 30,
+    "annotator_a": {
+      "model": "llama3.2:latest",
+      "completed": 30,
+      "failed": 0,
+      "distribution": {
+        "passive_aggressive": 12,
+        "non_passive_aggressive": 5,
+        "ambiguous": 13
+      },
+      "percentages": {
+        "passive_aggressive": 40.0,
+        "non_passive_aggressive": 16.67,
+        "ambiguous": 43.33
+      }
+    },
+    "annotator_b": {
+      "model": "qwen2.5:1.5b",
+      "completed": 30,
+      "failed": 0,
+      "distribution": {
+        "passive_aggressive": 29,
+        "non_passive_aggressive": 1,
+        "ambiguous": 0
+      },
+      "percentages": {
+        "passive_aggressive": 96.67,
+        "non_passive_aggressive": 3.33,
+        "ambiguous": 0.0
+      }
+    }
+  },
+  "agreement_analysis": {
+    "total_paired_records": 30,
+    "unanimous_agreements": 12,
+    "raw_agreement_rate": 0.40,
+    "disagreements": 18,
+    "disagreement_rate": 0.60,
+    "cohens_kappa": 0.0128,
+    "kappa_interpretation": "slight_agreement_suppressed_by_annotator_b_prevalence_skew",
+    "agreement_distribution": {
+      "passive_aggressive": 11,
+      "non_passive_aggressive": 1,
+      "ambiguous": 0
+    },
+    "disagreement_categories": {
+      "annotator_b_hyper_labeling_false_positive_risk": 17,
+      "cross_category_boundary_conflict": 1
+    }
+  },
+  "adjudication_and_quality_audit": {
+    "adjudicated_records_count": 19,
+    "disagreements_adjudicated": 18,
+    "agreement_audited": 1,
+    "outcomes": {
+      "ambiguous": 15,
+      "non_passive_aggressive": 3,
+      "passive_aggressive": 1
+    },
+    "ambiguity_quarantine_rate_on_disagreements": 0.8333,
+    "adjudicator_model": "llama3.2:latest"
+  },
+  "silver_dataset_construction": {
+    "total_pilot_records": 30,
+    "accepted_silver_count": 15,
+    "ambiguous_quarantined_count": 14,
+    "excluded_count": 1,
+    "exclusion_reason": "non_english_language_boundary (language: zh)",
+    "accepted_labels_distribution": {
+      "passive_aggressive": 11,
+      "non_passive_aggressive": 4
+    },
+    "accepted_provenance_breakdown": {
+      "LLM_CROSS_MODEL_AGREEMENT": 12,
+      "LLM_ADJUDICATED": 3
+    },
+    "modality_breakdown": {
+      "text_only_unimodal": 2,
+      "text_plus_unassessed_image": 13,
+      "vision_assessed": 0,
+      "ocr_assessed": 0
+    }
+  },
+  "splits_and_leakage_isolation": {
+    "strategy": "group_isolated_stratified_split",
+    "train_count": 10,
+    "validation_count": 2,
+    "test_count": 3,
+    "train_label_distribution": {
+      "passive_aggressive": 7,
+      "non_passive_aggressive": 3
+    },
+    "val_label_distribution": {
+      "passive_aggressive": 2,
+      "non_passive_aggressive": 0
+    },
+    "test_label_distribution": {
+      "passive_aggressive": 2,
+      "non_passive_aggressive": 1
+    },
+    "group_leakage_detected": false,
+    "group_intersection_train_val": 0,
+    "group_intersection_train_test": 0,
+    "group_intersection_val_test": 0
+  },
+  "exploratory_model": {
+    "model_id": "pa_silver_tfidf_v1",
+    "architecture": "FeatureUnion (Word 1-3 ngrams, Char 2-5 ngrams) + Logistic Regression (C=0.1, L2, balanced)",
+    "checkpoint_path": "artifacts/phase10/pa_silver_tfidf_v1.pkl",
+    "metadata_path": "artifacts/phase10/pa_silver_metadata.json",
+    "training_samples": 10,
+    "validation_samples": 2,
+    "test_samples": 3,
+    "validation_macro_f1": 1.0,
+    "diagnostic_test_metrics": {
+      "accuracy": 0.6667,
+      "balanced_accuracy": 0.50,
+      "macro_f1": 0.40,
+      "per_class": {
+        "passive_aggressive": {
+          "precision": 0.6667,
+          "recall": 1.00,
+          "f1": 0.80,
+          "support": 2
+        },
+        "non_passive_aggressive": {
+          "precision": 0.00,
+          "recall": 0.00,
+          "f1": 0.00,
+          "support": 1
+        }
+      },
+      "confusion_matrix": [
+        [0, 1],
+        [0, 2]
+      ],
+      "statistical_validity_warning": "DIAGNOSTIC_EXPLORATORY_ONLY (N=3 test set). Metrics measure statistical agreement with automated silver labels, NOT accuracy against human ground truth."
+    }
+  },
+  "api_integration": {
+    "endpoint_experimental": "POST /predict/passive-aggression/experimental",
+    "endpoint_primary_gate": "POST /predict/passive-aggression",
+    "experimental_response_provenance": "LLM_SILVER",
+    "experimental_response_evaluation_status": "LLM_SILVER_DIAGNOSTIC_EVALUATION_AVAILABLE",
+    "primary_gate_status_code": 503,
+    "primary_gate_detail": "Passive aggression model is blocked pending independent human verification. See reports/phase10/."
+  },
+  "test_suite_status": {
+    "total_tests_run": 203,
+    "tests_passed": 203,
+    "tests_failed": 0,
+    "tests_errored": 0,
+    "phase10_specific_tests": {
+      "test_phase10_automated_annotation.py": 20,
+      "test_phase10_api_experimental.py": 3
+    }
+  },
+  "governance_gates": {
+    "human_benchmark_status": "BLOCKED_PENDING_HUMAN_ANNOTATION",
+    "human_annotator_responses_completed": 0,
+    "human_template_files_untouched": true,
+    "automated_silver_status": "LLM_SILVER_DATASET_AVAILABLE_FOR_EXPLORATORY_RESEARCH",
+    "diagnostic_evaluation_status": "LLM_SILVER_DIAGNOSTIC_EVALUATION_AVAILABLE",
+    "sarcasm_to_pa_conversion_allowed": false,
+    "human_verified_label_fabricated": false
+  }
+}

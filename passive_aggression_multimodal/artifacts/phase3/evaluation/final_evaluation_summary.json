@@ -1,0 +1,178 @@
+{
+  "TFIDF_LogisticRegression": {
+    "test_accuracy": 1.0,
+    "test_balanced_accuracy": 1.0,
+    "test_macro_f1": 1.0,
+    "test_weighted_f1": 1.0,
+    "test_per_class": {
+      "passive_aggressive": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 26
+      },
+      "non_passive_aggressive": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 26
+      },
+      "ambiguous": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      }
+    },
+    "test_confusion_matrix": [
+      [
+        26,
+        0,
+        0
+      ],
+      [
+        0,
+        26,
+        0
+      ],
+      [
+        0,
+        0,
+        2
+      ]
+    ],
+    "test_total_samples": 54
+  },
+  "Transformer_Text": {
+    "test_accuracy": 1.0,
+    "test_balanced_accuracy": 1.0,
+    "test_macro_f1": 1.0,
+    "test_weighted_f1": 1.0,
+    "test_per_class": {
+      "passive_aggressive": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 26
+      },
+      "non_passive_aggressive": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 26
+      },
+      "ambiguous": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      }
+    },
+    "test_confusion_matrix": [
+      [
+        26,
+        0,
+        0
+      ],
+      [
+        0,
+        26,
+        0
+      ],
+      [
+        0,
+        0,
+        2
+      ]
+    ],
+    "test_total_samples": 54
+  },
+  "Gated_Multimodal_Fusion": {
+    "test_accuracy": 1.0,
+    "test_balanced_accuracy": 1.0,
+    "test_macro_f1": 1.0,
+    "test_weighted_f1": 1.0,
+    "test_per_class": {
+      "passive_aggressive": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 26
+      },
+      "non_passive_aggressive": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 26
+      },
+      "ambiguous": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      }
+    },
+    "test_confusion_matrix": [
+      [
+        26,
+        0,
+        0
+      ],
+      [
+        0,
+        26,
+        0
+      ],
+      [
+        0,
+        0,
+        2
+      ]
+    ],
+    "test_total_samples": 54
+  },
+  "Context_Aware_Multimodal_Fusion": {
+    "test_accuracy": 1.0,
+    "test_balanced_accuracy": 1.0,
+    "test_macro_f1": 1.0,
+    "test_weighted_f1": 1.0,
+    "test_per_class": {
+      "passive_aggressive": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 26
+      },
+      "non_passive_aggressive": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 26
+      },
+      "ambiguous": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      }
+    },
+    "test_confusion_matrix": [
+      [
+        26,
+        0,
+        0
+      ],
+      [
+        0,
+        26,
+        0
+      ],
+      [
+        0,
+        0,
+        2
+      ]
+    ],
+    "test_total_samples": 54
+  }
+}

@@ -1,0 +1,6 @@
+dataset_name,total_records,image_file_exists,text_only_processed_count,genuine_multimodal_vision_count,visual_status_flag,context_turns_available
+civil_comments,25,0,25,0,ABSENT,0
+mmsd,35,35,35,0,UNASSESSED_VISION_MODEL_ABSENT,0
+mustard,15,0,15,0,ABSENT,15
+sarcnet,25,25,25,0,UNASSESSED_VISION_MODEL_ABSENT,0
+TOTAL / OVERALL,100,60,100,0,UNASSESSED_VISION_MODEL_ABSENT (60) / ABSENT (40),15

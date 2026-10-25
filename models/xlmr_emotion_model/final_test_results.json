@@ -1,0 +1,244 @@
+{
+  "model": "FacebookAI/xlm-roberta-base",
+  "task": "28-class Multi-Label Emotion Classification (GoEmotions)",
+  "train_samples": 43410,
+  "validation_samples": 5426,
+  "test_samples": 5427,
+  "classification_threshold": 0.5,
+  "test_macro_f1": 0.21968235173249373,
+  "test_micro_f1": 0.49262129737764093,
+  "test_macro_precision": 0.3565440125760869,
+  "test_macro_recall": 0.1933377132651406,
+  "test_micro_precision": 0.7508090614886731,
+  "test_micro_recall": 0.3665665981987676,
+  "hamming_loss": 0.0314498933901919,
+  "exact_match_accuracy": 0.35323383084577115,
+  "per_emotion_metrics": {
+    "admiration": {
+      "emotion_id": 0,
+      "precision": 0.6995967741935484,
+      "recall": 0.6884920634920635,
+      "f1": 0.694,
+      "support": 504
+    },
+    "amusement": {
+      "emotion_id": 1,
+      "precision": 0.7971014492753623,
+      "recall": 0.8333333333333334,
+      "f1": 0.8148148148148148,
+      "support": 264
+    },
+    "anger": {
+      "emotion_id": 2,
+      "precision": 1.0,
+      "recall": 0.005050505050505051,
+      "f1": 0.010050251256281407,
+      "support": 198
+    },
+    "annoyance": {
+      "emotion_id": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 320
+    },
+    "approval": {
+      "emotion_id": 4,
+      "precision": 0.6881720430107527,
+      "recall": 0.18233618233618235,
+      "f1": 0.2882882882882883,
+      "support": 351
+    },
+    "caring": {
+      "emotion_id": 5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 135
+    },
+    "confusion": {
+      "emotion_id": 6,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 153
+    },
+    "curiosity": {
+      "emotion_id": 7,
+      "precision": 0.5673076923076923,
+      "recall": 0.20774647887323944,
+      "f1": 0.30412371134020616,
+      "support": 284
+    },
+    "desire": {
+      "emotion_id": 8,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 83
+    },
+    "disappointment": {
+      "emotion_id": 9,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 151
+    },
+    "disapproval": {
+      "emotion_id": 10,
+      "precision": 0.5517241379310345,
+      "recall": 0.1198501872659176,
+      "f1": 0.19692307692307692,
+      "support": 267
+    },
+    "disgust": {
+      "emotion_id": 11,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 123
+    },
+    "embarrassment": {
+      "emotion_id": 12,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 37
+    },
+    "excitement": {
+      "emotion_id": 13,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 103
+    },
+    "fear": {
+      "emotion_id": 14,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 78
+    },
+    "gratitude": {
+      "emotion_id": 15,
+      "precision": 0.9465875370919882,
+      "recall": 0.90625,
+      "f1": 0.9259796806966618,
+      "support": 352
+    },
+    "grief": {
+      "emotion_id": 16,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 6
+    },
+    "joy": {
+      "emotion_id": 17,
+      "precision": 0.6761904761904762,
+      "recall": 0.4409937888198758,
+      "f1": 0.5338345864661654,
+      "support": 161
+    },
+    "love": {
+      "emotion_id": 18,
+      "precision": 0.7604562737642585,
+      "recall": 0.8403361344537815,
+      "f1": 0.7984031936127745,
+      "support": 238
+    },
+    "nervousness": {
+      "emotion_id": 19,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 23
+    },
+    "optimism": {
+      "emotion_id": 20,
+      "precision": 0.6434782608695652,
+      "recall": 0.3978494623655914,
+      "f1": 0.49169435215946844,
+      "support": 186
+    },
+    "pride": {
+      "emotion_id": 21,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 16
+    },
+    "realization": {
+      "emotion_id": 22,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 145
+    },
+    "relief": {
+      "emotion_id": 23,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 11
+    },
+    "remorse": {
+      "emotion_id": 24,
+      "precision": 0.38461538461538464,
+      "recall": 0.08928571428571429,
+      "f1": 0.14492753623188406,
+      "support": 56
+    },
+    "sadness": {
+      "emotion_id": 25,
+      "precision": 0.8333333333333334,
+      "recall": 0.0641025641025641,
+      "f1": 0.11904761904761904,
+      "support": 156
+    },
+    "surprise": {
+      "emotion_id": 26,
+      "precision": 0.6785714285714286,
+      "recall": 0.1347517730496454,
+      "f1": 0.22485207100591717,
+      "support": 141
+    },
+    "neutral": {
+      "emotion_id": 27,
+      "precision": 0.7560975609756098,
+      "recall": 0.5030777839955233,
+      "f1": 0.6041666666666666,
+      "support": 1787
+    }
+  },
+  "labels": {
+    "0": "admiration",
+    "1": "amusement",
+    "2": "anger",
+    "3": "annoyance",
+    "4": "approval",
+    "5": "caring",
+    "6": "confusion",
+    "7": "curiosity",
+    "8": "desire",
+    "9": "disappointment",
+    "10": "disapproval",
+    "11": "disgust",
+    "12": "embarrassment",
+    "13": "excitement",
+    "14": "fear",
+    "15": "gratitude",
+    "16": "grief",
+    "17": "joy",
+    "18": "love",
+    "19": "nervousness",
+    "20": "optimism",
+    "21": "pride",
+    "22": "realization",
+    "23": "relief",
+    "24": "remorse",
+    "25": "sadness",
+    "26": "surprise",
+    "27": "neutral"
+  }
+}

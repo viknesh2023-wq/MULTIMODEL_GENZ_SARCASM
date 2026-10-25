@@ -1,0 +1,3 @@
+XLM-R Sentiment Model Training Complete.
+Test Accuracy: 0.733234
+Test Macro-F1: 0.729453

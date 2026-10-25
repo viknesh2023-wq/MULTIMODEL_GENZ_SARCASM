@@ -1,0 +1,13 @@
+{
+  "random_seed": 42,
+  "total_records": 27970,
+  "total_clusters": 26569,
+  "train_count": 22376,
+  "validation_count": 2797,
+  "test_count": 2797,
+  "train_percentage": 80.0,
+  "validation_percentage": 10.0,
+  "test_percentage": 10.0,
+  "official_split_text_leakage_detected": 124,
+  "grouped_split_leakage": 0
+}

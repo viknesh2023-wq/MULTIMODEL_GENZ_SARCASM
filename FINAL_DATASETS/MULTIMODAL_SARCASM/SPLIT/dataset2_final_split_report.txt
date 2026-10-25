@@ -1,0 +1,74 @@
+
+======================================================================
+DATASET 2 FINAL SPLIT REPORT
+======================================================================
+
+INPUT
+------
+D:\NLP_PROJECT\FINAL_DATASETS\MULTIMODAL_SARCASM\multimodal_sarcasm_combined.csv
+
+FINAL USABLE DATASET
+--------------------
+Total usable records: 33,077
+
+MMSD2.0:     24,635
+MEMOTION3.0: 8,442
+
+Empty text/OCR removed: 0
+
+FINAL SPLIT
+-----------
+Train:       25,384
+Validation:  3,891
+Test:        3,802
+TOTAL:       33,077
+
+MMSD2.0 SPLIT
+-------------
+Train:       19,816
+Validation:  2,410
+Test:        2,409
+
+MEMOTION3.0 SPLIT
+----------------
+Usable TRAIN/TEST source: 6,961
+Train:                    5,568
+Test:                     1,393
+Validation:               1,481
+
+IMAGE LEAKAGE
+-------------
+Train <-> Validation: 0
+Train <-> Test:       0
+Validation <-> Test:  0
+
+DUPLICATE IMAGES
+----------------
+Train:       0
+Validation:  0
+Test:        0
+
+DUPLICATE COMPLETE RECORDS IN MASTER
+-------------------------------------
+0
+
+MISSING IMAGE PATHS
+-------------------
+0
+
+RANDOM STATE
+------------
+42
+
+SPLIT METHOD
+------------
+MMSD2.0 official train/validation/test split preserved.
+
+MEMOTION usable TRAIN/TEST records were split:
+80% Train
+20% Test
+
+MEMOTION usable validation records were preserved
+as Validation.
+
+======================================================================

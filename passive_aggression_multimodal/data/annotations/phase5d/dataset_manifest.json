@@ -1,0 +1,33 @@
+{
+  "manifest_version": "1.0.0",
+  "milestone": "Phase 5D — Silver Dataset Validation",
+  "creation_timestamp": "2026-10-21T16:51:39.220476+00:00",
+  "provenance_tag": "TRAINED_ON_LLM_SILVER_DATA",
+  "candidate_pool_count": 100,
+  "verified_subset_count": 19,
+  "excluded_record_count": 81,
+  "negative_candidates_audited": 32,
+  "verified_class_distribution": {
+    "passive_aggressive": 18,
+    "non_passive_aggressive": 1,
+    "ambiguous": 0
+  },
+  "modality_breakdown": {
+    "text_only_processed": 19,
+    "multimodal_vision_processed": 0,
+    "images_present_but_unassessed": 6
+  },
+  "source_dataset_distribution_verified": {
+    "mustard": 8,
+    "mmsd": 3,
+    "civil_comments": 5,
+    "sarcnet": 3
+  },
+  "epistemic_governance": {
+    "is_human_ground_truth": false,
+    "human_reviews_completed": 0,
+    "evaluation_gate_status": "BLOCKED_PENDING_HUMAN_ANNOTATION",
+    "permitted_downstream_use": "EXPLORATORY_WEAK_SUPERVISION_REPRESENTATION_LEARNING_ONLY",
+    "prohibited_use": "BENCHMARK_EVALUATION_CLAIMING_REAL_WORLD_PERFORMANCE"
+  }
+}

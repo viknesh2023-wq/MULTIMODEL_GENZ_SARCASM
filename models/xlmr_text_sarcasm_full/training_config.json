@@ -1,0 +1,18 @@
+{
+    "model_name": "FacebookAI/xlm-roberta-base",
+    "dataset_directory": "D:\\NLP_PROJECT\\FINAL_DATASETS\\TEXT_SARCASM\\SPLIT",
+    "output_directory": "D:\\NLP_PROJECT\\models\\xlmr_text_sarcasm_full",
+    "max_length": 128,
+    "epochs": 3,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "train_batch_size": 8,
+    "eval_batch_size": 8,
+    "gradient_accumulation_steps": 2,
+    "effective_batch_size": 16,
+    "fp16": true,
+    "bf16": false,
+    "gradient_checkpointing": true,
+    "seed": 42
+}

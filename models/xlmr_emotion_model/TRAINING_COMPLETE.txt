@@ -1,0 +1,5 @@
+XLM-R Emotion Model Training Complete.
+Test Micro-F1: 0.492621
+Test Macro-F1: 0.219682
+Hamming Loss: 0.031450
+Exact-Match Accuracy: 0.353234

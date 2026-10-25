@@ -1,0 +1,19 @@
+{
+  "milestone": "Milestone 1: XLM-R Multimodal Text Feature Extraction",
+  "timestamp": "2026-10-10 11:50:27",
+  "model_path": "D:\\NLP_PROJECT\\models\\xlmr_text_sarcasm_full",
+  "source_dataset_rows": 33077,
+  "valid_indexed_embeddings": 33077,
+  "missing_embeddings": 0,
+  "failures_count": 0,
+  "embedding_dimension": 768,
+  "pooling_method": "masked_mean_pooling",
+  "max_sequence_length": 128,
+  "device": "cuda (NVIDIA GeForce RTX 4050 Laptop GPU, 6.00 GB VRAM)",
+  "execution_time_seconds": 640.93,
+  "splits_coverage": {
+    "train": 25384,
+    "validation": 3891,
+    "test": 3802
+  }
+}

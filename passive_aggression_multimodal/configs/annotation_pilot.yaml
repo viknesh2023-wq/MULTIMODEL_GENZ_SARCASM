@@ -1,0 +1,39 @@
+# Configuration for Phase 2 Annotation Pilot (150 Stratified Real Examples)
+version: "2.0.0"
+pilot_name: "stratified_multimodal_pa_pilot_150"
+random_seed: 42
+target_sample_size: 150
+
+strata_quotas:
+  mmsd_sarcastic_multimodal: 35
+  mmsd_non_sarcastic_multimodal: 25
+  sarcnet_multimodal: 15
+  mustard_context_dialogue: 15
+  goemotions_sadness_neutral: 20
+  goemotions_admiration_gratitude: 15
+  civil_comments_constructive: 15
+  civil_comments_severe_toxic: 10
+
+annotation_pipeline:
+  text_annotator:
+    annotator_id: "heuristic_pragmatic_v2"
+    model_version: "2.0.0"
+    prompt_version: "v2.0"
+  vision_annotator:
+    annotator_id: "vlm_interface_stub"
+    model_version: "2.0.0"
+    prompt_version: "v2.0"
+    status: "INTERFACE_STUB_PENDING_VLM_WEIGHTS"
+  adjudicator:
+    consensus_strategy: "triadic_adjudication"
+    confidence_threshold_for_review: 0.80
+
+governance:
+  gold_standard_status: "PENDING_HUMAN_REVIEW"
+  human_review_required: true
+  allow_synthetic: false
+
+output:
+  pilot_records_file: "data/processed/annotation_pilot_150.jsonl"
+  review_queue_file: "data/processed/human_review_queue_150.json"
+  report_file: "reports/annotation_pilot_report.md"

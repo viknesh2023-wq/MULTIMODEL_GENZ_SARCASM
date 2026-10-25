@@ -1,0 +1,16 @@
+{
+  "total_records": 100,
+  "unique_record_ids": 100,
+  "source_breakdown": {
+    "mustard": 15,
+    "sarcnet": 25,
+    "mmsd": 35,
+    "civil_comments": 25
+  },
+  "exact_duplicates": 0,
+  "near_duplicates_above_80": 0,
+  "images_present_and_decoded": 60,
+  "images_unreadable": 0,
+  "context_available_count": 15,
+  "status": "VALIDATED"
+}

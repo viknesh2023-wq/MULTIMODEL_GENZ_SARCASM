@@ -1,0 +1,125 @@
+{
+  "manifest_name": "phase6d_llm_annotation_manifest",
+  "version": "6.4.0",
+  "created_date": "2026-10-21",
+  "timestamp": "2026-10-21T18:31:03.349414+00:00",
+  "pilot_sample_size": 30,
+  "pipeline_provenance": "LOCAL_OLLAMA_LLM_DUAL_ANNOTATION_AND_ADJUDICATION",
+  "ground_truth_status": "MACHINE_GENERATED_LABELS_NOT_HUMAN_GROUND_TRUTH",
+  "human_benchmark_gate_status": "BLOCKED_PENDING_HUMAN_ANNOTATION",
+  "human_annotator_01_completion_count": 0,
+  "human_annotator_02_completion_count": 0,
+  "models": {
+    "model_1": {
+      "name": "llama3.2:latest",
+      "role": "LLM_ANNOTATOR_1",
+      "prompt_version": "v2.0.0",
+      "completed_count": 30,
+      "assigned_file": "data\\annotations\\phase6d\\annotator_1_llm_responses.csv"
+    },
+    "model_2": {
+      "name": "qwen2.5:1.5b",
+      "role": "LLM_ANNOTATOR_2",
+      "prompt_version": "v2.0.0",
+      "completed_count": 30,
+      "assigned_file": "data\\annotations\\phase6d\\annotator_2_llm_responses.csv"
+    },
+    "adjudicator": {
+      "name": "llama3.2:latest",
+      "role": "LLM_ADJUDICATOR_JUDGE",
+      "prompt_version": "v2.0.0_adjudication",
+      "adjudicated_disagreements_count": 14,
+      "assigned_file": "data\\annotations\\phase6d\\llm_adjudication_results.csv"
+    }
+  },
+  "modality_policy": {
+    "modality_used": "TEXT_ONLY",
+    "image_assessed": false,
+    "ocr_assessed": false,
+    "rationale": "No vision-capable models installed locally in Ollama environment. Multimodal images remain unassessed."
+  },
+  "inter_model_agreement": {
+    "overall_30_records": {
+      "paired_count": 30,
+      "exact_matches": 16,
+      "disagreements": 14,
+      "raw_agreement_percent": 53.33,
+      "cohens_kappa": 0.1322,
+      "confusion_matrix": {
+        "classes": [
+          "passive_aggressive",
+          "non_passive_aggressive",
+          "ambiguous"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            12,
+            1
+          ],
+          [
+            0,
+            12,
+            4
+          ]
+        ]
+      }
+    },
+    "core_english_benchmark_27_records": {
+      "en_pairs": 27,
+      "en_matches": 14,
+      "raw_agreement_percent": 51.85,
+      "cohens_kappa": 0.1397,
+      "confusion_matrix": {
+        "classes": [
+          "passive_aggressive",
+          "non_passive_aggressive",
+          "ambiguous"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            11,
+            0
+          ],
+          [
+            0,
+            12,
+            3
+          ]
+        ]
+      }
+    },
+    "chinese_separate_analysis_3_records": {
+      "zh_pairs": 3,
+      "zh_matches": 2,
+      "raw_agreement_percent": 66.67
+    },
+    "subtype_concordance": {
+      "both_passive_aggressive_count": 0,
+      "subtype_matches": 0,
+      "subtype_concordance_percent": 0.0
+    }
+  },
+  "adjudication_summary": {
+    "total_records_resolved": 30,
+    "unanimous_consensus_count": 16,
+    "adjudicated_disagreements_count": 14
+  },
+  "evaluation_restrictions": [
+    "DO_NOT_TRAIN_CLASSIFIER_ON_THESE_LABELS_WITHOUT_FLAGGING_AS_SILVER_MACHINE_DATA",
+    "NEVER_REPORT_INTER_MODEL_AGREEMENT_AS_HUMAN_INTER_ANNOTATOR_AGREEMENT",
+    "HUMAN_BENCHMARK_GATE_REMAINS_BLOCKED_PENDING_HUMAN_ANNOTATION",
+    "IMAGE_EVIDENCE_UNASSESSED_DUE_TO_ABSENCE_OF_LOCAL_VISION_MODEL"
+  ]
+}

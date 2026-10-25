@@ -1,0 +1,67 @@
+DATASET 2 - MULTIMODAL SARCASM VALIDATION REPORT
+======================================================================
+
+DATASET SOURCES
+MMSD2.0 + MEMOTION3.0
+
+MMSD2.0 valid rows: 24,635
+MEMOTION3.0 valid rows: 8,442
+TOTAL valid rows: 33,077
+
+Missing images: 0
+Empty text/OCR: 58
+Duplicate records: 0
+Ambiguous image matches: 33,135
+
+SOURCE DISTRIBUTION
+source
+MMSD2.0        24635
+MEMOTION3.0     8442
+
+LABEL DISTRIBUTION
+label
+0    14568
+1    18509
+
+SOURCE x LABEL
+label            0      1
+source                   
+MEMOTION3.0   1588   6854
+MMSD2.0      12980  11655
+
+LANGUAGE DISTRIBUTION
+language
+English     24635
+Hinglish     8442
+
+ORIGINAL SPLIT DISTRIBUTION
+original_split
+train         26777
+validation     3891
+test           2409
+
+TEXT SOURCE DISTRIBUTION
+text_source
+comment    24635
+OCR         8442
+
+FINAL COLUMNS
+id
+text
+image_path
+label
+source
+language
+original_split
+original_id
+text_source
+sarcastic_original
+humour
+offensive
+motivational
+overall
+
+MMSD IMAGE ROOTS SEARCHED
+D:\NLP_PROJECT\06_MMSD2.0\DATA1\dataset_image
+D:\NLP_PROJECT\06_MMSD2.0\DATA1\dataset_image_extracted
+D:\NLP_PROJECT\06_MMSD2.0\DATA1\dataset_image\dataset_image

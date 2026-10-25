@@ -1,0 +1,79 @@
+{
+  "best_epoch": 5,
+  "best_metric": 1.0,
+  "best_checkpoint": "artifacts\\phase3\\multimodal_fusion\\best_checkpoint.pt",
+  "checkpoints": [
+    {
+      "epoch": 1,
+      "path": "artifacts\\phase3\\multimodal_fusion\\best_checkpoint.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 0.21645021645021645,
+      "sha256": "6c54b4693b3a37104a71c3cb9d31d5d956c30c07f7047e0734e3c9e151ddee67",
+      "is_best": true
+    },
+    {
+      "epoch": 2,
+      "path": "artifacts\\phase3\\multimodal_fusion\\best_checkpoint.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 0.9198717948717948,
+      "sha256": "62e0c73010848bddbb7987c55c709d1b7bbd37cf18879e3c77bb692595d761ae",
+      "is_best": true
+    },
+    {
+      "epoch": 3,
+      "path": "artifacts\\phase3\\multimodal_fusion\\best_checkpoint.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 0.9732905982905983,
+      "sha256": "2703e090748780b9604a9535d52450212dcf62222d223fb7a8e8696da82e4fbc",
+      "is_best": true
+    },
+    {
+      "epoch": 4,
+      "path": "artifacts\\phase3\\multimodal_fusion\\checkpoint_epoch_004.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 0.9732905982905983,
+      "sha256": "f7efe1ec5e31087ed377bd83354a2d81dbb8ed2acf01bcbc1ad40c60d85dea0a",
+      "is_best": false
+    },
+    {
+      "epoch": 5,
+      "path": "artifacts\\phase3\\multimodal_fusion\\best_checkpoint.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "6f6c3dcd8b579d0fdd02178cf85fe33215c6e055078cb85027a8aff65f5edf7a",
+      "is_best": true
+    },
+    {
+      "epoch": 6,
+      "path": "artifacts\\phase3\\multimodal_fusion\\checkpoint_epoch_006.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "560527906ed5ce6721d54c56879ea4a65a841812b2250b16e9dc589f262a37ca",
+      "is_best": false
+    },
+    {
+      "epoch": 7,
+      "path": "artifacts\\phase3\\multimodal_fusion\\checkpoint_epoch_007.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "bb6889fe1f83f44fb38f79c1160399fe8d57d910fd16321e39ef25f34efd9da8",
+      "is_best": false
+    },
+    {
+      "epoch": 8,
+      "path": "artifacts\\phase3\\multimodal_fusion\\checkpoint_epoch_008.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "4e9bd906404836999d099d45c6e147800a368918292f130e7af67f6f5841d11c",
+      "is_best": false
+    },
+    {
+      "epoch": 9,
+      "path": "artifacts\\phase3\\multimodal_fusion\\checkpoint_epoch_009.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "6a806b7b9f8f711eba834cf760cf8807365a725f682f3879f3c8ecce741a5ac7",
+      "is_best": false
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "config": {
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "epochs": 10,
+    "batch_size": 16,
+    "early_stopping_patience": 3,
+    "grad_clip_norm": 1.0,
+    "seed": 42,
+    "device": "cpu",
+    "class_names": [
+      "passive_aggressive",
+      "non_passive_aggressive",
+      "ambiguous"
+    ]
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.9916740283370018,
+      "val_loss": 0.7906283438205719,
+      "val_macro_f1": 0.21645021645021645,
+      "val_accuracy": 0.4807692307692308,
+      "duration_seconds": 0.4072740077972412,
+      "is_best": true
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.7121167201548815,
+      "val_loss": 0.48229242861270905,
+      "val_macro_f1": 0.9463231347289319,
+      "val_accuracy": 0.9230769230769231,
+      "duration_seconds": 0.34205198287963867,
+      "is_best": true
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.2499813917092979,
+      "val_loss": 0.14031478017568588,
+      "val_macro_f1": 0.9732905982905983,
+      "val_accuracy": 0.9615384615384616,
+      "duration_seconds": 0.30106401443481445,
+      "is_best": true
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.022009844004060142,
+      "val_loss": 0.002151539083570242,
+      "val_macro_f1": 1.0,
+      "val_accuracy": 1.0,
+      "duration_seconds": 0.30677056312561035,
+      "is_best": true
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0014908511475368869,
+      "val_loss": 0.000766915429267101,
+      "val_macro_f1": 1.0,
+      "val_accuracy": 1.0,
+      "duration_seconds": 0.3143134117126465,
+      "is_best": false
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.0008284487521450501,
+      "val_loss": 0.0004962973034707829,
+      "val_macro_f1": 1.0,
+      "val_accuracy": 1.0,
+      "duration_seconds": 0.34424591064453125,
+      "is_best": false
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.0005041689219069667,
+      "val_loss": 0.0003692521349876188,
+      "val_macro_f1": 1.0,
+      "val_accuracy": 1.0,
+      "duration_seconds": 0.30575013160705566,
+      "is_best": false
+    }
+  ],
+  "best_val_f1": 1.0
+}

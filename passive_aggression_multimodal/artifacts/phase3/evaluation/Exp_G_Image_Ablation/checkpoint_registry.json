@@ -1,0 +1,55 @@
+{
+  "best_epoch": 3,
+  "best_metric": 1.0,
+  "best_checkpoint": "artifacts\\phase3\\evaluation\\Exp_G_Image_Ablation\\best_checkpoint.pt",
+  "checkpoints": [
+    {
+      "epoch": 1,
+      "path": "artifacts\\phase3\\evaluation\\Exp_G_Image_Ablation\\best_checkpoint.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 0.21645021645021645,
+      "sha256": "a0252ee5070f4c948b8c8656ea5486bced40eb50243b6a681d95cc0a4092a72a",
+      "is_best": true
+    },
+    {
+      "epoch": 2,
+      "path": "artifacts\\phase3\\evaluation\\Exp_G_Image_Ablation\\best_checkpoint.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 0.7242647058823529,
+      "sha256": "2ffeb750bc3b5c7efc818e7671ff90477412400f945ef8792c8330ae9481aa23",
+      "is_best": true
+    },
+    {
+      "epoch": 3,
+      "path": "artifacts\\phase3\\evaluation\\Exp_G_Image_Ablation\\best_checkpoint.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "c833a683f76e46d8dd29c0676c298a92481dfe313bd2d4cb6f7ad63a27ec8175",
+      "is_best": true
+    },
+    {
+      "epoch": 4,
+      "path": "artifacts\\phase3\\evaluation\\Exp_G_Image_Ablation\\checkpoint_epoch_004.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "b1e0fe2f8df71325236044edf34dbc01fe8668c8088d3e4093d09a88f9ba78f1",
+      "is_best": false
+    },
+    {
+      "epoch": 5,
+      "path": "artifacts\\phase3\\evaluation\\Exp_G_Image_Ablation\\checkpoint_epoch_005.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "c54fc781e02f94130036731b2dce1bb70b706ee91f439846ee4a2c565f73492f",
+      "is_best": false
+    },
+    {
+      "epoch": 6,
+      "path": "artifacts\\phase3\\evaluation\\Exp_G_Image_Ablation\\checkpoint_epoch_006.pt",
+      "metric_name": "val_macro_f1",
+      "metric_value": 1.0,
+      "sha256": "cb1ceb7ba3eeab4a129eefe94467850d39b6df037ca3f05d9d5e5753606bdee7",
+      "is_best": false
+    }
+  ]
+}

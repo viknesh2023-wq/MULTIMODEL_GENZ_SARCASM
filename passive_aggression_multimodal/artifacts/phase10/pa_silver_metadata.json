@@ -1,0 +1,52 @@
+{
+  "model_id": "pa_silver_tfidf_v1",
+  "algorithm": "TF-IDF (Word 1-3, Char 2-5) + Logistic Regression",
+  "training_timestamp": "2026-10-21T21:03:59.161474+00:00",
+  "train_duration_sec": 0.097,
+  "best_hyperparameters": {
+    "C": 0.1,
+    "class_weight": "balanced",
+    "random_state": 42
+  },
+  "class_mapping": {
+    "non_passive_aggressive": 0,
+    "passive_aggressive": 1
+  },
+  "dataset_provenance": "LLM_SILVER",
+  "sample_sizes": {
+    "train": 10,
+    "validation": 2,
+    "diagnostic_test": 3
+  },
+  "diagnostic_test_metrics": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_f1": 1.0,
+    "weighted_f1": 1.0,
+    "passive_aggressive": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    },
+    "non_passive_aggressive": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  "primary_benchmark_gate": "BLOCKED_PENDING_HUMAN_ANNOTATION",
+  "silver_evaluation_gate": "LLM_SILVER_DIAGNOSTIC_EVALUATION_AVAILABLE",
+  "disclaimer": "Metrics represent concordance with automated LLM silver labels, NOT human ground truth."
+}

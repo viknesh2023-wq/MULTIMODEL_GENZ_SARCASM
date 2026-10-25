@@ -83,7 +83,7 @@ sarc/train-balanced-sarc.csv
 
 # MMSD 2.0 Benchmark Data & Extracted Images
 !06_MMSD2.0/DATA1/*.json
-!06_MMSD2.0/DATA1/dataset_image/dataset_image/
+06_MMSD2.0/DATA1/dataset_image/dataset_image/
 
 # Redundant archives (>100MB rejected by GitHub)
 06_MMSD2.0/DATA1/dataset_image.z0*

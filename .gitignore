@@ -71,19 +71,23 @@ training_args.bin
 # Master CSV datasets, splits, and manifests are tracked in Git.
 # Intermediate loose single-item vectors (160k files) are excluded.
 FINAL_DATASETS/TEXT_SARCASM/text_sarcasm_combined.csv
+!FINAL_DATASETS/TEXT_SARCASM/text_sarcasm_combined.csv.gz
 FINAL_DATASETS/MULTIMODAL_SARCASM/**/features/
 *.npy
+!FINAL_DATASETS/MULTIMODAL_SARCASM/FUSION_DATA/*.npy
+FINAL_DATASETS/MULTIMODAL_SARCASM/FUSION_DATA/X_train.npy
+!FINAL_DATASETS/MULTIMODAL_SARCASM/FUSION_DATA/X_train.npy.gz
 *.npz
 sarc/train-balanced-sarc.csv
+!sarc/train-balanced-sarc_part*.csv
 
-# Large Media & Archives (>100MB)
+# MMSD 2.0 Benchmark Data & Extracted Images
+!06_MMSD2.0/DATA1/*.json
+!06_MMSD2.0/DATA1/dataset_image/dataset_image/
+
+# Redundant archives (>100MB rejected by GitHub)
 06_MMSD2.0/DATA1/dataset_image.z0*
 06_MMSD2.0/DATA1/dataset_image.zip
-06_MMSD2.0/DATA1/dataset_image/dataset_image/
-!06_MMSD2.0/DATA1/dataset_image/dataset_image/1001.jpg
-!06_MMSD2.0/DATA1/dataset_image/dataset_image/1002.jpg
-!06_MMSD2.0/DATA1/dataset_image/dataset_image/1003.jpg
-MEMOTION/
 video/
 *.zip
 *.z0*

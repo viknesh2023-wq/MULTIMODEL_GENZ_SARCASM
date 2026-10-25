@@ -1,4 +1,0 @@
-label,annotator_a_count,annotator_a_pct,annotator_b_count,annotator_b_pct
-passive_aggressive,12,40.0%,29,96.7%
-non_passive_aggressive,5,16.7%,1,3.3%
-ambiguous,13,43.3%,0,0.0%

@@ -1,7 +1,0 @@
-dataset_scope,prompt_version,model_name,total_evaluated,valid_records,passive_aggressive_count,passive_aggressive_pct,non_passive_aggressive_count,non_passive_aggressive_pct,ambiguous_count,ambiguous_pct,missing_invalid_count
-100-record manifest,v1.0.0,llama3.2:latest,100,100,96,96.0%,4,4.0%,0,0.0%,0
-100-record manifest,v1.0.0,qwen2.5:1.5b,100,100,68,68.0%,28,28.0%,4,4.0%,0
-12-record diagnostic subset,v1.0.0,llama3.2:latest,12,12,10,83.3%,2,16.7%,0,0.0%,0
-12-record diagnostic subset,v1.0.0,qwen2.5:1.5b,12,12,3,25.0%,5,41.7%,4,33.3%,0
-12-record diagnostic subset,v2.0.0,llama3.2:latest,12,12,1,8.3%,3,25.0%,8,66.7%,0
-12-record diagnostic subset,v2.0.0,qwen2.5:1.5b,12,12,5,41.7%,6,50.0%,1,8.3%,0

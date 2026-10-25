@@ -1,9 +1,0 @@
-modality_combination,required_inputs,eligible_records_count,has_eligible_pa_target_labels,can_support_exploratory_training,can_support_independent_evaluation,processing_status,notes
-Text Only,['text'],48660,20,True,False,PROCESSED_AND_VERIFIED,Text embeddings and baselines tested in Phase 3.
-Text + Caption,"['text', 'caption']",350,0,False,False,SYNTHETIC_PILOT_ONLY,"Natural social media datasets in repository (MMSD, SarcNet) lack separate post captions."
-Text + Dialogue Context,"['text', 'dialogue_context']",720,12,True,False,PROCESSED_IN_PHASE_2,Context turns extracted and formatted into transformer prefixes.
-Text + OCR,"['text', 'ocr_text']",50,0,False,False,PILOT_OCR_EXTRACTED_ONLY,"Full OCR across 27,970 images unexecuted; Tesseract pilot ran on 50 samples in Phase 2."
-Image Only,['image'],27970,2,True,False,FILES_DECODED_FEATURES_PRECOMPUTED,ResNet-50 visual features extracted in Phase 3; unimodal image classifier tested.
-Image + Comment (Pair),"['image', 'text']",27970,2,True,False,FUSION_HEADS_VERIFIED,Primary multimodal architecture tested on sarcasm auxiliary task in Phase 3.
-Image + Caption + Comment,"['image', 'caption', 'text']",0,0,False,False,UNAVAILABLE,Zero records in active repository contain both physical images and distinct post captions.
-Full Multimodal (Image + Caption + Comment + OCR + Context),"['image', 'caption', 'text', 'ocr_text', 'dialogue_context']",0,0,False,False,UNAVAILABLE,Theoretical upper bound; no dataset in the literature or repository currently satisfies all 5 simultaneously.

@@ -95,4 +95,6 @@ video/
 *.mkv
 *.avi
 
+# Passive Aggression Module (Linked workspace - excluded from this repo)
+passive_aggression_multimodal/
 .git_backup/

@@ -3,7 +3,7 @@ A MULTIMODAL VISION-LANGUAGE FRAMEWORK FOR GEN-Z SARCASM DETECTION
 USING XLM-R, CLIP AND VISION-LANGUAGE MODELS
 ================================================================================
 Quick-Start Installation & Execution Guide for Faculty & Reviewers
-GitHub Repository: [ADD YOUR GITHUB REPOSITORY URL HERE]
+GitHub Repository: https://github.com/viknesh2023-wq/MULTIMODEL_GENZ_SARCASM
 Document File    : README_QUICKSTART.txt (Plain Text Document)
 Target Platform  : Windows 11 / 10 (64-bit) | Local Laptop Execution
 Backend Port     : http://localhost:8000
@@ -55,8 +55,8 @@ Hardware & Storage Requirements:
 --------------------------------------------------------------------------------
 Option A: Using Git (Recommended)
 Open Command Prompt or PowerShell:
-  git clone <YOUR_GITHUB_REPOSITORY_URL>
-  cd NLP_PROJECT
+  git clone https://github.com/viknesh2023-wq/MULTIMODEL_GENZ_SARCASM.git
+  cd MULTIMODEL_GENZ_SARCASM
 
 Option B: Download as ZIP
 1. On GitHub, click the green "Code" button and select "Download ZIP".

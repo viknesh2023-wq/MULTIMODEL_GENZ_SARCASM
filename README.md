@@ -1,6 +1,6 @@
 # A Multimodal Vision-Language Framework for Gen-Z Sarcasm Detection Using XLM-R, CLIP and Vision-Language Models
 
-> **GitHub Repository:** `[ADD YOUR GITHUB REPOSITORY URL HERE]`  
+> **GitHub Repository:** [https://github.com/viknesh2023-wq/MULTIMODEL_GENZ_SARCASM](https://github.com/viknesh2023-wq/MULTIMODEL_GENZ_SARCASM)  
 > **Documentation Type:** Quick-Start Installation & Execution Guide for Faculty & Reviewers  
 > **Tested Environment:** Windows 11 (64-bit), Python 3.12, Node.js 20+, NVIDIA RTX 4050 (CUDA 12.8) or CPU
 
